@@ -1,0 +1,153 @@
+@media screen and (max-width: 1199px){
+    .ftco-navbar-light .navbar-nav > .nav-item > .nav-link {
+        padding-left: 14px !important;
+        padding-right: 14px !important;
+    }
+    .about-us .img {
+        background-size: cover;
+    }
+    .btn-bg .btn-text h1 {
+        font-size: 60px;
+    }
+    .hero-wrap, .slider-text-version-2 {
+        height: 650px !important;
+    }
+    .block-2 .author .image img {
+        width: 60px;
+        height: 60px;
+        object-fit: cover;
+    }
+    .block-2 .author .image {
+        width: 60px;
+        /* height: 41px; */
+    }
+    .block-2 .back p {
+        font-size: 17px;
+    }
+}
+@media screen and (max-width: 1024px){
+    .practice-area {
+        min-height: 367px;
+    }
+.practice-area .icon {
+    max-width: 90px;
+    max-height: 90px;
+}
+.practice-area .icon span {
+    font-size: 50px;
+}
+}
+
+@media screen and (max-width: 992px){
+    .ftco-navbar-light {
+        background: #ffffff !important;
+    }
+    .ftco-navbar-light .navbar-toggler {
+        color: #000 !important;
+        margin-right: 10px;
+    }
+    /* .mobile-spcinging-links{
+        margin-right: 0 !important;
+    } */
+    .ftco-navbar-light .navbar-nav > .nav-item.cta > a {
+        display: inline-block;
+    }
+    .about-us .img img{
+        width: 100%;
+    }
+    .practice-area {
+        min-height: inherit;
+    }
+    .practice-area .btn-custom span {
+        transform: rotate(90deg);
+    }
+    .btn-bg .btn-text h1 {
+        font-size: 40px;
+    }
+    .ftco-footer .ftco-footer-widget h2 {
+        margin-bottom: 15px;
+    }
+    .ftco-navbar-light.scrolled .navbar-toggler {
+        color: #000 !important;
+    }
+    .inner-banner-nav-version-2{
+        
+        position: static;
+        padding: 0;
+    }
+    .inner-banner-nav-version-2 .navbar-brand {
+        color: #000000;
+        background: #01756a;
+        padding: 15px;
+        padding-bottom: 16px;
+        text-align: center;
+        /* border-radius: 5px; */
+    }
+    .inner-banner-nav-version-2 .navbar-nav>.nav-item>.nav-link {
+        color: #000;
+    }
+}
+
+@media screen and (max-width: 767px){
+.mobile-spcinging-links img{
+    margin-bottom: 10px;
+}
+.slider-text h1 {
+    font-size: 35px;
+    line-height: 1.4;
+}
+.heading-section h2 {
+    font-size: 25px;
+    margin-bottom: 5px !important;
+}
+.ftco-section {
+    padding:38px 0;
+}
+.btn-bg .btn-text h1 {
+    font-size: 19px;
+}
+.icon-video {
+    width: 50px;
+    height: 50px;
+}
+.btn-bg {
+    background-position: center;
+}
+.ftco-navbar-light .navbar-nav > .nav-item.cta > a {
+    margin-left: 14px;
+}
+.hero-wrap, .slider-text-version-2 {
+    height: 480px !important;
+}
+.heading-section h2 {
+    margin-bottom: 22px !important;
+}
+.block-2, .block-2 .front, .block-2 .back {
+    height: 525px;
+}
+.pricing-content:hover {
+    transform: scale(1);
+}
+}
+
+@media screen and (max-width:540px){
+    .btn-bg {
+        background-size: cover;
+    }
+    .inner-banner {
+        padding: 30px 0;
+    }
+    .faq-acc-header .title{
+        margin-bottom: 0;
+        line-height: 1.5;
+    }
+    .block-2, .block-2 .front, .block-2 .back {
+        height: 551px;
+    }
+    .block-2 .back p {
+        font-size: 15px;
+    }
+    .pricing-footer h2 {
+        font-size: 27px;
+    }
+}
