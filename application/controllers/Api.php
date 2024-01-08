@@ -1251,37 +1251,40 @@ class Api extends CI_Controller
 
                 $query = $this->db->query('SELECT * FROM users WHERE id = "' . $data['user_id'] . '"');
                 $usersData = $query->result_array();
-                if($usersData[0]['user_type'] == 1) { // Only Market User
+//                if($usersData[0]['user_type'] == 1) { // Only Market User
                     if (count($usersData) > 0 && isset($usersData[0]['refer_by']) && $usersData[0]['refer_by'] != '') {
                         $queryReferral = $this->db->query('SELECT * FROM users WHERE id = "' . $usersData[0]['refer_by'] . '"');
                         $userReferralData = $queryReferral->result_array();
                         if (count($userReferralData) > 0) {
-
+                            if($usersData[0]['role']=='Marketer'){
                             $this->referByLevel($data['amount'], $data['user_id']);
-
-                            /*$referralBonus = $this->api->getSettings('referralbonus');
+                            }
+                            if($usersData[0]['role']=='Client'){
+                            $referralBonus = $this->api->getSettings('referralbonus');
                             $updateWallet['wallet'] = $userReferralData[0]['wallet'] + ($data['amount'] * $referralBonus) / 100;
-                            $this->api->update($updateWallet, $usersData[0]['refer_by'], 'users');*/
+                            $this->api->update($updateWallet, $usersData[0]['refer_by'], 'users');
 
-                            /*$transactionData = array();
+                            $transactionData = array();
                             $transactionData['user_id'] = $usersData[0]['refer_by'];
                             $transactionData['txn_no'] = rand();
                             $transactionData['txn_desc'] = 'Referral Bonus to User';
                             $transactionData['amount'] = ($data['amount'] * $referralBonus) / 100;
-                            $this->api->addNewRecord('transactions', $transactionData);*/
-                        }
+                            $this->api->addNewRecord('transactions', $transactionData);
+                                
+                            }
+                        
 
                         // Sending Push Notification to User after receiving payment.
                         $title = 'You have received Payment for Referral Bonus.';
                         $message = 'You have Received Payment for the Referral Bonus';
                         $this->sendpushnotification($usersData[0]['refer_by'], $message, $title);
-
+                        }
                         $userDetailsMail = $this->api->getSingleRecordById($usersData[0]['refer_by'], 'users');
                         if (count($userReferralData) > 0) {
                             $this->sendemail($userDetailsMail['email'], $title, $message);
                         }
                     }
-                }
+//                }
             }
 
             // Sending Push Notification to User after receiving payment.
