@@ -85,6 +85,10 @@ class Marketer extends CI_Controller
 
         $userRecords = $this->levelWiseMemberCountList($id);
 
+        /*echo '<pre>';
+        print_r($userRecords);
+        exit();*/
+
         $this->load->view("admin/include/header", $data);
         $this->load->view("admin/include/left");
         $this->load->view("admin/marketer/viewdetails", ['marketerData' => $userRecords]);
@@ -100,10 +104,10 @@ class Marketer extends CI_Controller
             if (!empty($referralIds))
                 $userRecords = $this->db->select('*')->from('users')->where_in('refer_by', $referralIds)->get()->result_array();
             if (!empty($userRecords)) {
-                $usersLevels[] = ['level' => $i, 'members' => $userRecords];
+                $usersLevels[] = ['level' => $i, 'levelWiseMemberCount' => count($userRecords), 'levelWiseMember' => $userRecords, 'levelWiseAmountSum' => (string)array_sum(array_column($userRecords, 'wallet'))];
                 $referralIds = array_column($userRecords, 'id');
             } else {
-                $usersLevels[] = ['level' => $i, 'members' => []];
+                $usersLevels[] = ['level' => $i, 'levelWiseMemberCount' => 0, 'levelWiseMember' => [], 'levelWiseAmountSum' => '0.00'];
             }
         }
         return $usersLevels;

@@ -39,24 +39,26 @@
                     <div class="box-body" id="">
                         <?php if (!empty($marketerData)) : ?>
                             <?php foreach ($marketerData as $marketerUser) : ?>
-                                <?php if (!empty($marketerUser['members'])) : ?>
-                                    <h3><?php echo 'Level ' . $marketerUser['level']; ?></h3>
+                                <?php if (!empty($marketerUser['levelWiseMember'])) : ?>
+                                    <h3>
+                                        <?php echo 'Level : ' . $marketerUser['level'] . ' || Count : ' . $marketerUser['levelWiseMemberCount']; ?>
+                                    </h3>
                                     <table class="table table-bordered table-striped">
                                         <thead>
                                         <tr>
                                             <th>Name</th>
                                             <th>Email</th>
-                                            <th>Mobile</th>
-                                            <th>Amount</th>
-                                            <th>Plan Name</th>
-                                            <th>Refer Code</th>
-                                            <th>Refer By</th>
-                                            <th>Created Date</th>
+                                            <th class="text-center">Mobile</th>
+                                            <th class="text-center">Amount</th>
+                                            <th class="text-center">Plan Name</th>
+                                            <th class="text-center">Refer Code</th>
+                                            <th class="text-center">Refer By</th>
+                                            <th class="text-center">Created Date</th>
                                         </tr>
                                         </thead>
                                         <tbody>
-                                        <?php foreach ($marketerUser['members'] as $member) : ?>
-                                        <?php
+                                        <?php foreach ($marketerUser['levelWiseMember'] as $member) : ?>
+                                            <?php
                                             $userReferBy = $this->db->select('*')->from('users')->where('id', $member['refer_by'])->get()->row_array();
                                             $referredByUser = '';
                                             if ($userReferBy) {
@@ -72,27 +74,23 @@
                                             <tr>
                                                 <td><?php echo $member['first_name'] . ' ' . $member['last_name']; ?></td>
                                                 <td><?php echo $member['email']; ?></td>
-                                                <td><?php echo $member['mobile']; ?></td>
-                                                <td><?php echo $member['wallet']; ?></td>
-                                                <td><?php echo $planName; ?></td>
-                                                <td><?php echo $member['refer_code']; ?></td>
-                                                <td><?php echo $referredByUser; ?></td>
-                                                <td><?php echo $member['create_date']; ?></td>
+                                                <td class="text-center"><?php echo $member['mobile']; ?></td>
+                                                <td class="text-center"><?php echo $member['wallet']; ?></td>
+                                                <td class="text-center"><?php echo $planName; ?></td>
+                                                <td class="text-center"><?php echo $member['refer_code']; ?></td>
+                                                <td class="text-center"><?php echo $referredByUser; ?></td>
+                                                <td class="text-center"><?php echo $member['create_date']; ?></td>
                                             </tr>
                                         <?php endforeach; ?>
-                                        </tbody>
-                                        <tfoot>
                                         <tr>
-                                            <th>Name</th>
-                                            <th>Email</th>
-                                            <th>Mobile</th>
-                                            <th>Amount</th>
-                                            <th>Plan Name</th>
-                                            <th>Refer Code</th>
-                                            <th>Refer By</th>
-                                            <th>Created Date</th>
+                                            <td colspan="3" bgcolor="#D8BFD8" class="text-right"><b
+                                                        style="font-size: 17px;"> Level Wise Total Amount </b></td>
+                                            <td bgcolor="#D8BFD8" class="text-center"><b
+                                                        style="font-size: 17px;"><?php echo $marketerUser['levelWiseAmountSum']; ?></b>
+                                            </td>
+                                            <td colspan="4" bgcolor="#D8BFD8"></td>
                                         </tr>
-                                        </tfoot>
+                                        </tbody>
                                     </table>
                                 <?php endif; ?>
                             <?php endforeach; ?>
@@ -102,31 +100,19 @@
                                 <tr>
                                     <th>Name</th>
                                     <th>Email</th>
-                                    <th>Mobile</th>
-                                    <th>Amount</th>
-                                    <th>Plan Name</th>
-                                    <th>Refer Code</th>
-                                    <th>Refer By</th>
-                                    <th>Created Date</th>
+                                    <th class="text-center">Mobile</th>
+                                    <th class="text-center">Amount</th>
+                                    <th class="text-center">Plan Name</th>
+                                    <th class="text-center">Refer Code</th>
+                                    <th class="text-center">Refer By</th>
+                                    <th class="text-center">Created Date</th>
                                 </tr>
                                 </thead>
                                 <tbody>
                                 <tr>
-                                    <td>No Member</td>
+                                    <td>No Member Found</td>
                                 </tr>
                                 </tbody>
-                                <tfoot>
-                                <tr>
-                                    <th>Name</th>
-                                    <th>Email</th>
-                                    <th>Mobile</th>
-                                    <th>Amount</th>
-                                    <th>Plan Name</th>
-                                    <th>Refer Code</th>
-                                    <th>Refer By</th>
-                                    <th>Created Date</th>
-                                </tr>
-                                </tfoot>
                             </table>
                         <?php endif; ?>
                     </div>
