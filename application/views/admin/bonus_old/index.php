@@ -14,7 +14,7 @@
         </ol>
     </section>
     <section class="content">
-       <!--  <?php if ($this->session->flashdata('success_message')) { ?>
+        <?php if ($this->session->flashdata('success_message')) { ?>
             <div class="alert alert-success alert-dismissible" role="alert">
                 <strong><i class="icon fa fa-check"></i></strong>
                 <?php echo $this->session->flashdata('success_message'); ?>
@@ -22,8 +22,8 @@
                     <span aria-hidden="true">×</span>
                 </button>
             </div>
-        <?php } ?> -->
-        <!-- <?php if ($this->session->flashdata('error_message')) { ?>
+        <?php } ?>
+        <?php if ($this->session->flashdata('error_message')) { ?>
             <div class="alert alert-danger alert-dismissible" role="alert">
                 <strong><i class="icon fa fa-warning"></i></strong>
                 <?php echo $this->session->flashdata('error_message'); ?>
@@ -31,7 +31,7 @@
                     <span aria-hidden="true">×</span>
                 </button>
             </div>
-        <?php } ?> -->
+        <?php } ?>
 
         <div class="row">
             <div class="col-xs-12">
@@ -47,7 +47,6 @@
                         <table id="example1" class="table table-bordered table-striped">
                             <thead>
                             <tr>
-                                <th>ID</th>
                                 <th>Join Member</th>
                                 <th>Rewards</th>
                                 <th>Status</th>
@@ -58,7 +57,6 @@
                             <?php if ($rows) {
                                 foreach ($rows as $key => $value) { ?>
                                     <tr>
-                                        <td><?php echo $value['id']; ?> </td>
                                         <td><?php echo $value['total_join_member']; ?> </td>
                                         <td><?php echo $value['reward']; ?></td>
                                         <td>
@@ -84,7 +82,6 @@
                             </tbody>
                             <tfoot>
                             <tr>
-                                <th>ID</th>
                                 <th>Join Member</th>
                                 <th>Rewards</th>
                                 <th>Status</th>
@@ -99,11 +96,11 @@
     </section>
 </div>
 
-<!-- <div id="bonusViewModel"></div> -->
+<div id="bonusViewModel"></div>
 
-<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 
-<!-- <script type="text/javascript">
+<script type="text/javascript">
     $(document).on('click', '.handleBonusView', function () {
         event.preventDefault();
         var URL = $(this).data('url');
@@ -119,4 +116,4 @@
             }
         });
     });
-</script> -->
+</script>

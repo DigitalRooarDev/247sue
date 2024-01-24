@@ -2,11 +2,13 @@
 <div class="content-wrapper">
     <!-- Content Header (Page header) -->
     <section class="content-header">
-        <h1><?= $breadcrumb_title; ?></h1>
+        <h1>
+            <?= $breadcrumb_title; ?>
+        </h1>
         <ol class="breadcrumb">
-            <li><a href="<?php echo base_url('admin/dashboard') ?>"><i class="fa fa-dashboard"></i> Home</a></li>
+            <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
             <li><a href="<?php echo base_url('admin/configlevel') ?>">Config Level</a></li>
-            <li class="active">Edit Config Level</li>
+            <li class="active">Add Config Level</li>
         </ol>
     </section>
 
@@ -36,40 +38,40 @@
                     </div>
                     <!-- /.box-header -->
                     <!-- form start -->
-                          <form role="form" action="<?php echo base_url('admin/configlevel/update/' . $row['id']) ?>" class="" enctype="multipart/form-data" method="post">
+                    <form role="form" action="<?php echo base_url('admin/configlevel/save') ?>" class=""
+                          enctype="multipart/form-data" method="post" accept-charset="utf-8">
                         <div class="box-body">
                             <div class="row">
                                 <div class="col-sm-4">
                                     <div class="form-group">
-                                        <label for="level">Level</label>
+                                        <label>Level</label>
                                         <input type="text" name="level" class="form-control"
-                                               placeholder="Enter Level Number" value="<?php echo $row['level'] ?>">
+                                               placeholder="Enter Level Number" value="<?= form_value('level'); ?>">
                                         <label class="text-danger"><?php echo form_error('level'); ?></label>
                                     </div>
                                 </div>
                                 <div class="col-sm-4">
                                     <div class="form-group">
-                                        <label for="reward_per">Reward Percentage</label>
-                                        <input type="text" name="reward_per" class="form-control" placeholder="Enter Percentage"
-                                               value="<?php echo $row['reward_per'] ?>">
+                                        <label>Reward Percentage</label>
+                                        <input type="text" name="reward_per" class="form-control"
+                                               placeholder="Enter Percentage" value="<?= form_value('reward_per'); ?>">
                                         <label class="text-danger"><?php echo form_error('reward_per'); ?></label>
                                     </div>
                                 </div>
                                 <div class="col-sm-4">
                                     <div class="form-group">
-                                        <label for="referral_member">Referral Member</label>
+                                        <label>Referral Member</label>
                                         <input type="text" name="referral_member" class="form-control"
-                                               placeholder="Rewards" value="<?php echo $row['referral_member'] ?>">
+                                               placeholder="Enter Referral Member"
+                                               value="<?= form_value('referral_member'); ?>">
                                         <label class="text-danger"><?php echo form_error('referral_member'); ?></label>
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <!-- /.box-body -->
-
                         <div class="box-footer">
-                            <button type="submit" class="btn btn-primary">Update</button>
-                            <a href="<?php echo base_url('admin/configlevel') ?>" class="btn btn-primary text-right">Back</a>
+                            <button type="submit" class="btn btn-primary">Submit</button>
                         </div>
                     </form>
                 </div>
@@ -80,3 +82,14 @@
     </section>
     <!-- /.content -->
 </div>
+
+<?php
+// Helper function to retrieve form field values from session
+function form_value($field_name)
+{
+    return isset($_SESSION['form_data'][$field_name]) ? $_SESSION['form_data'][$field_name] : '';
+}
+
+// Clear form data from session after displaying the form
+unset($_SESSION['form_data']);
+?>

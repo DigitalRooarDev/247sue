@@ -8719,3 +8719,2436 @@ INFO - 2024-01-11 07:33:21 --> File loaded: E:\wamp64\www\247sue\application\vie
 INFO - 2024-01-11 07:33:21 --> File loaded: E:\wamp64\www\247sue\application\views\admin/include/footer.php
 INFO - 2024-01-11 07:33:21 --> Final output sent to browser
 DEBUG - 2024-01-11 07:33:21 --> Total execution time: 0.0499
+INFO - 2024-01-11 08:04:17 --> Config Class Initialized
+INFO - 2024-01-11 08:04:17 --> Hooks Class Initialized
+DEBUG - 2024-01-11 08:04:17 --> UTF-8 Support Enabled
+INFO - 2024-01-11 08:04:17 --> Utf8 Class Initialized
+INFO - 2024-01-11 08:04:17 --> URI Class Initialized
+INFO - 2024-01-11 08:04:17 --> Router Class Initialized
+INFO - 2024-01-11 08:04:17 --> Output Class Initialized
+INFO - 2024-01-11 08:04:17 --> Security Class Initialized
+DEBUG - 2024-01-11 08:04:17 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-01-11 08:04:17 --> Input Class Initialized
+INFO - 2024-01-11 08:04:17 --> Language Class Initialized
+INFO - 2024-01-11 08:04:17 --> Loader Class Initialized
+INFO - 2024-01-11 08:04:17 --> Helper loaded: url_helper
+INFO - 2024-01-11 08:04:17 --> Helper loaded: file_helper
+INFO - 2024-01-11 08:04:17 --> Helper loaded: form_helper
+INFO - 2024-01-11 08:04:17 --> Helper loaded: custom_helper
+INFO - 2024-01-11 08:04:17 --> Database Driver Class Initialized
+DEBUG - 2024-01-11 08:04:17 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-01-11 08:04:17 --> Session: Class initialized using 'files' driver.
+INFO - 2024-01-11 08:04:17 --> Cart Class Initialized
+DEBUG - 2024-01-11 08:04:17 --> Session class already loaded. Second attempt ignored.
+INFO - 2024-01-11 08:04:17 --> Form Validation Class Initialized
+INFO - 2024-01-11 08:04:17 --> Controller Class Initialized
+INFO - 2024-01-11 08:04:17 --> Model "Common_Model" initialized
+INFO - 2024-01-11 08:04:17 --> File loaded: E:\wamp64\www\247sue\application\views\admin/include/header.php
+INFO - 2024-01-11 08:04:17 --> File loaded: E:\wamp64\www\247sue\application\views\admin/include/left.php
+INFO - 2024-01-11 08:04:17 --> File loaded: E:\wamp64\www\247sue\application\views\admin/configlevel/index.php
+INFO - 2024-01-11 08:04:17 --> File loaded: E:\wamp64\www\247sue\application\views\admin/include/footer.php
+INFO - 2024-01-11 08:04:17 --> Final output sent to browser
+DEBUG - 2024-01-11 08:04:17 --> Total execution time: 0.0427
+INFO - 2024-01-11 10:00:08 --> Config Class Initialized
+INFO - 2024-01-11 10:00:08 --> Hooks Class Initialized
+DEBUG - 2024-01-11 10:00:08 --> UTF-8 Support Enabled
+INFO - 2024-01-11 10:00:08 --> Utf8 Class Initialized
+INFO - 2024-01-11 10:00:08 --> URI Class Initialized
+INFO - 2024-01-11 10:00:08 --> Router Class Initialized
+INFO - 2024-01-11 10:00:08 --> Output Class Initialized
+INFO - 2024-01-11 10:00:08 --> Security Class Initialized
+DEBUG - 2024-01-11 10:00:08 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-01-11 10:00:08 --> Input Class Initialized
+INFO - 2024-01-11 10:00:08 --> Language Class Initialized
+INFO - 2024-01-11 10:00:08 --> Loader Class Initialized
+INFO - 2024-01-11 10:00:08 --> Helper loaded: url_helper
+INFO - 2024-01-11 10:00:08 --> Helper loaded: file_helper
+INFO - 2024-01-11 10:00:08 --> Helper loaded: form_helper
+INFO - 2024-01-11 10:00:08 --> Helper loaded: custom_helper
+INFO - 2024-01-11 10:00:08 --> Database Driver Class Initialized
+DEBUG - 2024-01-11 10:00:08 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-01-11 10:00:08 --> Session: Class initialized using 'files' driver.
+INFO - 2024-01-11 10:00:08 --> Cart Class Initialized
+DEBUG - 2024-01-11 10:00:08 --> Session class already loaded. Second attempt ignored.
+INFO - 2024-01-11 10:00:08 --> Form Validation Class Initialized
+INFO - 2024-01-11 10:00:08 --> Controller Class Initialized
+INFO - 2024-01-11 10:00:08 --> Model "Common_Model" initialized
+INFO - 2024-01-11 10:00:08 --> File loaded: E:\wamp64\www\247sue\application\views\admin/include/header.php
+INFO - 2024-01-11 10:00:08 --> File loaded: E:\wamp64\www\247sue\application\views\admin/include/left.php
+INFO - 2024-01-11 10:00:08 --> File loaded: E:\wamp64\www\247sue\application\views\admin/user/index.php
+INFO - 2024-01-11 10:00:08 --> File loaded: E:\wamp64\www\247sue\application\views\admin/include/footer.php
+INFO - 2024-01-11 10:00:08 --> Final output sent to browser
+DEBUG - 2024-01-11 10:00:08 --> Total execution time: 0.2218
+INFO - 2024-01-11 10:18:50 --> Config Class Initialized
+INFO - 2024-01-11 10:18:50 --> Hooks Class Initialized
+DEBUG - 2024-01-11 10:18:50 --> UTF-8 Support Enabled
+INFO - 2024-01-11 10:18:50 --> Utf8 Class Initialized
+INFO - 2024-01-11 10:18:50 --> URI Class Initialized
+INFO - 2024-01-11 10:18:50 --> Router Class Initialized
+INFO - 2024-01-11 10:18:50 --> Output Class Initialized
+INFO - 2024-01-11 10:18:50 --> Security Class Initialized
+DEBUG - 2024-01-11 10:18:50 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-01-11 10:18:50 --> Input Class Initialized
+INFO - 2024-01-11 10:18:50 --> Language Class Initialized
+INFO - 2024-01-11 10:18:50 --> Loader Class Initialized
+INFO - 2024-01-11 10:18:50 --> Helper loaded: url_helper
+INFO - 2024-01-11 10:18:50 --> Helper loaded: file_helper
+INFO - 2024-01-11 10:18:50 --> Helper loaded: form_helper
+INFO - 2024-01-11 10:18:50 --> Helper loaded: custom_helper
+INFO - 2024-01-11 10:18:50 --> Database Driver Class Initialized
+DEBUG - 2024-01-11 10:18:50 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-01-11 10:18:50 --> Session: Class initialized using 'files' driver.
+INFO - 2024-01-11 10:18:50 --> Cart Class Initialized
+DEBUG - 2024-01-11 10:18:50 --> Session class already loaded. Second attempt ignored.
+INFO - 2024-01-11 10:18:50 --> Form Validation Class Initialized
+INFO - 2024-01-11 10:18:50 --> Controller Class Initialized
+INFO - 2024-01-11 10:18:50 --> Model "Common_Model" initialized
+INFO - 2024-01-11 10:18:50 --> File loaded: E:\wamp64\www\247sue\application\views\admin/include/header.php
+INFO - 2024-01-11 10:18:50 --> File loaded: E:\wamp64\www\247sue\application\views\admin/include/left.php
+INFO - 2024-01-11 10:18:50 --> File loaded: E:\wamp64\www\247sue\application\views\admin/bonus/index.php
+INFO - 2024-01-11 10:18:50 --> File loaded: E:\wamp64\www\247sue\application\views\admin/include/footer.php
+INFO - 2024-01-11 10:18:50 --> Final output sent to browser
+DEBUG - 2024-01-11 10:18:50 --> Total execution time: 0.0762
+INFO - 2024-01-11 10:18:53 --> Config Class Initialized
+INFO - 2024-01-11 10:18:53 --> Hooks Class Initialized
+DEBUG - 2024-01-11 10:18:53 --> UTF-8 Support Enabled
+INFO - 2024-01-11 10:18:53 --> Utf8 Class Initialized
+INFO - 2024-01-11 10:18:53 --> URI Class Initialized
+INFO - 2024-01-11 10:18:53 --> Router Class Initialized
+INFO - 2024-01-11 10:18:53 --> Output Class Initialized
+INFO - 2024-01-11 10:18:53 --> Security Class Initialized
+DEBUG - 2024-01-11 10:18:53 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-01-11 10:18:53 --> Input Class Initialized
+INFO - 2024-01-11 10:18:53 --> Language Class Initialized
+INFO - 2024-01-11 10:18:53 --> Loader Class Initialized
+INFO - 2024-01-11 10:18:53 --> Helper loaded: url_helper
+INFO - 2024-01-11 10:18:53 --> Helper loaded: file_helper
+INFO - 2024-01-11 10:18:53 --> Helper loaded: form_helper
+INFO - 2024-01-11 10:18:53 --> Helper loaded: custom_helper
+INFO - 2024-01-11 10:18:53 --> Database Driver Class Initialized
+DEBUG - 2024-01-11 10:18:53 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-01-11 10:18:53 --> Session: Class initialized using 'files' driver.
+INFO - 2024-01-11 10:18:53 --> Cart Class Initialized
+DEBUG - 2024-01-11 10:18:53 --> Session class already loaded. Second attempt ignored.
+INFO - 2024-01-11 10:18:53 --> Form Validation Class Initialized
+INFO - 2024-01-11 10:18:53 --> Controller Class Initialized
+INFO - 2024-01-11 10:18:53 --> Model "Common_Model" initialized
+INFO - 2024-01-11 10:18:53 --> File loaded: E:\wamp64\www\247sue\application\views\admin/include/header.php
+INFO - 2024-01-11 10:18:53 --> File loaded: E:\wamp64\www\247sue\application\views\admin/include/left.php
+INFO - 2024-01-11 10:18:53 --> File loaded: E:\wamp64\www\247sue\application\views\admin/configlevel/index.php
+INFO - 2024-01-11 10:18:53 --> File loaded: E:\wamp64\www\247sue\application\views\admin/include/footer.php
+INFO - 2024-01-11 10:18:53 --> Final output sent to browser
+DEBUG - 2024-01-11 10:18:53 --> Total execution time: 0.0406
+INFO - 2024-01-11 10:36:50 --> Config Class Initialized
+INFO - 2024-01-11 10:36:50 --> Hooks Class Initialized
+DEBUG - 2024-01-11 10:36:50 --> UTF-8 Support Enabled
+INFO - 2024-01-11 10:36:50 --> Utf8 Class Initialized
+INFO - 2024-01-11 10:36:50 --> URI Class Initialized
+INFO - 2024-01-11 10:36:50 --> Router Class Initialized
+INFO - 2024-01-11 10:36:50 --> Output Class Initialized
+INFO - 2024-01-11 10:36:50 --> Security Class Initialized
+DEBUG - 2024-01-11 10:36:50 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-01-11 10:36:50 --> Input Class Initialized
+INFO - 2024-01-11 10:36:50 --> Language Class Initialized
+INFO - 2024-01-11 10:36:50 --> Loader Class Initialized
+INFO - 2024-01-11 10:36:50 --> Helper loaded: url_helper
+INFO - 2024-01-11 10:36:50 --> Helper loaded: file_helper
+INFO - 2024-01-11 10:36:50 --> Helper loaded: form_helper
+INFO - 2024-01-11 10:36:50 --> Helper loaded: custom_helper
+INFO - 2024-01-11 10:36:50 --> Database Driver Class Initialized
+DEBUG - 2024-01-11 10:36:50 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-01-11 10:36:50 --> Session: Class initialized using 'files' driver.
+INFO - 2024-01-11 10:36:50 --> Cart Class Initialized
+DEBUG - 2024-01-11 10:36:50 --> Session class already loaded. Second attempt ignored.
+INFO - 2024-01-11 10:36:50 --> Form Validation Class Initialized
+INFO - 2024-01-11 10:36:50 --> Controller Class Initialized
+INFO - 2024-01-11 10:36:50 --> Model "Api_Model" initialized
+INFO - 2024-01-11 10:36:50 --> Final output sent to browser
+DEBUG - 2024-01-11 10:36:50 --> Total execution time: 0.1116
+INFO - 2024-01-11 10:38:41 --> Config Class Initialized
+INFO - 2024-01-11 10:38:41 --> Hooks Class Initialized
+DEBUG - 2024-01-11 10:38:41 --> UTF-8 Support Enabled
+INFO - 2024-01-11 10:38:41 --> Utf8 Class Initialized
+INFO - 2024-01-11 10:38:41 --> URI Class Initialized
+INFO - 2024-01-11 10:38:41 --> Router Class Initialized
+INFO - 2024-01-11 10:38:41 --> Output Class Initialized
+INFO - 2024-01-11 10:38:41 --> Security Class Initialized
+DEBUG - 2024-01-11 10:38:41 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-01-11 10:38:41 --> Input Class Initialized
+INFO - 2024-01-11 10:38:41 --> Language Class Initialized
+INFO - 2024-01-11 10:38:41 --> Loader Class Initialized
+INFO - 2024-01-11 10:38:41 --> Helper loaded: url_helper
+INFO - 2024-01-11 10:38:41 --> Helper loaded: file_helper
+INFO - 2024-01-11 10:38:41 --> Helper loaded: form_helper
+INFO - 2024-01-11 10:38:41 --> Helper loaded: custom_helper
+INFO - 2024-01-11 10:38:41 --> Database Driver Class Initialized
+DEBUG - 2024-01-11 10:38:41 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-01-11 10:38:41 --> Session: Class initialized using 'files' driver.
+INFO - 2024-01-11 10:38:41 --> Cart Class Initialized
+DEBUG - 2024-01-11 10:38:41 --> Session class already loaded. Second attempt ignored.
+INFO - 2024-01-11 10:38:41 --> Form Validation Class Initialized
+INFO - 2024-01-11 10:38:41 --> Controller Class Initialized
+INFO - 2024-01-11 10:38:41 --> Model "Api_Model" initialized
+INFO - 2024-01-11 10:38:41 --> Final output sent to browser
+DEBUG - 2024-01-11 10:38:41 --> Total execution time: 0.1016
+INFO - 2024-01-11 10:51:35 --> Config Class Initialized
+INFO - 2024-01-11 10:51:35 --> Hooks Class Initialized
+DEBUG - 2024-01-11 10:51:35 --> UTF-8 Support Enabled
+INFO - 2024-01-11 10:51:35 --> Utf8 Class Initialized
+INFO - 2024-01-11 10:51:35 --> URI Class Initialized
+INFO - 2024-01-11 10:51:35 --> Router Class Initialized
+INFO - 2024-01-11 10:51:35 --> Output Class Initialized
+INFO - 2024-01-11 10:51:35 --> Security Class Initialized
+DEBUG - 2024-01-11 10:51:35 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-01-11 10:51:35 --> Input Class Initialized
+INFO - 2024-01-11 10:51:35 --> Language Class Initialized
+INFO - 2024-01-11 10:51:35 --> Loader Class Initialized
+INFO - 2024-01-11 10:51:35 --> Helper loaded: url_helper
+INFO - 2024-01-11 10:51:35 --> Helper loaded: file_helper
+INFO - 2024-01-11 10:51:35 --> Helper loaded: form_helper
+INFO - 2024-01-11 10:51:35 --> Helper loaded: custom_helper
+INFO - 2024-01-11 10:51:35 --> Database Driver Class Initialized
+DEBUG - 2024-01-11 10:51:35 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-01-11 10:51:35 --> Session: Class initialized using 'files' driver.
+INFO - 2024-01-11 10:51:35 --> Cart Class Initialized
+DEBUG - 2024-01-11 10:51:35 --> Session class already loaded. Second attempt ignored.
+INFO - 2024-01-11 10:51:35 --> Form Validation Class Initialized
+INFO - 2024-01-11 10:51:35 --> Controller Class Initialized
+INFO - 2024-01-11 10:51:35 --> Model "Api_Model" initialized
+INFO - 2024-01-11 10:51:35 --> Final output sent to browser
+DEBUG - 2024-01-11 10:51:35 --> Total execution time: 0.0365
+INFO - 2024-01-11 10:54:13 --> Config Class Initialized
+INFO - 2024-01-11 10:54:13 --> Hooks Class Initialized
+DEBUG - 2024-01-11 10:54:13 --> UTF-8 Support Enabled
+INFO - 2024-01-11 10:54:13 --> Utf8 Class Initialized
+INFO - 2024-01-11 10:54:13 --> URI Class Initialized
+INFO - 2024-01-11 10:54:13 --> Router Class Initialized
+INFO - 2024-01-11 10:54:13 --> Output Class Initialized
+INFO - 2024-01-11 10:54:13 --> Security Class Initialized
+DEBUG - 2024-01-11 10:54:13 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-01-11 10:54:13 --> Input Class Initialized
+INFO - 2024-01-11 10:54:13 --> Language Class Initialized
+INFO - 2024-01-11 10:54:13 --> Loader Class Initialized
+INFO - 2024-01-11 10:54:13 --> Helper loaded: url_helper
+INFO - 2024-01-11 10:54:13 --> Helper loaded: file_helper
+INFO - 2024-01-11 10:54:13 --> Helper loaded: form_helper
+INFO - 2024-01-11 10:54:13 --> Helper loaded: custom_helper
+INFO - 2024-01-11 10:54:13 --> Database Driver Class Initialized
+DEBUG - 2024-01-11 10:54:13 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-01-11 10:54:13 --> Session: Class initialized using 'files' driver.
+INFO - 2024-01-11 10:54:13 --> Cart Class Initialized
+DEBUG - 2024-01-11 10:54:13 --> Session class already loaded. Second attempt ignored.
+INFO - 2024-01-11 10:54:13 --> Form Validation Class Initialized
+INFO - 2024-01-11 10:54:13 --> Controller Class Initialized
+INFO - 2024-01-11 10:54:13 --> Model "Api_Model" initialized
+INFO - 2024-01-11 10:54:14 --> Final output sent to browser
+DEBUG - 2024-01-11 10:54:14 --> Total execution time: 0.5037
+INFO - 2024-01-11 11:01:37 --> Config Class Initialized
+INFO - 2024-01-11 11:01:37 --> Hooks Class Initialized
+DEBUG - 2024-01-11 11:01:37 --> UTF-8 Support Enabled
+INFO - 2024-01-11 11:01:37 --> Utf8 Class Initialized
+INFO - 2024-01-11 11:01:37 --> URI Class Initialized
+INFO - 2024-01-11 11:01:37 --> Router Class Initialized
+INFO - 2024-01-11 11:01:37 --> Output Class Initialized
+INFO - 2024-01-11 11:01:37 --> Security Class Initialized
+DEBUG - 2024-01-11 11:01:37 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-01-11 11:01:37 --> Input Class Initialized
+INFO - 2024-01-11 11:01:37 --> Language Class Initialized
+INFO - 2024-01-11 11:01:37 --> Loader Class Initialized
+INFO - 2024-01-11 11:01:37 --> Helper loaded: url_helper
+INFO - 2024-01-11 11:01:37 --> Helper loaded: file_helper
+INFO - 2024-01-11 11:01:37 --> Helper loaded: form_helper
+INFO - 2024-01-11 11:01:37 --> Helper loaded: custom_helper
+INFO - 2024-01-11 11:01:37 --> Database Driver Class Initialized
+DEBUG - 2024-01-11 11:01:37 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-01-11 11:01:37 --> Session: Class initialized using 'files' driver.
+INFO - 2024-01-11 11:01:37 --> Cart Class Initialized
+DEBUG - 2024-01-11 11:01:37 --> Session class already loaded. Second attempt ignored.
+INFO - 2024-01-11 11:01:37 --> Form Validation Class Initialized
+INFO - 2024-01-11 11:01:37 --> Controller Class Initialized
+INFO - 2024-01-11 11:01:38 --> Model "Api_Model" initialized
+INFO - 2024-01-11 11:01:38 --> Final output sent to browser
+DEBUG - 2024-01-11 11:01:38 --> Total execution time: 0.0379
+INFO - 2024-01-11 11:07:44 --> Config Class Initialized
+INFO - 2024-01-11 11:07:44 --> Hooks Class Initialized
+DEBUG - 2024-01-11 11:07:44 --> UTF-8 Support Enabled
+INFO - 2024-01-11 11:07:44 --> Utf8 Class Initialized
+INFO - 2024-01-11 11:07:44 --> URI Class Initialized
+INFO - 2024-01-11 11:07:44 --> Router Class Initialized
+INFO - 2024-01-11 11:07:44 --> Output Class Initialized
+INFO - 2024-01-11 11:07:44 --> Security Class Initialized
+DEBUG - 2024-01-11 11:07:44 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-01-11 11:07:44 --> Input Class Initialized
+INFO - 2024-01-11 11:07:44 --> Language Class Initialized
+INFO - 2024-01-11 11:07:44 --> Loader Class Initialized
+INFO - 2024-01-11 11:07:44 --> Helper loaded: url_helper
+INFO - 2024-01-11 11:07:44 --> Helper loaded: file_helper
+INFO - 2024-01-11 11:07:44 --> Helper loaded: form_helper
+INFO - 2024-01-11 11:07:44 --> Helper loaded: custom_helper
+INFO - 2024-01-11 11:07:44 --> Database Driver Class Initialized
+DEBUG - 2024-01-11 11:07:44 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-01-11 11:07:44 --> Session: Class initialized using 'files' driver.
+INFO - 2024-01-11 11:07:44 --> Cart Class Initialized
+DEBUG - 2024-01-11 11:07:44 --> Session class already loaded. Second attempt ignored.
+INFO - 2024-01-11 11:07:44 --> Form Validation Class Initialized
+INFO - 2024-01-11 11:07:44 --> Controller Class Initialized
+INFO - 2024-01-11 11:07:44 --> Model "Api_Model" initialized
+INFO - 2024-01-11 11:07:57 --> Config Class Initialized
+INFO - 2024-01-11 11:07:57 --> Hooks Class Initialized
+DEBUG - 2024-01-11 11:07:57 --> UTF-8 Support Enabled
+INFO - 2024-01-11 11:07:57 --> Utf8 Class Initialized
+INFO - 2024-01-11 11:07:57 --> URI Class Initialized
+INFO - 2024-01-11 11:07:57 --> Router Class Initialized
+INFO - 2024-01-11 11:07:57 --> Output Class Initialized
+INFO - 2024-01-11 11:07:57 --> Security Class Initialized
+DEBUG - 2024-01-11 11:07:57 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-01-11 11:07:57 --> Input Class Initialized
+INFO - 2024-01-11 11:07:57 --> Language Class Initialized
+INFO - 2024-01-11 11:07:57 --> Loader Class Initialized
+INFO - 2024-01-11 11:07:57 --> Helper loaded: url_helper
+INFO - 2024-01-11 11:07:57 --> Helper loaded: file_helper
+INFO - 2024-01-11 11:07:57 --> Helper loaded: form_helper
+INFO - 2024-01-11 11:07:57 --> Helper loaded: custom_helper
+INFO - 2024-01-11 11:07:57 --> Database Driver Class Initialized
+DEBUG - 2024-01-11 11:07:57 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-01-11 11:07:57 --> Session: Class initialized using 'files' driver.
+INFO - 2024-01-11 11:07:57 --> Cart Class Initialized
+DEBUG - 2024-01-11 11:07:57 --> Session class already loaded. Second attempt ignored.
+INFO - 2024-01-11 11:07:57 --> Form Validation Class Initialized
+INFO - 2024-01-11 11:07:57 --> Controller Class Initialized
+INFO - 2024-01-11 11:07:57 --> Model "Api_Model" initialized
+INFO - 2024-01-11 11:12:09 --> Config Class Initialized
+INFO - 2024-01-11 11:12:09 --> Hooks Class Initialized
+DEBUG - 2024-01-11 11:12:09 --> UTF-8 Support Enabled
+INFO - 2024-01-11 11:12:09 --> Utf8 Class Initialized
+INFO - 2024-01-11 11:12:09 --> URI Class Initialized
+INFO - 2024-01-11 11:12:09 --> Router Class Initialized
+INFO - 2024-01-11 11:12:09 --> Output Class Initialized
+INFO - 2024-01-11 11:12:09 --> Security Class Initialized
+DEBUG - 2024-01-11 11:12:09 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-01-11 11:12:09 --> Input Class Initialized
+INFO - 2024-01-11 11:12:09 --> Language Class Initialized
+INFO - 2024-01-11 11:12:09 --> Loader Class Initialized
+INFO - 2024-01-11 11:12:09 --> Helper loaded: url_helper
+INFO - 2024-01-11 11:12:09 --> Helper loaded: file_helper
+INFO - 2024-01-11 11:12:09 --> Helper loaded: form_helper
+INFO - 2024-01-11 11:12:09 --> Helper loaded: custom_helper
+INFO - 2024-01-11 11:12:09 --> Database Driver Class Initialized
+DEBUG - 2024-01-11 11:12:09 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-01-11 11:12:09 --> Session: Class initialized using 'files' driver.
+INFO - 2024-01-11 11:12:09 --> Cart Class Initialized
+DEBUG - 2024-01-11 11:12:09 --> Session class already loaded. Second attempt ignored.
+INFO - 2024-01-11 11:12:09 --> Form Validation Class Initialized
+INFO - 2024-01-11 11:12:09 --> Controller Class Initialized
+INFO - 2024-01-11 11:12:09 --> Model "Api_Model" initialized
+INFO - 2024-01-11 11:12:09 --> Final output sent to browser
+DEBUG - 2024-01-11 11:12:09 --> Total execution time: 0.0501
+INFO - 2024-01-11 11:13:22 --> Config Class Initialized
+INFO - 2024-01-11 11:13:22 --> Hooks Class Initialized
+DEBUG - 2024-01-11 11:13:22 --> UTF-8 Support Enabled
+INFO - 2024-01-11 11:13:22 --> Utf8 Class Initialized
+INFO - 2024-01-11 11:13:22 --> URI Class Initialized
+INFO - 2024-01-11 11:13:22 --> Router Class Initialized
+INFO - 2024-01-11 11:13:22 --> Output Class Initialized
+INFO - 2024-01-11 11:13:22 --> Security Class Initialized
+DEBUG - 2024-01-11 11:13:22 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-01-11 11:13:22 --> Input Class Initialized
+INFO - 2024-01-11 11:13:22 --> Language Class Initialized
+INFO - 2024-01-11 11:13:22 --> Loader Class Initialized
+INFO - 2024-01-11 11:13:22 --> Helper loaded: url_helper
+INFO - 2024-01-11 11:13:22 --> Helper loaded: file_helper
+INFO - 2024-01-11 11:13:22 --> Helper loaded: form_helper
+INFO - 2024-01-11 11:13:22 --> Helper loaded: custom_helper
+INFO - 2024-01-11 11:13:22 --> Database Driver Class Initialized
+DEBUG - 2024-01-11 11:13:22 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-01-11 11:13:22 --> Session: Class initialized using 'files' driver.
+INFO - 2024-01-11 11:13:22 --> Cart Class Initialized
+DEBUG - 2024-01-11 11:13:22 --> Session class already loaded. Second attempt ignored.
+INFO - 2024-01-11 11:13:22 --> Form Validation Class Initialized
+INFO - 2024-01-11 11:13:22 --> Controller Class Initialized
+INFO - 2024-01-11 11:13:22 --> Model "Api_Model" initialized
+INFO - 2024-01-11 11:19:35 --> Config Class Initialized
+INFO - 2024-01-11 11:19:35 --> Hooks Class Initialized
+DEBUG - 2024-01-11 11:19:35 --> UTF-8 Support Enabled
+INFO - 2024-01-11 11:19:35 --> Utf8 Class Initialized
+INFO - 2024-01-11 11:19:35 --> URI Class Initialized
+INFO - 2024-01-11 11:19:35 --> Router Class Initialized
+INFO - 2024-01-11 11:19:35 --> Output Class Initialized
+INFO - 2024-01-11 11:19:35 --> Security Class Initialized
+DEBUG - 2024-01-11 11:19:35 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-01-11 11:19:35 --> Input Class Initialized
+INFO - 2024-01-11 11:19:35 --> Language Class Initialized
+INFO - 2024-01-11 11:19:35 --> Loader Class Initialized
+INFO - 2024-01-11 11:19:35 --> Helper loaded: url_helper
+INFO - 2024-01-11 11:19:35 --> Helper loaded: file_helper
+INFO - 2024-01-11 11:19:35 --> Helper loaded: form_helper
+INFO - 2024-01-11 11:19:35 --> Helper loaded: custom_helper
+INFO - 2024-01-11 11:19:35 --> Database Driver Class Initialized
+DEBUG - 2024-01-11 11:19:35 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-01-11 11:19:35 --> Session: Class initialized using 'files' driver.
+INFO - 2024-01-11 11:19:35 --> Cart Class Initialized
+DEBUG - 2024-01-11 11:19:35 --> Session class already loaded. Second attempt ignored.
+INFO - 2024-01-11 11:19:35 --> Form Validation Class Initialized
+INFO - 2024-01-11 11:19:35 --> Controller Class Initialized
+INFO - 2024-01-11 11:19:35 --> Model "Api_Model" initialized
+INFO - 2024-01-11 11:19:35 --> Final output sent to browser
+DEBUG - 2024-01-11 11:19:35 --> Total execution time: 0.0714
+INFO - 2024-01-11 11:20:29 --> Config Class Initialized
+INFO - 2024-01-11 11:20:29 --> Hooks Class Initialized
+DEBUG - 2024-01-11 11:20:29 --> UTF-8 Support Enabled
+INFO - 2024-01-11 11:20:29 --> Utf8 Class Initialized
+INFO - 2024-01-11 11:20:29 --> URI Class Initialized
+INFO - 2024-01-11 11:20:29 --> Router Class Initialized
+INFO - 2024-01-11 11:20:29 --> Output Class Initialized
+INFO - 2024-01-11 11:20:29 --> Security Class Initialized
+DEBUG - 2024-01-11 11:20:29 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-01-11 11:20:29 --> Input Class Initialized
+INFO - 2024-01-11 11:20:29 --> Language Class Initialized
+INFO - 2024-01-11 11:20:29 --> Loader Class Initialized
+INFO - 2024-01-11 11:20:29 --> Helper loaded: url_helper
+INFO - 2024-01-11 11:20:29 --> Helper loaded: file_helper
+INFO - 2024-01-11 11:20:29 --> Helper loaded: form_helper
+INFO - 2024-01-11 11:20:29 --> Helper loaded: custom_helper
+INFO - 2024-01-11 11:20:29 --> Database Driver Class Initialized
+DEBUG - 2024-01-11 11:20:29 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-01-11 11:20:29 --> Session: Class initialized using 'files' driver.
+INFO - 2024-01-11 11:20:29 --> Cart Class Initialized
+DEBUG - 2024-01-11 11:20:29 --> Session class already loaded. Second attempt ignored.
+INFO - 2024-01-11 11:20:29 --> Form Validation Class Initialized
+INFO - 2024-01-11 11:20:29 --> Controller Class Initialized
+INFO - 2024-01-11 11:20:29 --> Model "Api_Model" initialized
+INFO - 2024-01-11 11:20:29 --> Final output sent to browser
+DEBUG - 2024-01-11 11:20:29 --> Total execution time: 0.0792
+INFO - 2024-01-11 11:20:41 --> Config Class Initialized
+INFO - 2024-01-11 11:20:41 --> Hooks Class Initialized
+DEBUG - 2024-01-11 11:20:41 --> UTF-8 Support Enabled
+INFO - 2024-01-11 11:20:41 --> Utf8 Class Initialized
+INFO - 2024-01-11 11:20:41 --> URI Class Initialized
+INFO - 2024-01-11 11:20:41 --> Router Class Initialized
+INFO - 2024-01-11 11:20:41 --> Output Class Initialized
+INFO - 2024-01-11 11:20:41 --> Security Class Initialized
+DEBUG - 2024-01-11 11:20:41 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-01-11 11:20:41 --> Input Class Initialized
+INFO - 2024-01-11 11:20:41 --> Language Class Initialized
+INFO - 2024-01-11 11:20:41 --> Loader Class Initialized
+INFO - 2024-01-11 11:20:41 --> Helper loaded: url_helper
+INFO - 2024-01-11 11:20:41 --> Helper loaded: file_helper
+INFO - 2024-01-11 11:20:41 --> Helper loaded: form_helper
+INFO - 2024-01-11 11:20:41 --> Helper loaded: custom_helper
+INFO - 2024-01-11 11:20:41 --> Database Driver Class Initialized
+DEBUG - 2024-01-11 11:20:41 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-01-11 11:20:41 --> Session: Class initialized using 'files' driver.
+INFO - 2024-01-11 11:20:41 --> Cart Class Initialized
+DEBUG - 2024-01-11 11:20:41 --> Session class already loaded. Second attempt ignored.
+INFO - 2024-01-11 11:20:41 --> Form Validation Class Initialized
+INFO - 2024-01-11 11:20:41 --> Controller Class Initialized
+INFO - 2024-01-11 11:20:41 --> Model "Api_Model" initialized
+INFO - 2024-01-11 11:20:41 --> Final output sent to browser
+DEBUG - 2024-01-11 11:20:41 --> Total execution time: 0.0409
+INFO - 2024-01-11 11:23:03 --> Config Class Initialized
+INFO - 2024-01-11 11:23:03 --> Hooks Class Initialized
+DEBUG - 2024-01-11 11:23:03 --> UTF-8 Support Enabled
+INFO - 2024-01-11 11:23:03 --> Utf8 Class Initialized
+INFO - 2024-01-11 11:23:03 --> URI Class Initialized
+INFO - 2024-01-11 11:23:03 --> Router Class Initialized
+INFO - 2024-01-11 11:23:03 --> Output Class Initialized
+INFO - 2024-01-11 11:23:03 --> Security Class Initialized
+DEBUG - 2024-01-11 11:23:03 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-01-11 11:23:03 --> Input Class Initialized
+INFO - 2024-01-11 11:23:03 --> Language Class Initialized
+INFO - 2024-01-11 11:23:03 --> Loader Class Initialized
+INFO - 2024-01-11 11:23:03 --> Helper loaded: url_helper
+INFO - 2024-01-11 11:23:03 --> Helper loaded: file_helper
+INFO - 2024-01-11 11:23:03 --> Helper loaded: form_helper
+INFO - 2024-01-11 11:23:03 --> Helper loaded: custom_helper
+INFO - 2024-01-11 11:23:03 --> Database Driver Class Initialized
+DEBUG - 2024-01-11 11:23:03 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-01-11 11:23:03 --> Session: Class initialized using 'files' driver.
+INFO - 2024-01-11 11:23:03 --> Cart Class Initialized
+DEBUG - 2024-01-11 11:23:03 --> Session class already loaded. Second attempt ignored.
+INFO - 2024-01-11 11:23:03 --> Form Validation Class Initialized
+INFO - 2024-01-11 11:23:03 --> Controller Class Initialized
+INFO - 2024-01-11 11:23:03 --> Model "Api_Model" initialized
+INFO - 2024-01-11 11:23:03 --> Final output sent to browser
+DEBUG - 2024-01-11 11:23:03 --> Total execution time: 0.0844
+INFO - 2024-01-11 11:23:47 --> Config Class Initialized
+INFO - 2024-01-11 11:23:47 --> Hooks Class Initialized
+DEBUG - 2024-01-11 11:23:47 --> UTF-8 Support Enabled
+INFO - 2024-01-11 11:23:47 --> Utf8 Class Initialized
+INFO - 2024-01-11 11:23:47 --> URI Class Initialized
+INFO - 2024-01-11 11:23:47 --> Router Class Initialized
+INFO - 2024-01-11 11:23:47 --> Output Class Initialized
+INFO - 2024-01-11 11:23:47 --> Security Class Initialized
+DEBUG - 2024-01-11 11:23:47 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-01-11 11:23:47 --> Input Class Initialized
+INFO - 2024-01-11 11:23:47 --> Language Class Initialized
+INFO - 2024-01-11 11:23:47 --> Loader Class Initialized
+INFO - 2024-01-11 11:23:47 --> Helper loaded: url_helper
+INFO - 2024-01-11 11:23:47 --> Helper loaded: file_helper
+INFO - 2024-01-11 11:23:47 --> Helper loaded: form_helper
+INFO - 2024-01-11 11:23:47 --> Helper loaded: custom_helper
+INFO - 2024-01-11 11:23:47 --> Database Driver Class Initialized
+DEBUG - 2024-01-11 11:23:47 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-01-11 11:23:47 --> Session: Class initialized using 'files' driver.
+INFO - 2024-01-11 11:23:47 --> Cart Class Initialized
+DEBUG - 2024-01-11 11:23:47 --> Session class already loaded. Second attempt ignored.
+INFO - 2024-01-11 11:23:47 --> Form Validation Class Initialized
+INFO - 2024-01-11 11:23:47 --> Controller Class Initialized
+INFO - 2024-01-11 11:23:47 --> Model "Api_Model" initialized
+INFO - 2024-01-11 11:23:47 --> Final output sent to browser
+DEBUG - 2024-01-11 11:23:47 --> Total execution time: 0.0359
+INFO - 2024-01-11 11:24:21 --> Config Class Initialized
+INFO - 2024-01-11 11:24:21 --> Hooks Class Initialized
+DEBUG - 2024-01-11 11:24:21 --> UTF-8 Support Enabled
+INFO - 2024-01-11 11:24:21 --> Utf8 Class Initialized
+INFO - 2024-01-11 11:24:21 --> URI Class Initialized
+INFO - 2024-01-11 11:24:21 --> Router Class Initialized
+INFO - 2024-01-11 11:24:21 --> Output Class Initialized
+INFO - 2024-01-11 11:24:21 --> Security Class Initialized
+DEBUG - 2024-01-11 11:24:21 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-01-11 11:24:21 --> Input Class Initialized
+INFO - 2024-01-11 11:24:21 --> Language Class Initialized
+INFO - 2024-01-11 11:24:21 --> Loader Class Initialized
+INFO - 2024-01-11 11:24:21 --> Helper loaded: url_helper
+INFO - 2024-01-11 11:24:21 --> Helper loaded: file_helper
+INFO - 2024-01-11 11:24:21 --> Helper loaded: form_helper
+INFO - 2024-01-11 11:24:21 --> Helper loaded: custom_helper
+INFO - 2024-01-11 11:24:21 --> Database Driver Class Initialized
+DEBUG - 2024-01-11 11:24:21 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-01-11 11:24:21 --> Session: Class initialized using 'files' driver.
+INFO - 2024-01-11 11:24:21 --> Cart Class Initialized
+DEBUG - 2024-01-11 11:24:21 --> Session class already loaded. Second attempt ignored.
+INFO - 2024-01-11 11:24:21 --> Form Validation Class Initialized
+INFO - 2024-01-11 11:24:21 --> Controller Class Initialized
+INFO - 2024-01-11 11:24:21 --> Model "Api_Model" initialized
+INFO - 2024-01-11 11:24:21 --> Final output sent to browser
+DEBUG - 2024-01-11 11:24:21 --> Total execution time: 0.0464
+INFO - 2024-01-11 11:24:51 --> Config Class Initialized
+INFO - 2024-01-11 11:24:51 --> Hooks Class Initialized
+DEBUG - 2024-01-11 11:24:51 --> UTF-8 Support Enabled
+INFO - 2024-01-11 11:24:51 --> Utf8 Class Initialized
+INFO - 2024-01-11 11:24:51 --> URI Class Initialized
+INFO - 2024-01-11 11:24:51 --> Router Class Initialized
+INFO - 2024-01-11 11:24:51 --> Output Class Initialized
+INFO - 2024-01-11 11:24:51 --> Security Class Initialized
+DEBUG - 2024-01-11 11:24:51 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-01-11 11:24:51 --> Input Class Initialized
+INFO - 2024-01-11 11:24:51 --> Language Class Initialized
+INFO - 2024-01-11 11:24:51 --> Loader Class Initialized
+INFO - 2024-01-11 11:24:51 --> Helper loaded: url_helper
+INFO - 2024-01-11 11:24:51 --> Helper loaded: file_helper
+INFO - 2024-01-11 11:24:51 --> Helper loaded: form_helper
+INFO - 2024-01-11 11:24:51 --> Helper loaded: custom_helper
+INFO - 2024-01-11 11:24:51 --> Database Driver Class Initialized
+DEBUG - 2024-01-11 11:24:51 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-01-11 11:24:51 --> Session: Class initialized using 'files' driver.
+INFO - 2024-01-11 11:24:51 --> Cart Class Initialized
+DEBUG - 2024-01-11 11:24:51 --> Session class already loaded. Second attempt ignored.
+INFO - 2024-01-11 11:24:51 --> Form Validation Class Initialized
+INFO - 2024-01-11 11:24:51 --> Controller Class Initialized
+INFO - 2024-01-11 11:24:51 --> Model "Api_Model" initialized
+INFO - 2024-01-11 11:24:51 --> Final output sent to browser
+DEBUG - 2024-01-11 11:24:51 --> Total execution time: 0.0700
+INFO - 2024-01-11 11:25:44 --> Config Class Initialized
+INFO - 2024-01-11 11:25:44 --> Hooks Class Initialized
+DEBUG - 2024-01-11 11:25:44 --> UTF-8 Support Enabled
+INFO - 2024-01-11 11:25:44 --> Utf8 Class Initialized
+INFO - 2024-01-11 11:25:44 --> URI Class Initialized
+INFO - 2024-01-11 11:25:44 --> Router Class Initialized
+INFO - 2024-01-11 11:25:44 --> Output Class Initialized
+INFO - 2024-01-11 11:25:44 --> Security Class Initialized
+DEBUG - 2024-01-11 11:25:44 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-01-11 11:25:44 --> Input Class Initialized
+INFO - 2024-01-11 11:25:44 --> Language Class Initialized
+INFO - 2024-01-11 11:25:44 --> Loader Class Initialized
+INFO - 2024-01-11 11:25:44 --> Helper loaded: url_helper
+INFO - 2024-01-11 11:25:44 --> Helper loaded: file_helper
+INFO - 2024-01-11 11:25:44 --> Helper loaded: form_helper
+INFO - 2024-01-11 11:25:44 --> Helper loaded: custom_helper
+INFO - 2024-01-11 11:25:44 --> Database Driver Class Initialized
+DEBUG - 2024-01-11 11:25:44 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-01-11 11:25:44 --> Session: Class initialized using 'files' driver.
+INFO - 2024-01-11 11:25:44 --> Cart Class Initialized
+DEBUG - 2024-01-11 11:25:44 --> Session class already loaded. Second attempt ignored.
+INFO - 2024-01-11 11:25:44 --> Form Validation Class Initialized
+INFO - 2024-01-11 11:25:44 --> Controller Class Initialized
+INFO - 2024-01-11 11:25:44 --> Model "Api_Model" initialized
+INFO - 2024-01-11 11:25:44 --> Final output sent to browser
+DEBUG - 2024-01-11 11:25:44 --> Total execution time: 0.0795
+INFO - 2024-01-11 11:44:48 --> Config Class Initialized
+INFO - 2024-01-11 11:44:48 --> Hooks Class Initialized
+DEBUG - 2024-01-11 11:44:48 --> UTF-8 Support Enabled
+INFO - 2024-01-11 11:44:48 --> Utf8 Class Initialized
+INFO - 2024-01-11 11:44:48 --> URI Class Initialized
+INFO - 2024-01-11 11:44:48 --> Router Class Initialized
+INFO - 2024-01-11 11:44:48 --> Output Class Initialized
+INFO - 2024-01-11 11:44:48 --> Security Class Initialized
+DEBUG - 2024-01-11 11:44:48 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-01-11 11:44:48 --> Input Class Initialized
+INFO - 2024-01-11 11:44:48 --> Language Class Initialized
+INFO - 2024-01-11 11:44:48 --> Loader Class Initialized
+INFO - 2024-01-11 11:44:48 --> Helper loaded: url_helper
+INFO - 2024-01-11 11:44:48 --> Helper loaded: file_helper
+INFO - 2024-01-11 11:44:48 --> Helper loaded: form_helper
+INFO - 2024-01-11 11:44:48 --> Helper loaded: custom_helper
+INFO - 2024-01-11 11:44:48 --> Database Driver Class Initialized
+DEBUG - 2024-01-11 11:44:48 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-01-11 11:44:48 --> Session: Class initialized using 'files' driver.
+INFO - 2024-01-11 11:44:48 --> Cart Class Initialized
+DEBUG - 2024-01-11 11:44:48 --> Session class already loaded. Second attempt ignored.
+INFO - 2024-01-11 11:44:48 --> Form Validation Class Initialized
+INFO - 2024-01-11 11:44:48 --> Controller Class Initialized
+INFO - 2024-01-11 11:44:48 --> Model "Api_Model" initialized
+INFO - 2024-01-11 11:44:48 --> Final output sent to browser
+DEBUG - 2024-01-11 11:44:48 --> Total execution time: 0.5369
+INFO - 2024-01-11 12:00:16 --> Config Class Initialized
+INFO - 2024-01-11 12:00:16 --> Hooks Class Initialized
+DEBUG - 2024-01-11 12:00:16 --> UTF-8 Support Enabled
+INFO - 2024-01-11 12:00:16 --> Utf8 Class Initialized
+INFO - 2024-01-11 12:00:16 --> URI Class Initialized
+INFO - 2024-01-11 12:00:16 --> Router Class Initialized
+INFO - 2024-01-11 12:00:16 --> Output Class Initialized
+INFO - 2024-01-11 12:00:16 --> Security Class Initialized
+DEBUG - 2024-01-11 12:00:16 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-01-11 12:00:16 --> Input Class Initialized
+INFO - 2024-01-11 12:00:16 --> Language Class Initialized
+INFO - 2024-01-11 12:00:16 --> Loader Class Initialized
+INFO - 2024-01-11 12:00:16 --> Helper loaded: url_helper
+INFO - 2024-01-11 12:00:16 --> Helper loaded: file_helper
+INFO - 2024-01-11 12:00:16 --> Helper loaded: form_helper
+INFO - 2024-01-11 12:00:16 --> Helper loaded: custom_helper
+INFO - 2024-01-11 12:00:16 --> Database Driver Class Initialized
+DEBUG - 2024-01-11 12:00:16 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-01-11 12:00:16 --> Session: Class initialized using 'files' driver.
+INFO - 2024-01-11 12:00:16 --> Cart Class Initialized
+DEBUG - 2024-01-11 12:00:16 --> Session class already loaded. Second attempt ignored.
+INFO - 2024-01-11 12:00:16 --> Form Validation Class Initialized
+INFO - 2024-01-11 12:00:16 --> Controller Class Initialized
+INFO - 2024-01-11 12:00:16 --> Model "Api_Model" initialized
+INFO - 2024-01-11 12:00:16 --> Final output sent to browser
+DEBUG - 2024-01-11 12:00:16 --> Total execution time: 0.0541
+INFO - 2024-01-11 12:01:17 --> Config Class Initialized
+INFO - 2024-01-11 12:01:17 --> Hooks Class Initialized
+DEBUG - 2024-01-11 12:01:17 --> UTF-8 Support Enabled
+INFO - 2024-01-11 12:01:17 --> Utf8 Class Initialized
+INFO - 2024-01-11 12:01:17 --> URI Class Initialized
+INFO - 2024-01-11 12:01:17 --> Router Class Initialized
+INFO - 2024-01-11 12:01:17 --> Output Class Initialized
+INFO - 2024-01-11 12:01:17 --> Security Class Initialized
+DEBUG - 2024-01-11 12:01:17 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-01-11 12:01:17 --> Input Class Initialized
+INFO - 2024-01-11 12:01:17 --> Language Class Initialized
+INFO - 2024-01-11 12:01:17 --> Loader Class Initialized
+INFO - 2024-01-11 12:01:17 --> Helper loaded: url_helper
+INFO - 2024-01-11 12:01:17 --> Helper loaded: file_helper
+INFO - 2024-01-11 12:01:17 --> Helper loaded: form_helper
+INFO - 2024-01-11 12:01:17 --> Helper loaded: custom_helper
+INFO - 2024-01-11 12:01:17 --> Database Driver Class Initialized
+DEBUG - 2024-01-11 12:01:17 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-01-11 12:01:17 --> Session: Class initialized using 'files' driver.
+INFO - 2024-01-11 12:01:17 --> Cart Class Initialized
+DEBUG - 2024-01-11 12:01:17 --> Session class already loaded. Second attempt ignored.
+INFO - 2024-01-11 12:01:17 --> Form Validation Class Initialized
+INFO - 2024-01-11 12:01:17 --> Controller Class Initialized
+INFO - 2024-01-11 12:01:17 --> Model "Api_Model" initialized
+INFO - 2024-01-11 12:01:17 --> Final output sent to browser
+DEBUG - 2024-01-11 12:01:17 --> Total execution time: 0.0929
+INFO - 2024-01-11 12:01:51 --> Config Class Initialized
+INFO - 2024-01-11 12:01:51 --> Hooks Class Initialized
+DEBUG - 2024-01-11 12:01:51 --> UTF-8 Support Enabled
+INFO - 2024-01-11 12:01:51 --> Utf8 Class Initialized
+INFO - 2024-01-11 12:01:51 --> URI Class Initialized
+INFO - 2024-01-11 12:01:51 --> Router Class Initialized
+INFO - 2024-01-11 12:01:51 --> Output Class Initialized
+INFO - 2024-01-11 12:01:51 --> Security Class Initialized
+DEBUG - 2024-01-11 12:01:51 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-01-11 12:01:51 --> Input Class Initialized
+INFO - 2024-01-11 12:01:51 --> Language Class Initialized
+INFO - 2024-01-11 12:01:51 --> Loader Class Initialized
+INFO - 2024-01-11 12:01:51 --> Helper loaded: url_helper
+INFO - 2024-01-11 12:01:51 --> Helper loaded: file_helper
+INFO - 2024-01-11 12:01:51 --> Helper loaded: form_helper
+INFO - 2024-01-11 12:01:51 --> Helper loaded: custom_helper
+INFO - 2024-01-11 12:01:51 --> Database Driver Class Initialized
+DEBUG - 2024-01-11 12:01:51 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-01-11 12:01:51 --> Session: Class initialized using 'files' driver.
+INFO - 2024-01-11 12:01:51 --> Cart Class Initialized
+DEBUG - 2024-01-11 12:01:51 --> Session class already loaded. Second attempt ignored.
+INFO - 2024-01-11 12:01:51 --> Form Validation Class Initialized
+INFO - 2024-01-11 12:01:51 --> Controller Class Initialized
+INFO - 2024-01-11 12:01:51 --> Model "Api_Model" initialized
+INFO - 2024-01-11 12:01:51 --> Final output sent to browser
+DEBUG - 2024-01-11 12:01:51 --> Total execution time: 0.0528
+INFO - 2024-01-11 12:02:00 --> Config Class Initialized
+INFO - 2024-01-11 12:02:00 --> Hooks Class Initialized
+DEBUG - 2024-01-11 12:02:00 --> UTF-8 Support Enabled
+INFO - 2024-01-11 12:02:00 --> Utf8 Class Initialized
+INFO - 2024-01-11 12:02:00 --> URI Class Initialized
+INFO - 2024-01-11 12:02:00 --> Router Class Initialized
+INFO - 2024-01-11 12:02:00 --> Output Class Initialized
+INFO - 2024-01-11 12:02:00 --> Security Class Initialized
+DEBUG - 2024-01-11 12:02:00 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-01-11 12:02:00 --> Input Class Initialized
+INFO - 2024-01-11 12:02:00 --> Language Class Initialized
+INFO - 2024-01-11 12:02:00 --> Loader Class Initialized
+INFO - 2024-01-11 12:02:00 --> Helper loaded: url_helper
+INFO - 2024-01-11 12:02:00 --> Helper loaded: file_helper
+INFO - 2024-01-11 12:02:00 --> Helper loaded: form_helper
+INFO - 2024-01-11 12:02:00 --> Helper loaded: custom_helper
+INFO - 2024-01-11 12:02:00 --> Database Driver Class Initialized
+DEBUG - 2024-01-11 12:02:00 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-01-11 12:02:00 --> Session: Class initialized using 'files' driver.
+INFO - 2024-01-11 12:02:00 --> Cart Class Initialized
+DEBUG - 2024-01-11 12:02:00 --> Session class already loaded. Second attempt ignored.
+INFO - 2024-01-11 12:02:00 --> Form Validation Class Initialized
+INFO - 2024-01-11 12:02:00 --> Controller Class Initialized
+INFO - 2024-01-11 12:02:00 --> Model "Api_Model" initialized
+INFO - 2024-01-11 12:02:00 --> Final output sent to browser
+DEBUG - 2024-01-11 12:02:00 --> Total execution time: 0.0476
+INFO - 2024-01-11 12:07:10 --> Config Class Initialized
+INFO - 2024-01-11 12:07:10 --> Hooks Class Initialized
+DEBUG - 2024-01-11 12:07:10 --> UTF-8 Support Enabled
+INFO - 2024-01-11 12:07:10 --> Utf8 Class Initialized
+INFO - 2024-01-11 12:07:10 --> URI Class Initialized
+INFO - 2024-01-11 12:07:10 --> Router Class Initialized
+INFO - 2024-01-11 12:07:10 --> Output Class Initialized
+INFO - 2024-01-11 12:07:10 --> Security Class Initialized
+DEBUG - 2024-01-11 12:07:10 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-01-11 12:07:10 --> Input Class Initialized
+INFO - 2024-01-11 12:07:10 --> Language Class Initialized
+INFO - 2024-01-11 12:07:10 --> Loader Class Initialized
+INFO - 2024-01-11 12:07:10 --> Helper loaded: url_helper
+INFO - 2024-01-11 12:07:10 --> Helper loaded: file_helper
+INFO - 2024-01-11 12:07:10 --> Helper loaded: form_helper
+INFO - 2024-01-11 12:07:10 --> Helper loaded: custom_helper
+INFO - 2024-01-11 12:07:10 --> Database Driver Class Initialized
+DEBUG - 2024-01-11 12:07:10 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-01-11 12:07:10 --> Session: Class initialized using 'files' driver.
+INFO - 2024-01-11 12:07:10 --> Cart Class Initialized
+DEBUG - 2024-01-11 12:07:10 --> Session class already loaded. Second attempt ignored.
+INFO - 2024-01-11 12:07:10 --> Form Validation Class Initialized
+INFO - 2024-01-11 12:07:10 --> Controller Class Initialized
+INFO - 2024-01-11 12:07:10 --> Model "Common_Model" initialized
+INFO - 2024-01-11 12:07:10 --> File loaded: E:\wamp64\www\247sue\application\views\admin/include/header.php
+INFO - 2024-01-11 12:07:10 --> File loaded: E:\wamp64\www\247sue\application\views\admin/include/left.php
+INFO - 2024-01-11 12:07:10 --> File loaded: E:\wamp64\www\247sue\application\views\admin/plan/index.php
+INFO - 2024-01-11 12:07:10 --> File loaded: E:\wamp64\www\247sue\application\views\admin/include/footer.php
+INFO - 2024-01-11 12:07:10 --> Final output sent to browser
+DEBUG - 2024-01-11 12:07:10 --> Total execution time: 0.0631
+INFO - 2024-01-11 12:15:01 --> Config Class Initialized
+INFO - 2024-01-11 12:15:01 --> Hooks Class Initialized
+DEBUG - 2024-01-11 12:15:01 --> UTF-8 Support Enabled
+INFO - 2024-01-11 12:15:01 --> Utf8 Class Initialized
+INFO - 2024-01-11 12:15:01 --> URI Class Initialized
+INFO - 2024-01-11 12:15:01 --> Router Class Initialized
+INFO - 2024-01-11 12:15:01 --> Output Class Initialized
+INFO - 2024-01-11 12:15:01 --> Security Class Initialized
+DEBUG - 2024-01-11 12:15:01 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-01-11 12:15:01 --> Input Class Initialized
+INFO - 2024-01-11 12:15:01 --> Language Class Initialized
+INFO - 2024-01-11 12:15:01 --> Loader Class Initialized
+INFO - 2024-01-11 12:15:01 --> Helper loaded: url_helper
+INFO - 2024-01-11 12:15:01 --> Helper loaded: file_helper
+INFO - 2024-01-11 12:15:01 --> Helper loaded: form_helper
+INFO - 2024-01-11 12:15:01 --> Helper loaded: custom_helper
+INFO - 2024-01-11 12:15:01 --> Database Driver Class Initialized
+DEBUG - 2024-01-11 12:15:01 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-01-11 12:15:01 --> Session: Class initialized using 'files' driver.
+INFO - 2024-01-11 12:15:01 --> Cart Class Initialized
+DEBUG - 2024-01-11 12:15:01 --> Session class already loaded. Second attempt ignored.
+INFO - 2024-01-11 12:15:01 --> Form Validation Class Initialized
+INFO - 2024-01-11 12:15:01 --> Controller Class Initialized
+INFO - 2024-01-11 12:15:01 --> Model "Api_Model" initialized
+INFO - 2024-01-11 12:15:01 --> Final output sent to browser
+DEBUG - 2024-01-11 12:15:01 --> Total execution time: 0.0674
+INFO - 2024-01-11 12:15:09 --> Config Class Initialized
+INFO - 2024-01-11 12:15:09 --> Hooks Class Initialized
+DEBUG - 2024-01-11 12:15:09 --> UTF-8 Support Enabled
+INFO - 2024-01-11 12:15:09 --> Utf8 Class Initialized
+INFO - 2024-01-11 12:15:09 --> URI Class Initialized
+INFO - 2024-01-11 12:15:09 --> Router Class Initialized
+INFO - 2024-01-11 12:15:09 --> Output Class Initialized
+INFO - 2024-01-11 12:15:09 --> Security Class Initialized
+DEBUG - 2024-01-11 12:15:09 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-01-11 12:15:09 --> Input Class Initialized
+INFO - 2024-01-11 12:15:09 --> Language Class Initialized
+INFO - 2024-01-11 12:15:09 --> Loader Class Initialized
+INFO - 2024-01-11 12:15:09 --> Helper loaded: url_helper
+INFO - 2024-01-11 12:15:09 --> Helper loaded: file_helper
+INFO - 2024-01-11 12:15:09 --> Helper loaded: form_helper
+INFO - 2024-01-11 12:15:09 --> Helper loaded: custom_helper
+INFO - 2024-01-11 12:15:09 --> Database Driver Class Initialized
+DEBUG - 2024-01-11 12:15:09 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-01-11 12:15:09 --> Session: Class initialized using 'files' driver.
+INFO - 2024-01-11 12:15:09 --> Cart Class Initialized
+DEBUG - 2024-01-11 12:15:09 --> Session class already loaded. Second attempt ignored.
+INFO - 2024-01-11 12:15:09 --> Form Validation Class Initialized
+INFO - 2024-01-11 12:15:09 --> Controller Class Initialized
+INFO - 2024-01-11 12:15:09 --> Model "Api_Model" initialized
+INFO - 2024-01-11 12:15:09 --> Final output sent to browser
+DEBUG - 2024-01-11 12:15:09 --> Total execution time: 0.1148
+INFO - 2024-01-11 12:15:21 --> Config Class Initialized
+INFO - 2024-01-11 12:15:21 --> Hooks Class Initialized
+DEBUG - 2024-01-11 12:15:21 --> UTF-8 Support Enabled
+INFO - 2024-01-11 12:15:21 --> Utf8 Class Initialized
+INFO - 2024-01-11 12:15:21 --> URI Class Initialized
+INFO - 2024-01-11 12:15:21 --> Router Class Initialized
+INFO - 2024-01-11 12:15:21 --> Output Class Initialized
+INFO - 2024-01-11 12:15:21 --> Security Class Initialized
+DEBUG - 2024-01-11 12:15:21 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-01-11 12:15:21 --> Input Class Initialized
+INFO - 2024-01-11 12:15:21 --> Language Class Initialized
+INFO - 2024-01-11 12:15:21 --> Loader Class Initialized
+INFO - 2024-01-11 12:15:21 --> Helper loaded: url_helper
+INFO - 2024-01-11 12:15:21 --> Helper loaded: file_helper
+INFO - 2024-01-11 12:15:21 --> Helper loaded: form_helper
+INFO - 2024-01-11 12:15:21 --> Helper loaded: custom_helper
+INFO - 2024-01-11 12:15:21 --> Database Driver Class Initialized
+DEBUG - 2024-01-11 12:15:21 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-01-11 12:15:21 --> Session: Class initialized using 'files' driver.
+INFO - 2024-01-11 12:15:21 --> Cart Class Initialized
+DEBUG - 2024-01-11 12:15:21 --> Session class already loaded. Second attempt ignored.
+INFO - 2024-01-11 12:15:21 --> Form Validation Class Initialized
+INFO - 2024-01-11 12:15:21 --> Controller Class Initialized
+INFO - 2024-01-11 12:15:21 --> Model "Api_Model" initialized
+INFO - 2024-01-11 12:15:21 --> Final output sent to browser
+DEBUG - 2024-01-11 12:15:21 --> Total execution time: 0.0418
+INFO - 2024-01-11 12:16:33 --> Config Class Initialized
+INFO - 2024-01-11 12:16:33 --> Hooks Class Initialized
+DEBUG - 2024-01-11 12:16:33 --> UTF-8 Support Enabled
+INFO - 2024-01-11 12:16:33 --> Utf8 Class Initialized
+INFO - 2024-01-11 12:16:33 --> URI Class Initialized
+INFO - 2024-01-11 12:16:33 --> Router Class Initialized
+INFO - 2024-01-11 12:16:33 --> Output Class Initialized
+INFO - 2024-01-11 12:16:33 --> Security Class Initialized
+DEBUG - 2024-01-11 12:16:33 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-01-11 12:16:33 --> Input Class Initialized
+INFO - 2024-01-11 12:16:33 --> Language Class Initialized
+INFO - 2024-01-11 12:16:33 --> Loader Class Initialized
+INFO - 2024-01-11 12:16:33 --> Helper loaded: url_helper
+INFO - 2024-01-11 12:16:33 --> Helper loaded: file_helper
+INFO - 2024-01-11 12:16:33 --> Helper loaded: form_helper
+INFO - 2024-01-11 12:16:33 --> Helper loaded: custom_helper
+INFO - 2024-01-11 12:16:33 --> Database Driver Class Initialized
+DEBUG - 2024-01-11 12:16:33 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-01-11 12:16:33 --> Session: Class initialized using 'files' driver.
+INFO - 2024-01-11 12:16:33 --> Cart Class Initialized
+DEBUG - 2024-01-11 12:16:33 --> Session class already loaded. Second attempt ignored.
+INFO - 2024-01-11 12:16:33 --> Form Validation Class Initialized
+INFO - 2024-01-11 12:16:33 --> Controller Class Initialized
+INFO - 2024-01-11 12:16:33 --> Model "Api_Model" initialized
+INFO - 2024-01-11 12:17:21 --> Config Class Initialized
+INFO - 2024-01-11 12:17:21 --> Hooks Class Initialized
+DEBUG - 2024-01-11 12:17:21 --> UTF-8 Support Enabled
+INFO - 2024-01-11 12:17:21 --> Utf8 Class Initialized
+INFO - 2024-01-11 12:17:21 --> URI Class Initialized
+INFO - 2024-01-11 12:17:21 --> Router Class Initialized
+INFO - 2024-01-11 12:17:21 --> Output Class Initialized
+INFO - 2024-01-11 12:17:21 --> Security Class Initialized
+DEBUG - 2024-01-11 12:17:21 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-01-11 12:17:21 --> Input Class Initialized
+INFO - 2024-01-11 12:17:21 --> Language Class Initialized
+INFO - 2024-01-11 12:17:21 --> Loader Class Initialized
+INFO - 2024-01-11 12:17:21 --> Helper loaded: url_helper
+INFO - 2024-01-11 12:17:21 --> Helper loaded: file_helper
+INFO - 2024-01-11 12:17:21 --> Helper loaded: form_helper
+INFO - 2024-01-11 12:17:21 --> Helper loaded: custom_helper
+INFO - 2024-01-11 12:17:21 --> Database Driver Class Initialized
+DEBUG - 2024-01-11 12:17:21 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-01-11 12:17:21 --> Session: Class initialized using 'files' driver.
+INFO - 2024-01-11 12:17:21 --> Cart Class Initialized
+DEBUG - 2024-01-11 12:17:21 --> Session class already loaded. Second attempt ignored.
+INFO - 2024-01-11 12:17:21 --> Form Validation Class Initialized
+INFO - 2024-01-11 12:17:21 --> Controller Class Initialized
+INFO - 2024-01-11 12:17:21 --> Model "Api_Model" initialized
+INFO - 2024-01-11 12:21:13 --> Config Class Initialized
+INFO - 2024-01-11 12:21:13 --> Hooks Class Initialized
+DEBUG - 2024-01-11 12:21:13 --> UTF-8 Support Enabled
+INFO - 2024-01-11 12:21:13 --> Utf8 Class Initialized
+INFO - 2024-01-11 12:21:13 --> URI Class Initialized
+INFO - 2024-01-11 12:21:13 --> Router Class Initialized
+INFO - 2024-01-11 12:21:13 --> Output Class Initialized
+INFO - 2024-01-11 12:21:13 --> Security Class Initialized
+DEBUG - 2024-01-11 12:21:13 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-01-11 12:21:13 --> Input Class Initialized
+INFO - 2024-01-11 12:21:13 --> Language Class Initialized
+INFO - 2024-01-11 12:21:13 --> Loader Class Initialized
+INFO - 2024-01-11 12:21:13 --> Helper loaded: url_helper
+INFO - 2024-01-11 12:21:13 --> Helper loaded: file_helper
+INFO - 2024-01-11 12:21:13 --> Helper loaded: form_helper
+INFO - 2024-01-11 12:21:13 --> Helper loaded: custom_helper
+INFO - 2024-01-11 12:21:13 --> Database Driver Class Initialized
+DEBUG - 2024-01-11 12:21:13 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-01-11 12:21:13 --> Session: Class initialized using 'files' driver.
+INFO - 2024-01-11 12:21:13 --> Cart Class Initialized
+DEBUG - 2024-01-11 12:21:13 --> Session class already loaded. Second attempt ignored.
+INFO - 2024-01-11 12:21:13 --> Form Validation Class Initialized
+INFO - 2024-01-11 12:21:13 --> Controller Class Initialized
+INFO - 2024-01-11 12:21:13 --> Model "Api_Model" initialized
+INFO - 2024-01-11 12:24:24 --> Config Class Initialized
+INFO - 2024-01-11 12:24:24 --> Hooks Class Initialized
+DEBUG - 2024-01-11 12:24:24 --> UTF-8 Support Enabled
+INFO - 2024-01-11 12:24:24 --> Utf8 Class Initialized
+INFO - 2024-01-11 12:24:24 --> URI Class Initialized
+INFO - 2024-01-11 12:24:24 --> Router Class Initialized
+INFO - 2024-01-11 12:24:24 --> Output Class Initialized
+INFO - 2024-01-11 12:24:24 --> Security Class Initialized
+DEBUG - 2024-01-11 12:24:24 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-01-11 12:24:24 --> Input Class Initialized
+INFO - 2024-01-11 12:24:24 --> Language Class Initialized
+INFO - 2024-01-11 12:24:24 --> Loader Class Initialized
+INFO - 2024-01-11 12:24:24 --> Helper loaded: url_helper
+INFO - 2024-01-11 12:24:24 --> Helper loaded: file_helper
+INFO - 2024-01-11 12:24:24 --> Helper loaded: form_helper
+INFO - 2024-01-11 12:24:24 --> Helper loaded: custom_helper
+INFO - 2024-01-11 12:24:24 --> Database Driver Class Initialized
+DEBUG - 2024-01-11 12:24:24 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-01-11 12:24:24 --> Session: Class initialized using 'files' driver.
+INFO - 2024-01-11 12:24:24 --> Cart Class Initialized
+DEBUG - 2024-01-11 12:24:24 --> Session class already loaded. Second attempt ignored.
+INFO - 2024-01-11 12:24:24 --> Form Validation Class Initialized
+INFO - 2024-01-11 12:24:24 --> Controller Class Initialized
+INFO - 2024-01-11 12:24:24 --> Model "Api_Model" initialized
+INFO - 2024-01-11 12:24:54 --> Config Class Initialized
+INFO - 2024-01-11 12:24:54 --> Hooks Class Initialized
+DEBUG - 2024-01-11 12:24:54 --> UTF-8 Support Enabled
+INFO - 2024-01-11 12:24:54 --> Utf8 Class Initialized
+INFO - 2024-01-11 12:24:54 --> URI Class Initialized
+INFO - 2024-01-11 12:24:54 --> Router Class Initialized
+INFO - 2024-01-11 12:24:54 --> Output Class Initialized
+INFO - 2024-01-11 12:24:54 --> Security Class Initialized
+DEBUG - 2024-01-11 12:24:54 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-01-11 12:24:54 --> Input Class Initialized
+INFO - 2024-01-11 12:24:54 --> Language Class Initialized
+INFO - 2024-01-11 12:24:54 --> Loader Class Initialized
+INFO - 2024-01-11 12:24:54 --> Helper loaded: url_helper
+INFO - 2024-01-11 12:24:54 --> Helper loaded: file_helper
+INFO - 2024-01-11 12:24:54 --> Helper loaded: form_helper
+INFO - 2024-01-11 12:24:54 --> Helper loaded: custom_helper
+INFO - 2024-01-11 12:24:54 --> Database Driver Class Initialized
+DEBUG - 2024-01-11 12:24:54 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-01-11 12:24:54 --> Session: Class initialized using 'files' driver.
+INFO - 2024-01-11 12:24:54 --> Cart Class Initialized
+DEBUG - 2024-01-11 12:24:54 --> Session class already loaded. Second attempt ignored.
+INFO - 2024-01-11 12:24:54 --> Form Validation Class Initialized
+INFO - 2024-01-11 12:24:54 --> Controller Class Initialized
+INFO - 2024-01-11 12:24:54 --> Model "Api_Model" initialized
+INFO - 2024-01-11 12:25:28 --> Config Class Initialized
+INFO - 2024-01-11 12:25:28 --> Hooks Class Initialized
+DEBUG - 2024-01-11 12:25:28 --> UTF-8 Support Enabled
+INFO - 2024-01-11 12:25:28 --> Utf8 Class Initialized
+INFO - 2024-01-11 12:25:28 --> URI Class Initialized
+INFO - 2024-01-11 12:25:28 --> Router Class Initialized
+INFO - 2024-01-11 12:25:28 --> Output Class Initialized
+INFO - 2024-01-11 12:25:28 --> Security Class Initialized
+DEBUG - 2024-01-11 12:25:28 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-01-11 12:25:28 --> Input Class Initialized
+INFO - 2024-01-11 12:25:28 --> Language Class Initialized
+INFO - 2024-01-11 12:25:28 --> Loader Class Initialized
+INFO - 2024-01-11 12:25:28 --> Helper loaded: url_helper
+INFO - 2024-01-11 12:25:28 --> Helper loaded: file_helper
+INFO - 2024-01-11 12:25:28 --> Helper loaded: form_helper
+INFO - 2024-01-11 12:25:28 --> Helper loaded: custom_helper
+INFO - 2024-01-11 12:25:28 --> Database Driver Class Initialized
+DEBUG - 2024-01-11 12:25:28 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-01-11 12:25:28 --> Session: Class initialized using 'files' driver.
+INFO - 2024-01-11 12:25:28 --> Cart Class Initialized
+DEBUG - 2024-01-11 12:25:28 --> Session class already loaded. Second attempt ignored.
+INFO - 2024-01-11 12:25:28 --> Form Validation Class Initialized
+INFO - 2024-01-11 12:25:28 --> Controller Class Initialized
+INFO - 2024-01-11 12:25:28 --> Model "Api_Model" initialized
+INFO - 2024-01-11 12:25:48 --> Config Class Initialized
+INFO - 2024-01-11 12:25:48 --> Hooks Class Initialized
+DEBUG - 2024-01-11 12:25:48 --> UTF-8 Support Enabled
+INFO - 2024-01-11 12:25:48 --> Utf8 Class Initialized
+INFO - 2024-01-11 12:25:48 --> URI Class Initialized
+INFO - 2024-01-11 12:25:48 --> Router Class Initialized
+INFO - 2024-01-11 12:25:48 --> Output Class Initialized
+INFO - 2024-01-11 12:25:48 --> Security Class Initialized
+DEBUG - 2024-01-11 12:25:48 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-01-11 12:25:48 --> Input Class Initialized
+INFO - 2024-01-11 12:25:48 --> Language Class Initialized
+INFO - 2024-01-11 12:25:48 --> Loader Class Initialized
+INFO - 2024-01-11 12:25:48 --> Helper loaded: url_helper
+INFO - 2024-01-11 12:25:48 --> Helper loaded: file_helper
+INFO - 2024-01-11 12:25:48 --> Helper loaded: form_helper
+INFO - 2024-01-11 12:25:48 --> Helper loaded: custom_helper
+INFO - 2024-01-11 12:25:48 --> Database Driver Class Initialized
+DEBUG - 2024-01-11 12:25:48 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-01-11 12:25:48 --> Session: Class initialized using 'files' driver.
+INFO - 2024-01-11 12:25:48 --> Cart Class Initialized
+DEBUG - 2024-01-11 12:25:48 --> Session class already loaded. Second attempt ignored.
+INFO - 2024-01-11 12:25:48 --> Form Validation Class Initialized
+INFO - 2024-01-11 12:25:48 --> Controller Class Initialized
+INFO - 2024-01-11 12:25:48 --> Model "Api_Model" initialized
+INFO - 2024-01-11 12:26:08 --> Config Class Initialized
+INFO - 2024-01-11 12:26:08 --> Hooks Class Initialized
+DEBUG - 2024-01-11 12:26:08 --> UTF-8 Support Enabled
+INFO - 2024-01-11 12:26:08 --> Utf8 Class Initialized
+INFO - 2024-01-11 12:26:08 --> URI Class Initialized
+INFO - 2024-01-11 12:26:08 --> Router Class Initialized
+INFO - 2024-01-11 12:26:08 --> Output Class Initialized
+INFO - 2024-01-11 12:26:08 --> Security Class Initialized
+DEBUG - 2024-01-11 12:26:08 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-01-11 12:26:08 --> Input Class Initialized
+INFO - 2024-01-11 12:26:08 --> Language Class Initialized
+INFO - 2024-01-11 12:26:08 --> Loader Class Initialized
+INFO - 2024-01-11 12:26:08 --> Helper loaded: url_helper
+INFO - 2024-01-11 12:26:08 --> Helper loaded: file_helper
+INFO - 2024-01-11 12:26:08 --> Helper loaded: form_helper
+INFO - 2024-01-11 12:26:08 --> Helper loaded: custom_helper
+INFO - 2024-01-11 12:26:08 --> Database Driver Class Initialized
+DEBUG - 2024-01-11 12:26:08 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-01-11 12:26:08 --> Session: Class initialized using 'files' driver.
+INFO - 2024-01-11 12:26:08 --> Cart Class Initialized
+DEBUG - 2024-01-11 12:26:08 --> Session class already loaded. Second attempt ignored.
+INFO - 2024-01-11 12:26:08 --> Form Validation Class Initialized
+INFO - 2024-01-11 12:26:08 --> Controller Class Initialized
+INFO - 2024-01-11 12:26:08 --> Model "Api_Model" initialized
+INFO - 2024-01-11 12:27:27 --> Config Class Initialized
+INFO - 2024-01-11 12:27:27 --> Hooks Class Initialized
+DEBUG - 2024-01-11 12:27:27 --> UTF-8 Support Enabled
+INFO - 2024-01-11 12:27:27 --> Utf8 Class Initialized
+INFO - 2024-01-11 12:27:27 --> URI Class Initialized
+INFO - 2024-01-11 12:27:27 --> Router Class Initialized
+INFO - 2024-01-11 12:27:27 --> Output Class Initialized
+INFO - 2024-01-11 12:27:27 --> Security Class Initialized
+DEBUG - 2024-01-11 12:27:27 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-01-11 12:27:27 --> Input Class Initialized
+INFO - 2024-01-11 12:27:27 --> Language Class Initialized
+INFO - 2024-01-11 12:27:27 --> Loader Class Initialized
+INFO - 2024-01-11 12:27:27 --> Helper loaded: url_helper
+INFO - 2024-01-11 12:27:27 --> Helper loaded: file_helper
+INFO - 2024-01-11 12:27:27 --> Helper loaded: form_helper
+INFO - 2024-01-11 12:27:27 --> Helper loaded: custom_helper
+INFO - 2024-01-11 12:27:27 --> Database Driver Class Initialized
+DEBUG - 2024-01-11 12:27:27 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-01-11 12:27:27 --> Session: Class initialized using 'files' driver.
+INFO - 2024-01-11 12:27:27 --> Cart Class Initialized
+DEBUG - 2024-01-11 12:27:27 --> Session class already loaded. Second attempt ignored.
+INFO - 2024-01-11 12:27:27 --> Form Validation Class Initialized
+INFO - 2024-01-11 12:27:27 --> Controller Class Initialized
+INFO - 2024-01-11 12:27:27 --> Model "Api_Model" initialized
+INFO - 2024-01-11 12:29:21 --> Config Class Initialized
+INFO - 2024-01-11 12:29:21 --> Hooks Class Initialized
+DEBUG - 2024-01-11 12:29:21 --> UTF-8 Support Enabled
+INFO - 2024-01-11 12:29:21 --> Utf8 Class Initialized
+INFO - 2024-01-11 12:29:21 --> URI Class Initialized
+INFO - 2024-01-11 12:29:21 --> Router Class Initialized
+INFO - 2024-01-11 12:29:21 --> Output Class Initialized
+INFO - 2024-01-11 12:29:21 --> Security Class Initialized
+DEBUG - 2024-01-11 12:29:21 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-01-11 12:29:21 --> Input Class Initialized
+INFO - 2024-01-11 12:29:21 --> Language Class Initialized
+INFO - 2024-01-11 12:29:21 --> Loader Class Initialized
+INFO - 2024-01-11 12:29:21 --> Helper loaded: url_helper
+INFO - 2024-01-11 12:29:21 --> Helper loaded: file_helper
+INFO - 2024-01-11 12:29:21 --> Helper loaded: form_helper
+INFO - 2024-01-11 12:29:21 --> Helper loaded: custom_helper
+INFO - 2024-01-11 12:29:21 --> Database Driver Class Initialized
+DEBUG - 2024-01-11 12:29:21 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-01-11 12:29:21 --> Session: Class initialized using 'files' driver.
+INFO - 2024-01-11 12:29:21 --> Cart Class Initialized
+DEBUG - 2024-01-11 12:29:21 --> Session class already loaded. Second attempt ignored.
+INFO - 2024-01-11 12:29:21 --> Form Validation Class Initialized
+INFO - 2024-01-11 12:29:21 --> Controller Class Initialized
+INFO - 2024-01-11 12:29:21 --> Model "Api_Model" initialized
+DEBUG - 2024-01-11 12:29:21 --> PHPMailer class is loaded.
+DEBUG - 2024-01-11 12:29:27 --> Phpmailer_lib class already loaded. Second attempt ignored.
+INFO - 2024-01-11 12:29:32 --> Final output sent to browser
+DEBUG - 2024-01-11 12:29:32 --> Total execution time: 11.6953
+INFO - 2024-01-11 12:35:31 --> Config Class Initialized
+INFO - 2024-01-11 12:35:31 --> Hooks Class Initialized
+DEBUG - 2024-01-11 12:35:31 --> UTF-8 Support Enabled
+INFO - 2024-01-11 12:35:31 --> Utf8 Class Initialized
+INFO - 2024-01-11 12:35:31 --> URI Class Initialized
+INFO - 2024-01-11 12:35:31 --> Router Class Initialized
+INFO - 2024-01-11 12:35:31 --> Output Class Initialized
+INFO - 2024-01-11 12:35:31 --> Security Class Initialized
+DEBUG - 2024-01-11 12:35:31 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-01-11 12:35:31 --> Input Class Initialized
+INFO - 2024-01-11 12:35:31 --> Language Class Initialized
+INFO - 2024-01-11 12:35:31 --> Loader Class Initialized
+INFO - 2024-01-11 12:35:31 --> Helper loaded: url_helper
+INFO - 2024-01-11 12:35:31 --> Helper loaded: file_helper
+INFO - 2024-01-11 12:35:31 --> Helper loaded: form_helper
+INFO - 2024-01-11 12:35:31 --> Helper loaded: custom_helper
+INFO - 2024-01-11 12:35:31 --> Database Driver Class Initialized
+DEBUG - 2024-01-11 12:35:31 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-01-11 12:35:31 --> Session: Class initialized using 'files' driver.
+INFO - 2024-01-11 12:35:31 --> Cart Class Initialized
+DEBUG - 2024-01-11 12:35:31 --> Session class already loaded. Second attempt ignored.
+INFO - 2024-01-11 12:35:31 --> Form Validation Class Initialized
+INFO - 2024-01-11 12:35:31 --> Controller Class Initialized
+INFO - 2024-01-11 12:35:31 --> Model "Api_Model" initialized
+DEBUG - 2024-01-11 12:35:32 --> PHPMailer class is loaded.
+DEBUG - 2024-01-11 12:35:36 --> Phpmailer_lib class already loaded. Second attempt ignored.
+INFO - 2024-01-11 12:35:40 --> Final output sent to browser
+DEBUG - 2024-01-11 12:35:40 --> Total execution time: 8.6683
+INFO - 2024-01-11 12:37:04 --> Config Class Initialized
+INFO - 2024-01-11 12:37:04 --> Hooks Class Initialized
+DEBUG - 2024-01-11 12:37:04 --> UTF-8 Support Enabled
+INFO - 2024-01-11 12:37:04 --> Utf8 Class Initialized
+INFO - 2024-01-11 12:37:04 --> URI Class Initialized
+INFO - 2024-01-11 12:37:04 --> Router Class Initialized
+INFO - 2024-01-11 12:37:04 --> Output Class Initialized
+INFO - 2024-01-11 12:37:04 --> Security Class Initialized
+DEBUG - 2024-01-11 12:37:04 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-01-11 12:37:04 --> Input Class Initialized
+INFO - 2024-01-11 12:37:04 --> Language Class Initialized
+INFO - 2024-01-11 12:37:04 --> Loader Class Initialized
+INFO - 2024-01-11 12:37:04 --> Helper loaded: url_helper
+INFO - 2024-01-11 12:37:04 --> Helper loaded: file_helper
+INFO - 2024-01-11 12:37:04 --> Helper loaded: form_helper
+INFO - 2024-01-11 12:37:04 --> Helper loaded: custom_helper
+INFO - 2024-01-11 12:37:04 --> Database Driver Class Initialized
+DEBUG - 2024-01-11 12:37:04 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-01-11 12:37:04 --> Session: Class initialized using 'files' driver.
+INFO - 2024-01-11 12:37:04 --> Cart Class Initialized
+DEBUG - 2024-01-11 12:37:04 --> Session class already loaded. Second attempt ignored.
+INFO - 2024-01-11 12:37:04 --> Form Validation Class Initialized
+INFO - 2024-01-11 12:37:04 --> Controller Class Initialized
+INFO - 2024-01-11 12:37:04 --> Model "Common_Model" initialized
+INFO - 2024-01-11 12:37:04 --> File loaded: E:\wamp64\www\247sue\application\views\admin/include/header.php
+INFO - 2024-01-11 12:37:04 --> File loaded: E:\wamp64\www\247sue\application\views\admin/include/left.php
+INFO - 2024-01-11 12:37:04 --> File loaded: E:\wamp64\www\247sue\application\views\admin/setting/index.php
+INFO - 2024-01-11 12:37:04 --> File loaded: E:\wamp64\www\247sue\application\views\admin/include/footer.php
+INFO - 2024-01-11 12:37:04 --> Final output sent to browser
+DEBUG - 2024-01-11 12:37:04 --> Total execution time: 0.0636
+INFO - 2024-01-11 12:37:23 --> Config Class Initialized
+INFO - 2024-01-11 12:37:23 --> Hooks Class Initialized
+DEBUG - 2024-01-11 12:37:23 --> UTF-8 Support Enabled
+INFO - 2024-01-11 12:37:23 --> Utf8 Class Initialized
+INFO - 2024-01-11 12:37:23 --> URI Class Initialized
+INFO - 2024-01-11 12:37:23 --> Router Class Initialized
+INFO - 2024-01-11 12:37:23 --> Output Class Initialized
+INFO - 2024-01-11 12:37:23 --> Security Class Initialized
+DEBUG - 2024-01-11 12:37:23 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-01-11 12:37:23 --> Input Class Initialized
+INFO - 2024-01-11 12:37:23 --> Language Class Initialized
+INFO - 2024-01-11 12:37:23 --> Loader Class Initialized
+INFO - 2024-01-11 12:37:23 --> Helper loaded: url_helper
+INFO - 2024-01-11 12:37:23 --> Helper loaded: file_helper
+INFO - 2024-01-11 12:37:23 --> Helper loaded: form_helper
+INFO - 2024-01-11 12:37:23 --> Helper loaded: custom_helper
+INFO - 2024-01-11 12:37:23 --> Database Driver Class Initialized
+DEBUG - 2024-01-11 12:37:23 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-01-11 12:37:23 --> Session: Class initialized using 'files' driver.
+INFO - 2024-01-11 12:37:23 --> Cart Class Initialized
+DEBUG - 2024-01-11 12:37:23 --> Session class already loaded. Second attempt ignored.
+INFO - 2024-01-11 12:37:23 --> Form Validation Class Initialized
+INFO - 2024-01-11 12:37:23 --> Controller Class Initialized
+INFO - 2024-01-11 12:37:23 --> Model "Common_Model" initialized
+INFO - 2024-01-11 12:37:23 --> File loaded: E:\wamp64\www\247sue\application\views\admin/include/header.php
+INFO - 2024-01-11 12:37:23 --> File loaded: E:\wamp64\www\247sue\application\views\admin/include/left.php
+INFO - 2024-01-11 12:37:23 --> File loaded: E:\wamp64\www\247sue\application\views\admin/configlevel/index.php
+INFO - 2024-01-11 12:37:23 --> File loaded: E:\wamp64\www\247sue\application\views\admin/include/footer.php
+INFO - 2024-01-11 12:37:23 --> Final output sent to browser
+DEBUG - 2024-01-11 12:37:23 --> Total execution time: 0.0640
+INFO - 2024-01-11 12:38:21 --> Config Class Initialized
+INFO - 2024-01-11 12:38:21 --> Hooks Class Initialized
+DEBUG - 2024-01-11 12:38:21 --> UTF-8 Support Enabled
+INFO - 2024-01-11 12:38:21 --> Utf8 Class Initialized
+INFO - 2024-01-11 12:38:21 --> URI Class Initialized
+INFO - 2024-01-11 12:38:21 --> Router Class Initialized
+INFO - 2024-01-11 12:38:21 --> Output Class Initialized
+INFO - 2024-01-11 12:38:21 --> Security Class Initialized
+DEBUG - 2024-01-11 12:38:21 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-01-11 12:38:21 --> Input Class Initialized
+INFO - 2024-01-11 12:38:21 --> Language Class Initialized
+INFO - 2024-01-11 12:38:21 --> Loader Class Initialized
+INFO - 2024-01-11 12:38:21 --> Helper loaded: url_helper
+INFO - 2024-01-11 12:38:21 --> Helper loaded: file_helper
+INFO - 2024-01-11 12:38:21 --> Helper loaded: form_helper
+INFO - 2024-01-11 12:38:21 --> Helper loaded: custom_helper
+INFO - 2024-01-11 12:38:21 --> Database Driver Class Initialized
+DEBUG - 2024-01-11 12:38:21 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-01-11 12:38:21 --> Session: Class initialized using 'files' driver.
+INFO - 2024-01-11 12:38:21 --> Cart Class Initialized
+DEBUG - 2024-01-11 12:38:21 --> Session class already loaded. Second attempt ignored.
+INFO - 2024-01-11 12:38:21 --> Form Validation Class Initialized
+INFO - 2024-01-11 12:38:21 --> Controller Class Initialized
+INFO - 2024-01-11 12:38:21 --> Model "Common_Model" initialized
+INFO - 2024-01-11 12:38:21 --> Model "Transaction_model" initialized
+INFO - 2024-01-11 12:38:21 --> File loaded: E:\wamp64\www\247sue\application\views\admin/include/header.php
+INFO - 2024-01-11 12:38:21 --> File loaded: E:\wamp64\www\247sue\application\views\admin/include/left.php
+INFO - 2024-01-11 12:38:21 --> File loaded: E:\wamp64\www\247sue\application\views\admin/transaction/index.php
+INFO - 2024-01-11 12:38:21 --> File loaded: E:\wamp64\www\247sue\application\views\admin/include/footer.php
+INFO - 2024-01-11 12:38:21 --> Final output sent to browser
+DEBUG - 2024-01-11 12:38:21 --> Total execution time: 0.0996
+INFO - 2024-01-11 13:12:41 --> Config Class Initialized
+INFO - 2024-01-11 13:12:41 --> Hooks Class Initialized
+DEBUG - 2024-01-11 13:12:41 --> UTF-8 Support Enabled
+INFO - 2024-01-11 13:12:41 --> Utf8 Class Initialized
+INFO - 2024-01-11 13:12:41 --> URI Class Initialized
+INFO - 2024-01-11 13:12:41 --> Router Class Initialized
+INFO - 2024-01-11 13:12:41 --> Output Class Initialized
+INFO - 2024-01-11 13:12:41 --> Security Class Initialized
+DEBUG - 2024-01-11 13:12:41 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-01-11 13:12:41 --> Input Class Initialized
+INFO - 2024-01-11 13:12:41 --> Language Class Initialized
+INFO - 2024-01-11 13:12:41 --> Loader Class Initialized
+INFO - 2024-01-11 13:12:41 --> Helper loaded: url_helper
+INFO - 2024-01-11 13:12:41 --> Helper loaded: file_helper
+INFO - 2024-01-11 13:12:41 --> Helper loaded: form_helper
+INFO - 2024-01-11 13:12:41 --> Helper loaded: custom_helper
+INFO - 2024-01-11 13:12:41 --> Database Driver Class Initialized
+DEBUG - 2024-01-11 13:12:41 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-01-11 13:12:41 --> Session: Class initialized using 'files' driver.
+INFO - 2024-01-11 13:12:41 --> Cart Class Initialized
+DEBUG - 2024-01-11 13:12:41 --> Session class already loaded. Second attempt ignored.
+INFO - 2024-01-11 13:12:41 --> Form Validation Class Initialized
+INFO - 2024-01-11 13:12:41 --> Controller Class Initialized
+INFO - 2024-01-11 13:12:41 --> Model "Common_Model" initialized
+INFO - 2024-01-11 13:12:41 --> File loaded: E:\wamp64\www\247sue\application\views\admin/include/header.php
+INFO - 2024-01-11 13:12:41 --> File loaded: E:\wamp64\www\247sue\application\views\admin/include/left.php
+INFO - 2024-01-11 13:12:41 --> File loaded: E:\wamp64\www\247sue\application\views\admin/configlevel/index.php
+INFO - 2024-01-11 13:12:41 --> File loaded: E:\wamp64\www\247sue\application\views\admin/include/footer.php
+INFO - 2024-01-11 13:12:41 --> Final output sent to browser
+DEBUG - 2024-01-11 13:12:41 --> Total execution time: 0.0640
+INFO - 2024-01-11 13:46:22 --> Config Class Initialized
+INFO - 2024-01-11 13:46:22 --> Hooks Class Initialized
+DEBUG - 2024-01-11 13:46:22 --> UTF-8 Support Enabled
+INFO - 2024-01-11 13:46:22 --> Utf8 Class Initialized
+INFO - 2024-01-11 13:46:22 --> URI Class Initialized
+INFO - 2024-01-11 13:46:22 --> Router Class Initialized
+INFO - 2024-01-11 13:46:22 --> Output Class Initialized
+INFO - 2024-01-11 13:46:22 --> Security Class Initialized
+DEBUG - 2024-01-11 13:46:22 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-01-11 13:46:22 --> Input Class Initialized
+INFO - 2024-01-11 13:46:22 --> Language Class Initialized
+INFO - 2024-01-11 13:46:22 --> Loader Class Initialized
+INFO - 2024-01-11 13:46:22 --> Helper loaded: url_helper
+INFO - 2024-01-11 13:46:22 --> Helper loaded: file_helper
+INFO - 2024-01-11 13:46:22 --> Helper loaded: form_helper
+INFO - 2024-01-11 13:46:22 --> Helper loaded: custom_helper
+INFO - 2024-01-11 13:46:22 --> Database Driver Class Initialized
+DEBUG - 2024-01-11 13:46:22 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-01-11 13:46:22 --> Session: Class initialized using 'files' driver.
+INFO - 2024-01-11 13:46:22 --> Cart Class Initialized
+DEBUG - 2024-01-11 13:46:22 --> Session class already loaded. Second attempt ignored.
+INFO - 2024-01-11 13:46:22 --> Form Validation Class Initialized
+INFO - 2024-01-11 13:46:22 --> Controller Class Initialized
+INFO - 2024-01-11 13:46:22 --> Model "Api_Model" initialized
+INFO - 2024-01-11 13:46:48 --> Config Class Initialized
+INFO - 2024-01-11 13:46:48 --> Hooks Class Initialized
+DEBUG - 2024-01-11 13:46:48 --> UTF-8 Support Enabled
+INFO - 2024-01-11 13:46:48 --> Utf8 Class Initialized
+INFO - 2024-01-11 13:46:48 --> URI Class Initialized
+INFO - 2024-01-11 13:46:48 --> Router Class Initialized
+INFO - 2024-01-11 13:46:48 --> Output Class Initialized
+INFO - 2024-01-11 13:46:48 --> Security Class Initialized
+DEBUG - 2024-01-11 13:46:48 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-01-11 13:46:48 --> Input Class Initialized
+INFO - 2024-01-11 13:46:48 --> Language Class Initialized
+INFO - 2024-01-11 13:46:48 --> Loader Class Initialized
+INFO - 2024-01-11 13:46:48 --> Helper loaded: url_helper
+INFO - 2024-01-11 13:46:48 --> Helper loaded: file_helper
+INFO - 2024-01-11 13:46:48 --> Helper loaded: form_helper
+INFO - 2024-01-11 13:46:48 --> Helper loaded: custom_helper
+INFO - 2024-01-11 13:46:48 --> Database Driver Class Initialized
+DEBUG - 2024-01-11 13:46:48 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-01-11 13:46:48 --> Session: Class initialized using 'files' driver.
+INFO - 2024-01-11 13:46:48 --> Cart Class Initialized
+DEBUG - 2024-01-11 13:46:48 --> Session class already loaded. Second attempt ignored.
+INFO - 2024-01-11 13:46:48 --> Form Validation Class Initialized
+INFO - 2024-01-11 13:46:48 --> Controller Class Initialized
+INFO - 2024-01-11 13:46:48 --> Model "Api_Model" initialized
+INFO - 2024-01-11 13:48:11 --> Config Class Initialized
+INFO - 2024-01-11 13:48:11 --> Hooks Class Initialized
+DEBUG - 2024-01-11 13:48:11 --> UTF-8 Support Enabled
+INFO - 2024-01-11 13:48:11 --> Utf8 Class Initialized
+INFO - 2024-01-11 13:48:11 --> URI Class Initialized
+INFO - 2024-01-11 13:48:11 --> Router Class Initialized
+INFO - 2024-01-11 13:48:11 --> Output Class Initialized
+INFO - 2024-01-11 13:48:11 --> Security Class Initialized
+DEBUG - 2024-01-11 13:48:11 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-01-11 13:48:11 --> Input Class Initialized
+INFO - 2024-01-11 13:48:11 --> Language Class Initialized
+INFO - 2024-01-11 13:48:11 --> Loader Class Initialized
+INFO - 2024-01-11 13:48:11 --> Helper loaded: url_helper
+INFO - 2024-01-11 13:48:11 --> Helper loaded: file_helper
+INFO - 2024-01-11 13:48:11 --> Helper loaded: form_helper
+INFO - 2024-01-11 13:48:11 --> Helper loaded: custom_helper
+INFO - 2024-01-11 13:48:11 --> Database Driver Class Initialized
+DEBUG - 2024-01-11 13:48:11 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-01-11 13:48:11 --> Session: Class initialized using 'files' driver.
+INFO - 2024-01-11 13:48:11 --> Cart Class Initialized
+DEBUG - 2024-01-11 13:48:11 --> Session class already loaded. Second attempt ignored.
+INFO - 2024-01-11 13:48:11 --> Form Validation Class Initialized
+INFO - 2024-01-11 13:48:11 --> Controller Class Initialized
+INFO - 2024-01-11 13:48:11 --> Model "Api_Model" initialized
+INFO - 2024-01-11 13:59:27 --> Config Class Initialized
+INFO - 2024-01-11 13:59:27 --> Hooks Class Initialized
+DEBUG - 2024-01-11 13:59:27 --> UTF-8 Support Enabled
+INFO - 2024-01-11 13:59:27 --> Utf8 Class Initialized
+INFO - 2024-01-11 13:59:27 --> URI Class Initialized
+INFO - 2024-01-11 13:59:27 --> Router Class Initialized
+INFO - 2024-01-11 13:59:27 --> Output Class Initialized
+INFO - 2024-01-11 13:59:27 --> Security Class Initialized
+DEBUG - 2024-01-11 13:59:27 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-01-11 13:59:27 --> Input Class Initialized
+INFO - 2024-01-11 13:59:27 --> Language Class Initialized
+INFO - 2024-01-11 13:59:27 --> Loader Class Initialized
+INFO - 2024-01-11 13:59:27 --> Helper loaded: url_helper
+INFO - 2024-01-11 13:59:27 --> Helper loaded: file_helper
+INFO - 2024-01-11 13:59:27 --> Helper loaded: form_helper
+INFO - 2024-01-11 13:59:27 --> Helper loaded: custom_helper
+INFO - 2024-01-11 13:59:27 --> Database Driver Class Initialized
+DEBUG - 2024-01-11 13:59:27 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-01-11 13:59:27 --> Session: Class initialized using 'files' driver.
+INFO - 2024-01-11 13:59:27 --> Cart Class Initialized
+DEBUG - 2024-01-11 13:59:27 --> Session class already loaded. Second attempt ignored.
+INFO - 2024-01-11 13:59:27 --> Form Validation Class Initialized
+INFO - 2024-01-11 13:59:27 --> Controller Class Initialized
+INFO - 2024-01-11 13:59:27 --> Model "Api_Model" initialized
+INFO - 2024-01-11 13:59:27 --> Final output sent to browser
+DEBUG - 2024-01-11 13:59:27 --> Total execution time: 0.0715
+INFO - 2024-01-11 13:59:40 --> Config Class Initialized
+INFO - 2024-01-11 13:59:40 --> Hooks Class Initialized
+DEBUG - 2024-01-11 13:59:40 --> UTF-8 Support Enabled
+INFO - 2024-01-11 13:59:40 --> Utf8 Class Initialized
+INFO - 2024-01-11 13:59:40 --> URI Class Initialized
+INFO - 2024-01-11 13:59:40 --> Router Class Initialized
+INFO - 2024-01-11 13:59:40 --> Output Class Initialized
+INFO - 2024-01-11 13:59:40 --> Security Class Initialized
+DEBUG - 2024-01-11 13:59:40 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-01-11 13:59:40 --> Input Class Initialized
+INFO - 2024-01-11 13:59:40 --> Language Class Initialized
+INFO - 2024-01-11 13:59:40 --> Loader Class Initialized
+INFO - 2024-01-11 13:59:40 --> Helper loaded: url_helper
+INFO - 2024-01-11 13:59:40 --> Helper loaded: file_helper
+INFO - 2024-01-11 13:59:40 --> Helper loaded: form_helper
+INFO - 2024-01-11 13:59:40 --> Helper loaded: custom_helper
+INFO - 2024-01-11 13:59:40 --> Database Driver Class Initialized
+DEBUG - 2024-01-11 13:59:40 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-01-11 13:59:40 --> Session: Class initialized using 'files' driver.
+INFO - 2024-01-11 13:59:40 --> Cart Class Initialized
+DEBUG - 2024-01-11 13:59:40 --> Session class already loaded. Second attempt ignored.
+INFO - 2024-01-11 13:59:40 --> Form Validation Class Initialized
+INFO - 2024-01-11 13:59:40 --> Controller Class Initialized
+INFO - 2024-01-11 13:59:40 --> Model "Api_Model" initialized
+INFO - 2024-01-11 13:59:40 --> Final output sent to browser
+DEBUG - 2024-01-11 13:59:40 --> Total execution time: 0.0635
+INFO - 2024-01-11 14:00:14 --> Config Class Initialized
+INFO - 2024-01-11 14:00:14 --> Hooks Class Initialized
+DEBUG - 2024-01-11 14:00:14 --> UTF-8 Support Enabled
+INFO - 2024-01-11 14:00:14 --> Utf8 Class Initialized
+INFO - 2024-01-11 14:00:14 --> URI Class Initialized
+INFO - 2024-01-11 14:00:14 --> Router Class Initialized
+INFO - 2024-01-11 14:00:14 --> Output Class Initialized
+INFO - 2024-01-11 14:00:14 --> Security Class Initialized
+DEBUG - 2024-01-11 14:00:14 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-01-11 14:00:14 --> Input Class Initialized
+INFO - 2024-01-11 14:00:14 --> Language Class Initialized
+INFO - 2024-01-11 14:00:14 --> Loader Class Initialized
+INFO - 2024-01-11 14:00:14 --> Helper loaded: url_helper
+INFO - 2024-01-11 14:00:14 --> Helper loaded: file_helper
+INFO - 2024-01-11 14:00:14 --> Helper loaded: form_helper
+INFO - 2024-01-11 14:00:14 --> Helper loaded: custom_helper
+INFO - 2024-01-11 14:00:14 --> Database Driver Class Initialized
+DEBUG - 2024-01-11 14:00:14 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-01-11 14:00:14 --> Session: Class initialized using 'files' driver.
+INFO - 2024-01-11 14:00:14 --> Cart Class Initialized
+DEBUG - 2024-01-11 14:00:14 --> Session class already loaded. Second attempt ignored.
+INFO - 2024-01-11 14:00:14 --> Form Validation Class Initialized
+INFO - 2024-01-11 14:00:14 --> Controller Class Initialized
+INFO - 2024-01-11 14:00:14 --> Model "Api_Model" initialized
+INFO - 2024-01-11 14:00:36 --> Config Class Initialized
+INFO - 2024-01-11 14:00:36 --> Hooks Class Initialized
+DEBUG - 2024-01-11 14:00:36 --> UTF-8 Support Enabled
+INFO - 2024-01-11 14:00:36 --> Utf8 Class Initialized
+INFO - 2024-01-11 14:00:36 --> URI Class Initialized
+INFO - 2024-01-11 14:00:36 --> Router Class Initialized
+INFO - 2024-01-11 14:00:36 --> Output Class Initialized
+INFO - 2024-01-11 14:00:36 --> Security Class Initialized
+DEBUG - 2024-01-11 14:00:36 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-01-11 14:00:36 --> Input Class Initialized
+INFO - 2024-01-11 14:00:36 --> Language Class Initialized
+INFO - 2024-01-11 14:00:36 --> Loader Class Initialized
+INFO - 2024-01-11 14:00:36 --> Helper loaded: url_helper
+INFO - 2024-01-11 14:00:36 --> Helper loaded: file_helper
+INFO - 2024-01-11 14:00:36 --> Helper loaded: form_helper
+INFO - 2024-01-11 14:00:36 --> Helper loaded: custom_helper
+INFO - 2024-01-11 14:00:36 --> Database Driver Class Initialized
+DEBUG - 2024-01-11 14:00:36 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-01-11 14:00:36 --> Session: Class initialized using 'files' driver.
+INFO - 2024-01-11 14:00:36 --> Cart Class Initialized
+DEBUG - 2024-01-11 14:00:36 --> Session class already loaded. Second attempt ignored.
+INFO - 2024-01-11 14:00:36 --> Form Validation Class Initialized
+INFO - 2024-01-11 14:00:36 --> Controller Class Initialized
+INFO - 2024-01-11 14:00:36 --> Model "Api_Model" initialized
+INFO - 2024-01-11 14:01:25 --> Config Class Initialized
+INFO - 2024-01-11 14:01:25 --> Hooks Class Initialized
+DEBUG - 2024-01-11 14:01:25 --> UTF-8 Support Enabled
+INFO - 2024-01-11 14:01:25 --> Utf8 Class Initialized
+INFO - 2024-01-11 14:01:25 --> URI Class Initialized
+INFO - 2024-01-11 14:01:25 --> Router Class Initialized
+INFO - 2024-01-11 14:01:25 --> Output Class Initialized
+INFO - 2024-01-11 14:01:25 --> Security Class Initialized
+DEBUG - 2024-01-11 14:01:25 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-01-11 14:01:25 --> Input Class Initialized
+INFO - 2024-01-11 14:01:25 --> Language Class Initialized
+INFO - 2024-01-11 14:01:25 --> Loader Class Initialized
+INFO - 2024-01-11 14:01:25 --> Helper loaded: url_helper
+INFO - 2024-01-11 14:01:25 --> Helper loaded: file_helper
+INFO - 2024-01-11 14:01:25 --> Helper loaded: form_helper
+INFO - 2024-01-11 14:01:25 --> Helper loaded: custom_helper
+INFO - 2024-01-11 14:01:25 --> Database Driver Class Initialized
+DEBUG - 2024-01-11 14:01:25 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-01-11 14:01:25 --> Session: Class initialized using 'files' driver.
+INFO - 2024-01-11 14:01:25 --> Cart Class Initialized
+DEBUG - 2024-01-11 14:01:25 --> Session class already loaded. Second attempt ignored.
+INFO - 2024-01-11 14:01:25 --> Form Validation Class Initialized
+INFO - 2024-01-11 14:01:25 --> Controller Class Initialized
+INFO - 2024-01-11 14:01:25 --> Model "Api_Model" initialized
+INFO - 2024-01-11 14:01:53 --> Config Class Initialized
+INFO - 2024-01-11 14:01:53 --> Hooks Class Initialized
+DEBUG - 2024-01-11 14:01:53 --> UTF-8 Support Enabled
+INFO - 2024-01-11 14:01:53 --> Utf8 Class Initialized
+INFO - 2024-01-11 14:01:53 --> URI Class Initialized
+INFO - 2024-01-11 14:01:53 --> Router Class Initialized
+INFO - 2024-01-11 14:01:53 --> Output Class Initialized
+INFO - 2024-01-11 14:01:53 --> Security Class Initialized
+DEBUG - 2024-01-11 14:01:53 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-01-11 14:01:53 --> Input Class Initialized
+INFO - 2024-01-11 14:01:53 --> Language Class Initialized
+INFO - 2024-01-11 14:01:53 --> Loader Class Initialized
+INFO - 2024-01-11 14:01:53 --> Helper loaded: url_helper
+INFO - 2024-01-11 14:01:53 --> Helper loaded: file_helper
+INFO - 2024-01-11 14:01:53 --> Helper loaded: form_helper
+INFO - 2024-01-11 14:01:53 --> Helper loaded: custom_helper
+INFO - 2024-01-11 14:01:53 --> Database Driver Class Initialized
+DEBUG - 2024-01-11 14:01:53 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-01-11 14:01:53 --> Session: Class initialized using 'files' driver.
+INFO - 2024-01-11 14:01:53 --> Cart Class Initialized
+DEBUG - 2024-01-11 14:01:53 --> Session class already loaded. Second attempt ignored.
+INFO - 2024-01-11 14:01:53 --> Form Validation Class Initialized
+INFO - 2024-01-11 14:01:53 --> Controller Class Initialized
+INFO - 2024-01-11 14:01:53 --> Model "Api_Model" initialized
+INFO - 2024-01-11 14:02:06 --> Config Class Initialized
+INFO - 2024-01-11 14:02:06 --> Hooks Class Initialized
+DEBUG - 2024-01-11 14:02:06 --> UTF-8 Support Enabled
+INFO - 2024-01-11 14:02:06 --> Utf8 Class Initialized
+INFO - 2024-01-11 14:02:06 --> URI Class Initialized
+INFO - 2024-01-11 14:02:06 --> Router Class Initialized
+INFO - 2024-01-11 14:02:06 --> Output Class Initialized
+INFO - 2024-01-11 14:02:06 --> Security Class Initialized
+DEBUG - 2024-01-11 14:02:06 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-01-11 14:02:06 --> Input Class Initialized
+INFO - 2024-01-11 14:02:06 --> Language Class Initialized
+INFO - 2024-01-11 14:02:06 --> Loader Class Initialized
+INFO - 2024-01-11 14:02:06 --> Helper loaded: url_helper
+INFO - 2024-01-11 14:02:06 --> Helper loaded: file_helper
+INFO - 2024-01-11 14:02:06 --> Helper loaded: form_helper
+INFO - 2024-01-11 14:02:06 --> Helper loaded: custom_helper
+INFO - 2024-01-11 14:02:06 --> Database Driver Class Initialized
+DEBUG - 2024-01-11 14:02:06 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-01-11 14:02:06 --> Session: Class initialized using 'files' driver.
+INFO - 2024-01-11 14:02:06 --> Cart Class Initialized
+DEBUG - 2024-01-11 14:02:06 --> Session class already loaded. Second attempt ignored.
+INFO - 2024-01-11 14:02:06 --> Form Validation Class Initialized
+INFO - 2024-01-11 14:02:06 --> Controller Class Initialized
+INFO - 2024-01-11 14:02:06 --> Model "Api_Model" initialized
+INFO - 2024-01-11 14:02:16 --> Config Class Initialized
+INFO - 2024-01-11 14:02:16 --> Hooks Class Initialized
+DEBUG - 2024-01-11 14:02:16 --> UTF-8 Support Enabled
+INFO - 2024-01-11 14:02:16 --> Utf8 Class Initialized
+INFO - 2024-01-11 14:02:16 --> URI Class Initialized
+INFO - 2024-01-11 14:02:16 --> Router Class Initialized
+INFO - 2024-01-11 14:02:16 --> Output Class Initialized
+INFO - 2024-01-11 14:02:16 --> Security Class Initialized
+DEBUG - 2024-01-11 14:02:16 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-01-11 14:02:16 --> Input Class Initialized
+INFO - 2024-01-11 14:02:16 --> Language Class Initialized
+INFO - 2024-01-11 14:02:16 --> Loader Class Initialized
+INFO - 2024-01-11 14:02:16 --> Helper loaded: url_helper
+INFO - 2024-01-11 14:02:16 --> Helper loaded: file_helper
+INFO - 2024-01-11 14:02:16 --> Helper loaded: form_helper
+INFO - 2024-01-11 14:02:16 --> Helper loaded: custom_helper
+INFO - 2024-01-11 14:02:16 --> Database Driver Class Initialized
+DEBUG - 2024-01-11 14:02:16 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-01-11 14:02:16 --> Session: Class initialized using 'files' driver.
+INFO - 2024-01-11 14:02:16 --> Cart Class Initialized
+DEBUG - 2024-01-11 14:02:16 --> Session class already loaded. Second attempt ignored.
+INFO - 2024-01-11 14:02:16 --> Form Validation Class Initialized
+INFO - 2024-01-11 14:02:16 --> Controller Class Initialized
+INFO - 2024-01-11 14:02:16 --> Model "Api_Model" initialized
+INFO - 2024-01-11 14:03:03 --> Config Class Initialized
+INFO - 2024-01-11 14:03:03 --> Hooks Class Initialized
+DEBUG - 2024-01-11 14:03:03 --> UTF-8 Support Enabled
+INFO - 2024-01-11 14:03:03 --> Utf8 Class Initialized
+INFO - 2024-01-11 14:03:03 --> URI Class Initialized
+INFO - 2024-01-11 14:03:03 --> Router Class Initialized
+INFO - 2024-01-11 14:03:03 --> Output Class Initialized
+INFO - 2024-01-11 14:03:03 --> Security Class Initialized
+DEBUG - 2024-01-11 14:03:03 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-01-11 14:03:03 --> Input Class Initialized
+INFO - 2024-01-11 14:03:03 --> Language Class Initialized
+INFO - 2024-01-11 14:03:03 --> Loader Class Initialized
+INFO - 2024-01-11 14:03:03 --> Helper loaded: url_helper
+INFO - 2024-01-11 14:03:03 --> Helper loaded: file_helper
+INFO - 2024-01-11 14:03:03 --> Helper loaded: form_helper
+INFO - 2024-01-11 14:03:03 --> Helper loaded: custom_helper
+INFO - 2024-01-11 14:03:03 --> Database Driver Class Initialized
+DEBUG - 2024-01-11 14:03:03 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-01-11 14:03:03 --> Session: Class initialized using 'files' driver.
+INFO - 2024-01-11 14:03:03 --> Cart Class Initialized
+DEBUG - 2024-01-11 14:03:03 --> Session class already loaded. Second attempt ignored.
+INFO - 2024-01-11 14:03:03 --> Form Validation Class Initialized
+INFO - 2024-01-11 14:03:03 --> Controller Class Initialized
+INFO - 2024-01-11 14:03:03 --> Model "Api_Model" initialized
+INFO - 2024-01-11 14:03:18 --> Config Class Initialized
+INFO - 2024-01-11 14:03:18 --> Hooks Class Initialized
+DEBUG - 2024-01-11 14:03:18 --> UTF-8 Support Enabled
+INFO - 2024-01-11 14:03:18 --> Utf8 Class Initialized
+INFO - 2024-01-11 14:03:18 --> URI Class Initialized
+INFO - 2024-01-11 14:03:18 --> Router Class Initialized
+INFO - 2024-01-11 14:03:18 --> Output Class Initialized
+INFO - 2024-01-11 14:03:18 --> Security Class Initialized
+DEBUG - 2024-01-11 14:03:18 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-01-11 14:03:18 --> Input Class Initialized
+INFO - 2024-01-11 14:03:18 --> Language Class Initialized
+INFO - 2024-01-11 14:03:18 --> Loader Class Initialized
+INFO - 2024-01-11 14:03:18 --> Helper loaded: url_helper
+INFO - 2024-01-11 14:03:18 --> Helper loaded: file_helper
+INFO - 2024-01-11 14:03:18 --> Helper loaded: form_helper
+INFO - 2024-01-11 14:03:18 --> Helper loaded: custom_helper
+INFO - 2024-01-11 14:03:18 --> Database Driver Class Initialized
+DEBUG - 2024-01-11 14:03:18 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-01-11 14:03:18 --> Session: Class initialized using 'files' driver.
+INFO - 2024-01-11 14:03:18 --> Cart Class Initialized
+DEBUG - 2024-01-11 14:03:18 --> Session class already loaded. Second attempt ignored.
+INFO - 2024-01-11 14:03:18 --> Form Validation Class Initialized
+INFO - 2024-01-11 14:03:18 --> Controller Class Initialized
+INFO - 2024-01-11 14:03:18 --> Model "Api_Model" initialized
+ERROR - 2024-01-11 14:03:18 --> Severity: error --> Exception: Maximum function nesting level of '256' reached, aborting! E:\wamp64\www\247sue\system\database\drivers\mysqli\mysqli_driver.php 393
+INFO - 2024-01-11 14:04:15 --> Config Class Initialized
+INFO - 2024-01-11 14:04:15 --> Hooks Class Initialized
+DEBUG - 2024-01-11 14:04:15 --> UTF-8 Support Enabled
+INFO - 2024-01-11 14:04:15 --> Utf8 Class Initialized
+INFO - 2024-01-11 14:04:15 --> URI Class Initialized
+INFO - 2024-01-11 14:04:15 --> Router Class Initialized
+INFO - 2024-01-11 14:04:15 --> Output Class Initialized
+INFO - 2024-01-11 14:04:15 --> Security Class Initialized
+DEBUG - 2024-01-11 14:04:15 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-01-11 14:04:15 --> Input Class Initialized
+INFO - 2024-01-11 14:04:15 --> Language Class Initialized
+INFO - 2024-01-11 14:04:15 --> Loader Class Initialized
+INFO - 2024-01-11 14:04:15 --> Helper loaded: url_helper
+INFO - 2024-01-11 14:04:15 --> Helper loaded: file_helper
+INFO - 2024-01-11 14:04:15 --> Helper loaded: form_helper
+INFO - 2024-01-11 14:04:15 --> Helper loaded: custom_helper
+INFO - 2024-01-11 14:04:15 --> Database Driver Class Initialized
+DEBUG - 2024-01-11 14:04:15 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-01-11 14:04:15 --> Session: Class initialized using 'files' driver.
+INFO - 2024-01-11 14:04:15 --> Cart Class Initialized
+DEBUG - 2024-01-11 14:04:15 --> Session class already loaded. Second attempt ignored.
+INFO - 2024-01-11 14:04:15 --> Form Validation Class Initialized
+INFO - 2024-01-11 14:04:15 --> Controller Class Initialized
+INFO - 2024-01-11 14:04:15 --> Model "Api_Model" initialized
+ERROR - 2024-01-11 14:04:16 --> Severity: error --> Exception: Maximum function nesting level of '256' reached, aborting! E:\wamp64\www\247sue\system\database\drivers\mysqli\mysqli_driver.php 393
+INFO - 2024-01-11 14:04:34 --> Config Class Initialized
+INFO - 2024-01-11 14:04:34 --> Hooks Class Initialized
+DEBUG - 2024-01-11 14:04:34 --> UTF-8 Support Enabled
+INFO - 2024-01-11 14:04:34 --> Utf8 Class Initialized
+INFO - 2024-01-11 14:04:34 --> URI Class Initialized
+INFO - 2024-01-11 14:04:34 --> Router Class Initialized
+INFO - 2024-01-11 14:04:34 --> Output Class Initialized
+INFO - 2024-01-11 14:04:34 --> Security Class Initialized
+DEBUG - 2024-01-11 14:04:34 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-01-11 14:04:34 --> Input Class Initialized
+INFO - 2024-01-11 14:04:34 --> Language Class Initialized
+INFO - 2024-01-11 14:04:34 --> Loader Class Initialized
+INFO - 2024-01-11 14:04:34 --> Helper loaded: url_helper
+INFO - 2024-01-11 14:04:34 --> Helper loaded: file_helper
+INFO - 2024-01-11 14:04:34 --> Helper loaded: form_helper
+INFO - 2024-01-11 14:04:34 --> Helper loaded: custom_helper
+INFO - 2024-01-11 14:04:34 --> Database Driver Class Initialized
+DEBUG - 2024-01-11 14:04:34 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-01-11 14:04:34 --> Session: Class initialized using 'files' driver.
+INFO - 2024-01-11 14:04:34 --> Cart Class Initialized
+DEBUG - 2024-01-11 14:04:34 --> Session class already loaded. Second attempt ignored.
+INFO - 2024-01-11 14:04:34 --> Form Validation Class Initialized
+INFO - 2024-01-11 14:04:34 --> Controller Class Initialized
+INFO - 2024-01-11 14:04:34 --> Model "Api_Model" initialized
+INFO - 2024-01-11 14:05:13 --> Config Class Initialized
+INFO - 2024-01-11 14:05:13 --> Hooks Class Initialized
+DEBUG - 2024-01-11 14:05:13 --> UTF-8 Support Enabled
+INFO - 2024-01-11 14:05:13 --> Utf8 Class Initialized
+INFO - 2024-01-11 14:05:13 --> URI Class Initialized
+INFO - 2024-01-11 14:05:13 --> Router Class Initialized
+INFO - 2024-01-11 14:05:13 --> Output Class Initialized
+INFO - 2024-01-11 14:05:13 --> Security Class Initialized
+DEBUG - 2024-01-11 14:05:13 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-01-11 14:05:13 --> Input Class Initialized
+INFO - 2024-01-11 14:05:13 --> Language Class Initialized
+INFO - 2024-01-11 14:05:13 --> Loader Class Initialized
+INFO - 2024-01-11 14:05:13 --> Helper loaded: url_helper
+INFO - 2024-01-11 14:05:13 --> Helper loaded: file_helper
+INFO - 2024-01-11 14:05:13 --> Helper loaded: form_helper
+INFO - 2024-01-11 14:05:13 --> Helper loaded: custom_helper
+INFO - 2024-01-11 14:05:13 --> Database Driver Class Initialized
+DEBUG - 2024-01-11 14:05:13 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-01-11 14:05:13 --> Session: Class initialized using 'files' driver.
+INFO - 2024-01-11 14:05:13 --> Cart Class Initialized
+DEBUG - 2024-01-11 14:05:13 --> Session class already loaded. Second attempt ignored.
+INFO - 2024-01-11 14:05:13 --> Form Validation Class Initialized
+INFO - 2024-01-11 14:05:13 --> Controller Class Initialized
+INFO - 2024-01-11 14:05:13 --> Model "Api_Model" initialized
+INFO - 2024-01-11 14:05:18 --> Config Class Initialized
+INFO - 2024-01-11 14:05:18 --> Hooks Class Initialized
+DEBUG - 2024-01-11 14:05:18 --> UTF-8 Support Enabled
+INFO - 2024-01-11 14:05:18 --> Utf8 Class Initialized
+INFO - 2024-01-11 14:05:18 --> URI Class Initialized
+INFO - 2024-01-11 14:05:18 --> Router Class Initialized
+INFO - 2024-01-11 14:05:18 --> Output Class Initialized
+INFO - 2024-01-11 14:05:18 --> Security Class Initialized
+DEBUG - 2024-01-11 14:05:18 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-01-11 14:05:18 --> Input Class Initialized
+INFO - 2024-01-11 14:05:18 --> Language Class Initialized
+INFO - 2024-01-11 14:05:18 --> Loader Class Initialized
+INFO - 2024-01-11 14:05:18 --> Helper loaded: url_helper
+INFO - 2024-01-11 14:05:18 --> Helper loaded: file_helper
+INFO - 2024-01-11 14:05:18 --> Helper loaded: form_helper
+INFO - 2024-01-11 14:05:18 --> Helper loaded: custom_helper
+INFO - 2024-01-11 14:05:18 --> Database Driver Class Initialized
+DEBUG - 2024-01-11 14:05:18 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-01-11 14:05:18 --> Session: Class initialized using 'files' driver.
+INFO - 2024-01-11 14:05:18 --> Cart Class Initialized
+DEBUG - 2024-01-11 14:05:18 --> Session class already loaded. Second attempt ignored.
+INFO - 2024-01-11 14:05:18 --> Form Validation Class Initialized
+INFO - 2024-01-11 14:05:18 --> Controller Class Initialized
+INFO - 2024-01-11 14:05:18 --> Model "Api_Model" initialized
+INFO - 2024-01-11 14:05:45 --> Config Class Initialized
+INFO - 2024-01-11 14:05:45 --> Hooks Class Initialized
+DEBUG - 2024-01-11 14:05:45 --> UTF-8 Support Enabled
+INFO - 2024-01-11 14:05:45 --> Utf8 Class Initialized
+INFO - 2024-01-11 14:05:45 --> URI Class Initialized
+INFO - 2024-01-11 14:05:45 --> Router Class Initialized
+INFO - 2024-01-11 14:05:45 --> Output Class Initialized
+INFO - 2024-01-11 14:05:45 --> Security Class Initialized
+DEBUG - 2024-01-11 14:05:45 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-01-11 14:05:45 --> Input Class Initialized
+INFO - 2024-01-11 14:05:45 --> Language Class Initialized
+INFO - 2024-01-11 14:05:45 --> Loader Class Initialized
+INFO - 2024-01-11 14:05:45 --> Helper loaded: url_helper
+INFO - 2024-01-11 14:05:45 --> Helper loaded: file_helper
+INFO - 2024-01-11 14:05:45 --> Helper loaded: form_helper
+INFO - 2024-01-11 14:05:45 --> Helper loaded: custom_helper
+INFO - 2024-01-11 14:05:45 --> Database Driver Class Initialized
+DEBUG - 2024-01-11 14:05:45 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-01-11 14:05:45 --> Session: Class initialized using 'files' driver.
+INFO - 2024-01-11 14:05:45 --> Cart Class Initialized
+DEBUG - 2024-01-11 14:05:45 --> Session class already loaded. Second attempt ignored.
+INFO - 2024-01-11 14:05:45 --> Form Validation Class Initialized
+INFO - 2024-01-11 14:05:45 --> Controller Class Initialized
+INFO - 2024-01-11 14:05:45 --> Model "Api_Model" initialized
+INFO - 2024-01-11 14:05:56 --> Config Class Initialized
+INFO - 2024-01-11 14:05:56 --> Hooks Class Initialized
+DEBUG - 2024-01-11 14:05:56 --> UTF-8 Support Enabled
+INFO - 2024-01-11 14:05:56 --> Utf8 Class Initialized
+INFO - 2024-01-11 14:05:56 --> URI Class Initialized
+INFO - 2024-01-11 14:05:56 --> Router Class Initialized
+INFO - 2024-01-11 14:05:56 --> Output Class Initialized
+INFO - 2024-01-11 14:05:56 --> Security Class Initialized
+DEBUG - 2024-01-11 14:05:56 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-01-11 14:05:56 --> Input Class Initialized
+INFO - 2024-01-11 14:05:56 --> Language Class Initialized
+INFO - 2024-01-11 14:05:56 --> Loader Class Initialized
+INFO - 2024-01-11 14:05:56 --> Helper loaded: url_helper
+INFO - 2024-01-11 14:05:56 --> Helper loaded: file_helper
+INFO - 2024-01-11 14:05:56 --> Helper loaded: form_helper
+INFO - 2024-01-11 14:05:56 --> Helper loaded: custom_helper
+INFO - 2024-01-11 14:05:56 --> Database Driver Class Initialized
+DEBUG - 2024-01-11 14:05:56 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-01-11 14:05:56 --> Session: Class initialized using 'files' driver.
+INFO - 2024-01-11 14:05:56 --> Cart Class Initialized
+DEBUG - 2024-01-11 14:05:56 --> Session class already loaded. Second attempt ignored.
+INFO - 2024-01-11 14:05:56 --> Form Validation Class Initialized
+INFO - 2024-01-11 14:05:56 --> Controller Class Initialized
+INFO - 2024-01-11 14:05:56 --> Model "Api_Model" initialized
+INFO - 2024-01-11 14:06:22 --> Config Class Initialized
+INFO - 2024-01-11 14:06:22 --> Hooks Class Initialized
+DEBUG - 2024-01-11 14:06:22 --> UTF-8 Support Enabled
+INFO - 2024-01-11 14:06:22 --> Utf8 Class Initialized
+INFO - 2024-01-11 14:06:22 --> URI Class Initialized
+INFO - 2024-01-11 14:06:22 --> Router Class Initialized
+INFO - 2024-01-11 14:06:22 --> Output Class Initialized
+INFO - 2024-01-11 14:06:22 --> Security Class Initialized
+DEBUG - 2024-01-11 14:06:22 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-01-11 14:06:22 --> Input Class Initialized
+INFO - 2024-01-11 14:06:22 --> Language Class Initialized
+INFO - 2024-01-11 14:06:22 --> Loader Class Initialized
+INFO - 2024-01-11 14:06:22 --> Helper loaded: url_helper
+INFO - 2024-01-11 14:06:22 --> Helper loaded: file_helper
+INFO - 2024-01-11 14:06:22 --> Helper loaded: form_helper
+INFO - 2024-01-11 14:06:22 --> Helper loaded: custom_helper
+INFO - 2024-01-11 14:06:22 --> Database Driver Class Initialized
+DEBUG - 2024-01-11 14:06:22 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-01-11 14:06:22 --> Session: Class initialized using 'files' driver.
+INFO - 2024-01-11 14:06:22 --> Cart Class Initialized
+DEBUG - 2024-01-11 14:06:22 --> Session class already loaded. Second attempt ignored.
+INFO - 2024-01-11 14:06:22 --> Form Validation Class Initialized
+INFO - 2024-01-11 14:06:22 --> Controller Class Initialized
+INFO - 2024-01-11 14:06:22 --> Model "Api_Model" initialized
+INFO - 2024-01-11 14:06:57 --> Config Class Initialized
+INFO - 2024-01-11 14:06:57 --> Hooks Class Initialized
+DEBUG - 2024-01-11 14:06:57 --> UTF-8 Support Enabled
+INFO - 2024-01-11 14:06:57 --> Utf8 Class Initialized
+INFO - 2024-01-11 14:06:57 --> URI Class Initialized
+INFO - 2024-01-11 14:06:57 --> Router Class Initialized
+INFO - 2024-01-11 14:06:57 --> Output Class Initialized
+INFO - 2024-01-11 14:06:57 --> Security Class Initialized
+DEBUG - 2024-01-11 14:06:57 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-01-11 14:06:57 --> Input Class Initialized
+INFO - 2024-01-11 14:06:57 --> Language Class Initialized
+INFO - 2024-01-11 14:06:57 --> Loader Class Initialized
+INFO - 2024-01-11 14:06:57 --> Helper loaded: url_helper
+INFO - 2024-01-11 14:06:57 --> Helper loaded: file_helper
+INFO - 2024-01-11 14:06:57 --> Helper loaded: form_helper
+INFO - 2024-01-11 14:06:57 --> Helper loaded: custom_helper
+INFO - 2024-01-11 14:06:57 --> Database Driver Class Initialized
+DEBUG - 2024-01-11 14:06:57 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-01-11 14:06:57 --> Session: Class initialized using 'files' driver.
+INFO - 2024-01-11 14:06:57 --> Cart Class Initialized
+DEBUG - 2024-01-11 14:06:57 --> Session class already loaded. Second attempt ignored.
+INFO - 2024-01-11 14:06:57 --> Form Validation Class Initialized
+INFO - 2024-01-11 14:06:57 --> Controller Class Initialized
+INFO - 2024-01-11 14:06:57 --> Model "Api_Model" initialized
+INFO - 2024-01-11 14:08:01 --> Config Class Initialized
+INFO - 2024-01-11 14:08:01 --> Hooks Class Initialized
+DEBUG - 2024-01-11 14:08:01 --> UTF-8 Support Enabled
+INFO - 2024-01-11 14:08:01 --> Utf8 Class Initialized
+INFO - 2024-01-11 14:08:01 --> URI Class Initialized
+INFO - 2024-01-11 14:08:01 --> Router Class Initialized
+INFO - 2024-01-11 14:08:01 --> Output Class Initialized
+INFO - 2024-01-11 14:08:01 --> Security Class Initialized
+DEBUG - 2024-01-11 14:08:01 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-01-11 14:08:01 --> Input Class Initialized
+INFO - 2024-01-11 14:08:01 --> Language Class Initialized
+INFO - 2024-01-11 14:08:01 --> Loader Class Initialized
+INFO - 2024-01-11 14:08:01 --> Helper loaded: url_helper
+INFO - 2024-01-11 14:08:01 --> Helper loaded: file_helper
+INFO - 2024-01-11 14:08:01 --> Helper loaded: form_helper
+INFO - 2024-01-11 14:08:01 --> Helper loaded: custom_helper
+INFO - 2024-01-11 14:08:01 --> Database Driver Class Initialized
+DEBUG - 2024-01-11 14:08:01 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-01-11 14:08:01 --> Session: Class initialized using 'files' driver.
+INFO - 2024-01-11 14:08:01 --> Cart Class Initialized
+DEBUG - 2024-01-11 14:08:01 --> Session class already loaded. Second attempt ignored.
+INFO - 2024-01-11 14:08:01 --> Form Validation Class Initialized
+INFO - 2024-01-11 14:08:01 --> Controller Class Initialized
+INFO - 2024-01-11 14:08:01 --> Model "Api_Model" initialized
+INFO - 2024-01-11 14:08:13 --> Config Class Initialized
+INFO - 2024-01-11 14:08:13 --> Hooks Class Initialized
+DEBUG - 2024-01-11 14:08:13 --> UTF-8 Support Enabled
+INFO - 2024-01-11 14:08:13 --> Utf8 Class Initialized
+INFO - 2024-01-11 14:08:13 --> URI Class Initialized
+INFO - 2024-01-11 14:08:13 --> Router Class Initialized
+INFO - 2024-01-11 14:08:13 --> Output Class Initialized
+INFO - 2024-01-11 14:08:13 --> Security Class Initialized
+DEBUG - 2024-01-11 14:08:13 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-01-11 14:08:13 --> Input Class Initialized
+INFO - 2024-01-11 14:08:13 --> Language Class Initialized
+INFO - 2024-01-11 14:08:13 --> Loader Class Initialized
+INFO - 2024-01-11 14:08:13 --> Helper loaded: url_helper
+INFO - 2024-01-11 14:08:13 --> Helper loaded: file_helper
+INFO - 2024-01-11 14:08:13 --> Helper loaded: form_helper
+INFO - 2024-01-11 14:08:13 --> Helper loaded: custom_helper
+INFO - 2024-01-11 14:08:13 --> Database Driver Class Initialized
+DEBUG - 2024-01-11 14:08:13 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-01-11 14:08:13 --> Session: Class initialized using 'files' driver.
+INFO - 2024-01-11 14:08:13 --> Cart Class Initialized
+DEBUG - 2024-01-11 14:08:13 --> Session class already loaded. Second attempt ignored.
+INFO - 2024-01-11 14:08:13 --> Form Validation Class Initialized
+INFO - 2024-01-11 14:08:13 --> Controller Class Initialized
+INFO - 2024-01-11 14:08:13 --> Model "Api_Model" initialized
+INFO - 2024-01-11 14:08:20 --> Config Class Initialized
+INFO - 2024-01-11 14:08:20 --> Hooks Class Initialized
+DEBUG - 2024-01-11 14:08:20 --> UTF-8 Support Enabled
+INFO - 2024-01-11 14:08:20 --> Utf8 Class Initialized
+INFO - 2024-01-11 14:08:20 --> URI Class Initialized
+INFO - 2024-01-11 14:08:20 --> Router Class Initialized
+INFO - 2024-01-11 14:08:20 --> Output Class Initialized
+INFO - 2024-01-11 14:08:20 --> Security Class Initialized
+DEBUG - 2024-01-11 14:08:20 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-01-11 14:08:20 --> Input Class Initialized
+INFO - 2024-01-11 14:08:20 --> Language Class Initialized
+INFO - 2024-01-11 14:08:20 --> Loader Class Initialized
+INFO - 2024-01-11 14:08:20 --> Helper loaded: url_helper
+INFO - 2024-01-11 14:08:20 --> Helper loaded: file_helper
+INFO - 2024-01-11 14:08:20 --> Helper loaded: form_helper
+INFO - 2024-01-11 14:08:20 --> Helper loaded: custom_helper
+INFO - 2024-01-11 14:08:20 --> Database Driver Class Initialized
+DEBUG - 2024-01-11 14:08:20 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-01-11 14:08:20 --> Session: Class initialized using 'files' driver.
+INFO - 2024-01-11 14:08:20 --> Cart Class Initialized
+DEBUG - 2024-01-11 14:08:20 --> Session class already loaded. Second attempt ignored.
+INFO - 2024-01-11 14:08:20 --> Form Validation Class Initialized
+INFO - 2024-01-11 14:08:20 --> Controller Class Initialized
+INFO - 2024-01-11 14:08:20 --> Model "Api_Model" initialized
+INFO - 2024-01-11 14:09:56 --> Config Class Initialized
+INFO - 2024-01-11 14:09:56 --> Hooks Class Initialized
+DEBUG - 2024-01-11 14:09:56 --> UTF-8 Support Enabled
+INFO - 2024-01-11 14:09:56 --> Utf8 Class Initialized
+INFO - 2024-01-11 14:09:56 --> URI Class Initialized
+INFO - 2024-01-11 14:09:56 --> Router Class Initialized
+INFO - 2024-01-11 14:09:56 --> Output Class Initialized
+INFO - 2024-01-11 14:09:56 --> Security Class Initialized
+DEBUG - 2024-01-11 14:09:56 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-01-11 14:09:56 --> Input Class Initialized
+INFO - 2024-01-11 14:09:56 --> Language Class Initialized
+INFO - 2024-01-11 14:09:56 --> Loader Class Initialized
+INFO - 2024-01-11 14:09:56 --> Helper loaded: url_helper
+INFO - 2024-01-11 14:09:56 --> Helper loaded: file_helper
+INFO - 2024-01-11 14:09:56 --> Helper loaded: form_helper
+INFO - 2024-01-11 14:09:56 --> Helper loaded: custom_helper
+INFO - 2024-01-11 14:09:56 --> Database Driver Class Initialized
+DEBUG - 2024-01-11 14:09:56 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-01-11 14:09:56 --> Session: Class initialized using 'files' driver.
+INFO - 2024-01-11 14:09:56 --> Cart Class Initialized
+DEBUG - 2024-01-11 14:09:56 --> Session class already loaded. Second attempt ignored.
+INFO - 2024-01-11 14:09:56 --> Form Validation Class Initialized
+INFO - 2024-01-11 14:09:56 --> Controller Class Initialized
+INFO - 2024-01-11 14:09:56 --> Model "Api_Model" initialized
+INFO - 2024-01-11 14:10:28 --> Config Class Initialized
+INFO - 2024-01-11 14:10:28 --> Hooks Class Initialized
+DEBUG - 2024-01-11 14:10:28 --> UTF-8 Support Enabled
+INFO - 2024-01-11 14:10:28 --> Utf8 Class Initialized
+INFO - 2024-01-11 14:10:28 --> URI Class Initialized
+INFO - 2024-01-11 14:10:28 --> Router Class Initialized
+INFO - 2024-01-11 14:10:28 --> Output Class Initialized
+INFO - 2024-01-11 14:10:28 --> Security Class Initialized
+DEBUG - 2024-01-11 14:10:28 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-01-11 14:10:28 --> Input Class Initialized
+INFO - 2024-01-11 14:10:28 --> Language Class Initialized
+INFO - 2024-01-11 14:10:28 --> Loader Class Initialized
+INFO - 2024-01-11 14:10:28 --> Helper loaded: url_helper
+INFO - 2024-01-11 14:10:28 --> Helper loaded: file_helper
+INFO - 2024-01-11 14:10:28 --> Helper loaded: form_helper
+INFO - 2024-01-11 14:10:28 --> Helper loaded: custom_helper
+INFO - 2024-01-11 14:10:28 --> Database Driver Class Initialized
+DEBUG - 2024-01-11 14:10:28 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-01-11 14:10:28 --> Session: Class initialized using 'files' driver.
+INFO - 2024-01-11 14:10:28 --> Cart Class Initialized
+DEBUG - 2024-01-11 14:10:28 --> Session class already loaded. Second attempt ignored.
+INFO - 2024-01-11 14:10:28 --> Form Validation Class Initialized
+INFO - 2024-01-11 14:10:28 --> Controller Class Initialized
+INFO - 2024-01-11 14:10:28 --> Model "Api_Model" initialized
+INFO - 2024-01-11 14:10:40 --> Config Class Initialized
+INFO - 2024-01-11 14:10:40 --> Hooks Class Initialized
+DEBUG - 2024-01-11 14:10:40 --> UTF-8 Support Enabled
+INFO - 2024-01-11 14:10:40 --> Utf8 Class Initialized
+INFO - 2024-01-11 14:10:40 --> URI Class Initialized
+INFO - 2024-01-11 14:10:40 --> Router Class Initialized
+INFO - 2024-01-11 14:10:40 --> Output Class Initialized
+INFO - 2024-01-11 14:10:40 --> Security Class Initialized
+DEBUG - 2024-01-11 14:10:40 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-01-11 14:10:40 --> Input Class Initialized
+INFO - 2024-01-11 14:10:40 --> Language Class Initialized
+INFO - 2024-01-11 14:10:40 --> Loader Class Initialized
+INFO - 2024-01-11 14:10:40 --> Helper loaded: url_helper
+INFO - 2024-01-11 14:10:40 --> Helper loaded: file_helper
+INFO - 2024-01-11 14:10:40 --> Helper loaded: form_helper
+INFO - 2024-01-11 14:10:40 --> Helper loaded: custom_helper
+INFO - 2024-01-11 14:10:40 --> Database Driver Class Initialized
+DEBUG - 2024-01-11 14:10:40 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-01-11 14:10:40 --> Session: Class initialized using 'files' driver.
+INFO - 2024-01-11 14:10:40 --> Cart Class Initialized
+DEBUG - 2024-01-11 14:10:40 --> Session class already loaded. Second attempt ignored.
+INFO - 2024-01-11 14:10:40 --> Form Validation Class Initialized
+INFO - 2024-01-11 14:10:40 --> Controller Class Initialized
+INFO - 2024-01-11 14:10:40 --> Model "Api_Model" initialized
+INFO - 2024-01-11 14:11:41 --> Config Class Initialized
+INFO - 2024-01-11 14:11:41 --> Hooks Class Initialized
+DEBUG - 2024-01-11 14:11:41 --> UTF-8 Support Enabled
+INFO - 2024-01-11 14:11:41 --> Utf8 Class Initialized
+INFO - 2024-01-11 14:11:41 --> URI Class Initialized
+INFO - 2024-01-11 14:11:41 --> Router Class Initialized
+INFO - 2024-01-11 14:11:41 --> Output Class Initialized
+INFO - 2024-01-11 14:11:41 --> Security Class Initialized
+DEBUG - 2024-01-11 14:11:41 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-01-11 14:11:41 --> Input Class Initialized
+INFO - 2024-01-11 14:11:41 --> Language Class Initialized
+INFO - 2024-01-11 14:11:41 --> Loader Class Initialized
+INFO - 2024-01-11 14:11:41 --> Helper loaded: url_helper
+INFO - 2024-01-11 14:11:41 --> Helper loaded: file_helper
+INFO - 2024-01-11 14:11:41 --> Helper loaded: form_helper
+INFO - 2024-01-11 14:11:41 --> Helper loaded: custom_helper
+INFO - 2024-01-11 14:11:41 --> Database Driver Class Initialized
+DEBUG - 2024-01-11 14:11:41 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-01-11 14:11:41 --> Session: Class initialized using 'files' driver.
+INFO - 2024-01-11 14:11:41 --> Cart Class Initialized
+DEBUG - 2024-01-11 14:11:41 --> Session class already loaded. Second attempt ignored.
+INFO - 2024-01-11 14:11:41 --> Form Validation Class Initialized
+INFO - 2024-01-11 14:11:41 --> Controller Class Initialized
+INFO - 2024-01-11 14:11:41 --> Model "Api_Model" initialized
+INFO - 2024-01-11 14:12:14 --> Config Class Initialized
+INFO - 2024-01-11 14:12:14 --> Hooks Class Initialized
+DEBUG - 2024-01-11 14:12:14 --> UTF-8 Support Enabled
+INFO - 2024-01-11 14:12:14 --> Utf8 Class Initialized
+INFO - 2024-01-11 14:12:14 --> URI Class Initialized
+INFO - 2024-01-11 14:12:14 --> Router Class Initialized
+INFO - 2024-01-11 14:12:14 --> Output Class Initialized
+INFO - 2024-01-11 14:12:14 --> Security Class Initialized
+DEBUG - 2024-01-11 14:12:14 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-01-11 14:12:14 --> Input Class Initialized
+INFO - 2024-01-11 14:12:14 --> Language Class Initialized
+INFO - 2024-01-11 14:12:14 --> Loader Class Initialized
+INFO - 2024-01-11 14:12:14 --> Helper loaded: url_helper
+INFO - 2024-01-11 14:12:14 --> Helper loaded: file_helper
+INFO - 2024-01-11 14:12:14 --> Helper loaded: form_helper
+INFO - 2024-01-11 14:12:14 --> Helper loaded: custom_helper
+INFO - 2024-01-11 14:12:14 --> Database Driver Class Initialized
+DEBUG - 2024-01-11 14:12:14 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-01-11 14:12:14 --> Session: Class initialized using 'files' driver.
+INFO - 2024-01-11 14:12:14 --> Cart Class Initialized
+DEBUG - 2024-01-11 14:12:14 --> Session class already loaded. Second attempt ignored.
+INFO - 2024-01-11 14:12:14 --> Form Validation Class Initialized
+INFO - 2024-01-11 14:12:14 --> Controller Class Initialized
+INFO - 2024-01-11 14:12:14 --> Model "Api_Model" initialized
+INFO - 2024-01-11 14:12:22 --> Config Class Initialized
+INFO - 2024-01-11 14:12:22 --> Hooks Class Initialized
+DEBUG - 2024-01-11 14:12:22 --> UTF-8 Support Enabled
+INFO - 2024-01-11 14:12:22 --> Utf8 Class Initialized
+INFO - 2024-01-11 14:12:22 --> URI Class Initialized
+INFO - 2024-01-11 14:12:22 --> Router Class Initialized
+INFO - 2024-01-11 14:12:22 --> Output Class Initialized
+INFO - 2024-01-11 14:12:22 --> Security Class Initialized
+DEBUG - 2024-01-11 14:12:22 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-01-11 14:12:22 --> Input Class Initialized
+INFO - 2024-01-11 14:12:22 --> Language Class Initialized
+INFO - 2024-01-11 14:12:22 --> Loader Class Initialized
+INFO - 2024-01-11 14:12:22 --> Helper loaded: url_helper
+INFO - 2024-01-11 14:12:22 --> Helper loaded: file_helper
+INFO - 2024-01-11 14:12:22 --> Helper loaded: form_helper
+INFO - 2024-01-11 14:12:22 --> Helper loaded: custom_helper
+INFO - 2024-01-11 14:12:22 --> Database Driver Class Initialized
+DEBUG - 2024-01-11 14:12:22 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-01-11 14:12:22 --> Session: Class initialized using 'files' driver.
+INFO - 2024-01-11 14:12:22 --> Cart Class Initialized
+DEBUG - 2024-01-11 14:12:22 --> Session class already loaded. Second attempt ignored.
+INFO - 2024-01-11 14:12:22 --> Form Validation Class Initialized
+INFO - 2024-01-11 14:12:22 --> Controller Class Initialized
+INFO - 2024-01-11 14:12:22 --> Model "Api_Model" initialized
+INFO - 2024-01-11 14:12:36 --> Config Class Initialized
+INFO - 2024-01-11 14:12:36 --> Hooks Class Initialized
+DEBUG - 2024-01-11 14:12:36 --> UTF-8 Support Enabled
+INFO - 2024-01-11 14:12:36 --> Utf8 Class Initialized
+INFO - 2024-01-11 14:12:36 --> URI Class Initialized
+INFO - 2024-01-11 14:12:36 --> Router Class Initialized
+INFO - 2024-01-11 14:12:36 --> Output Class Initialized
+INFO - 2024-01-11 14:12:36 --> Security Class Initialized
+DEBUG - 2024-01-11 14:12:36 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-01-11 14:12:36 --> Input Class Initialized
+INFO - 2024-01-11 14:12:36 --> Language Class Initialized
+INFO - 2024-01-11 14:12:36 --> Loader Class Initialized
+INFO - 2024-01-11 14:12:36 --> Helper loaded: url_helper
+INFO - 2024-01-11 14:12:36 --> Helper loaded: file_helper
+INFO - 2024-01-11 14:12:36 --> Helper loaded: form_helper
+INFO - 2024-01-11 14:12:36 --> Helper loaded: custom_helper
+INFO - 2024-01-11 14:12:36 --> Database Driver Class Initialized
+DEBUG - 2024-01-11 14:12:36 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-01-11 14:12:36 --> Session: Class initialized using 'files' driver.
+INFO - 2024-01-11 14:12:36 --> Cart Class Initialized
+DEBUG - 2024-01-11 14:12:36 --> Session class already loaded. Second attempt ignored.
+INFO - 2024-01-11 14:12:36 --> Form Validation Class Initialized
+INFO - 2024-01-11 14:12:36 --> Controller Class Initialized
+INFO - 2024-01-11 14:12:36 --> Model "Api_Model" initialized
+INFO - 2024-01-11 14:12:59 --> Config Class Initialized
+INFO - 2024-01-11 14:12:59 --> Hooks Class Initialized
+DEBUG - 2024-01-11 14:12:59 --> UTF-8 Support Enabled
+INFO - 2024-01-11 14:12:59 --> Utf8 Class Initialized
+INFO - 2024-01-11 14:12:59 --> URI Class Initialized
+INFO - 2024-01-11 14:12:59 --> Router Class Initialized
+INFO - 2024-01-11 14:12:59 --> Output Class Initialized
+INFO - 2024-01-11 14:12:59 --> Security Class Initialized
+DEBUG - 2024-01-11 14:12:59 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-01-11 14:12:59 --> Input Class Initialized
+INFO - 2024-01-11 14:12:59 --> Language Class Initialized
+INFO - 2024-01-11 14:12:59 --> Loader Class Initialized
+INFO - 2024-01-11 14:12:59 --> Helper loaded: url_helper
+INFO - 2024-01-11 14:12:59 --> Helper loaded: file_helper
+INFO - 2024-01-11 14:12:59 --> Helper loaded: form_helper
+INFO - 2024-01-11 14:12:59 --> Helper loaded: custom_helper
+INFO - 2024-01-11 14:12:59 --> Database Driver Class Initialized
+DEBUG - 2024-01-11 14:12:59 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-01-11 14:12:59 --> Session: Class initialized using 'files' driver.
+INFO - 2024-01-11 14:12:59 --> Cart Class Initialized
+DEBUG - 2024-01-11 14:12:59 --> Session class already loaded. Second attempt ignored.
+INFO - 2024-01-11 14:12:59 --> Form Validation Class Initialized
+INFO - 2024-01-11 14:12:59 --> Controller Class Initialized
+INFO - 2024-01-11 14:12:59 --> Model "Api_Model" initialized
+INFO - 2024-01-11 14:13:17 --> Config Class Initialized
+INFO - 2024-01-11 14:13:17 --> Hooks Class Initialized
+DEBUG - 2024-01-11 14:13:17 --> UTF-8 Support Enabled
+INFO - 2024-01-11 14:13:17 --> Utf8 Class Initialized
+INFO - 2024-01-11 14:13:17 --> URI Class Initialized
+INFO - 2024-01-11 14:13:17 --> Router Class Initialized
+INFO - 2024-01-11 14:13:17 --> Output Class Initialized
+INFO - 2024-01-11 14:13:17 --> Security Class Initialized
+DEBUG - 2024-01-11 14:13:17 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-01-11 14:13:17 --> Input Class Initialized
+INFO - 2024-01-11 14:13:17 --> Language Class Initialized
+INFO - 2024-01-11 14:13:17 --> Loader Class Initialized
+INFO - 2024-01-11 14:13:17 --> Helper loaded: url_helper
+INFO - 2024-01-11 14:13:17 --> Helper loaded: file_helper
+INFO - 2024-01-11 14:13:17 --> Helper loaded: form_helper
+INFO - 2024-01-11 14:13:17 --> Helper loaded: custom_helper
+INFO - 2024-01-11 14:13:17 --> Database Driver Class Initialized
+DEBUG - 2024-01-11 14:13:17 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-01-11 14:13:17 --> Session: Class initialized using 'files' driver.
+INFO - 2024-01-11 14:13:17 --> Cart Class Initialized
+DEBUG - 2024-01-11 14:13:17 --> Session class already loaded. Second attempt ignored.
+INFO - 2024-01-11 14:13:17 --> Form Validation Class Initialized
+INFO - 2024-01-11 14:13:17 --> Controller Class Initialized
+INFO - 2024-01-11 14:13:17 --> Model "Api_Model" initialized
+INFO - 2024-01-11 14:13:29 --> Config Class Initialized
+INFO - 2024-01-11 14:13:29 --> Hooks Class Initialized
+DEBUG - 2024-01-11 14:13:29 --> UTF-8 Support Enabled
+INFO - 2024-01-11 14:13:29 --> Utf8 Class Initialized
+INFO - 2024-01-11 14:13:29 --> URI Class Initialized
+INFO - 2024-01-11 14:13:29 --> Router Class Initialized
+INFO - 2024-01-11 14:13:29 --> Output Class Initialized
+INFO - 2024-01-11 14:13:29 --> Security Class Initialized
+DEBUG - 2024-01-11 14:13:29 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-01-11 14:13:29 --> Input Class Initialized
+INFO - 2024-01-11 14:13:29 --> Language Class Initialized
+INFO - 2024-01-11 14:13:29 --> Loader Class Initialized
+INFO - 2024-01-11 14:13:29 --> Helper loaded: url_helper
+INFO - 2024-01-11 14:13:29 --> Helper loaded: file_helper
+INFO - 2024-01-11 14:13:29 --> Helper loaded: form_helper
+INFO - 2024-01-11 14:13:29 --> Helper loaded: custom_helper
+INFO - 2024-01-11 14:13:29 --> Database Driver Class Initialized
+DEBUG - 2024-01-11 14:13:29 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-01-11 14:13:29 --> Session: Class initialized using 'files' driver.
+INFO - 2024-01-11 14:13:29 --> Cart Class Initialized
+DEBUG - 2024-01-11 14:13:29 --> Session class already loaded. Second attempt ignored.
+INFO - 2024-01-11 14:13:29 --> Form Validation Class Initialized
+INFO - 2024-01-11 14:13:29 --> Controller Class Initialized
+INFO - 2024-01-11 14:13:29 --> Model "Api_Model" initialized
+INFO - 2024-01-11 14:15:26 --> Config Class Initialized
+INFO - 2024-01-11 14:15:26 --> Hooks Class Initialized
+DEBUG - 2024-01-11 14:15:26 --> UTF-8 Support Enabled
+INFO - 2024-01-11 14:15:26 --> Utf8 Class Initialized
+INFO - 2024-01-11 14:15:26 --> URI Class Initialized
+INFO - 2024-01-11 14:15:26 --> Router Class Initialized
+INFO - 2024-01-11 14:15:26 --> Output Class Initialized
+INFO - 2024-01-11 14:15:26 --> Security Class Initialized
+DEBUG - 2024-01-11 14:15:26 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-01-11 14:15:26 --> Input Class Initialized
+INFO - 2024-01-11 14:15:26 --> Language Class Initialized
+INFO - 2024-01-11 14:15:26 --> Loader Class Initialized
+INFO - 2024-01-11 14:15:26 --> Helper loaded: url_helper
+INFO - 2024-01-11 14:15:26 --> Helper loaded: file_helper
+INFO - 2024-01-11 14:15:26 --> Helper loaded: form_helper
+INFO - 2024-01-11 14:15:26 --> Helper loaded: custom_helper
+INFO - 2024-01-11 14:15:26 --> Database Driver Class Initialized
+DEBUG - 2024-01-11 14:15:26 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-01-11 14:15:26 --> Session: Class initialized using 'files' driver.
+INFO - 2024-01-11 14:15:26 --> Cart Class Initialized
+DEBUG - 2024-01-11 14:15:26 --> Session class already loaded. Second attempt ignored.
+INFO - 2024-01-11 14:15:26 --> Form Validation Class Initialized
+INFO - 2024-01-11 14:15:26 --> Controller Class Initialized
+INFO - 2024-01-11 14:15:26 --> Model "Api_Model" initialized
+INFO - 2024-01-11 14:15:38 --> Config Class Initialized
+INFO - 2024-01-11 14:15:38 --> Hooks Class Initialized
+DEBUG - 2024-01-11 14:15:38 --> UTF-8 Support Enabled
+INFO - 2024-01-11 14:15:38 --> Utf8 Class Initialized
+INFO - 2024-01-11 14:15:38 --> URI Class Initialized
+INFO - 2024-01-11 14:15:38 --> Router Class Initialized
+INFO - 2024-01-11 14:15:38 --> Output Class Initialized
+INFO - 2024-01-11 14:15:38 --> Security Class Initialized
+DEBUG - 2024-01-11 14:15:38 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-01-11 14:15:38 --> Input Class Initialized
+INFO - 2024-01-11 14:15:38 --> Language Class Initialized
+INFO - 2024-01-11 14:15:38 --> Loader Class Initialized
+INFO - 2024-01-11 14:15:38 --> Helper loaded: url_helper
+INFO - 2024-01-11 14:15:38 --> Helper loaded: file_helper
+INFO - 2024-01-11 14:15:38 --> Helper loaded: form_helper
+INFO - 2024-01-11 14:15:38 --> Helper loaded: custom_helper
+INFO - 2024-01-11 14:15:38 --> Database Driver Class Initialized
+DEBUG - 2024-01-11 14:15:38 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-01-11 14:15:38 --> Session: Class initialized using 'files' driver.
+INFO - 2024-01-11 14:15:38 --> Cart Class Initialized
+DEBUG - 2024-01-11 14:15:38 --> Session class already loaded. Second attempt ignored.
+INFO - 2024-01-11 14:15:38 --> Form Validation Class Initialized
+INFO - 2024-01-11 14:15:38 --> Controller Class Initialized
+INFO - 2024-01-11 14:15:38 --> Model "Api_Model" initialized
+INFO - 2024-01-11 14:15:54 --> Config Class Initialized
+INFO - 2024-01-11 14:15:54 --> Hooks Class Initialized
+DEBUG - 2024-01-11 14:15:54 --> UTF-8 Support Enabled
+INFO - 2024-01-11 14:15:54 --> Utf8 Class Initialized
+INFO - 2024-01-11 14:15:54 --> URI Class Initialized
+INFO - 2024-01-11 14:15:54 --> Router Class Initialized
+INFO - 2024-01-11 14:15:54 --> Output Class Initialized
+INFO - 2024-01-11 14:15:54 --> Security Class Initialized
+DEBUG - 2024-01-11 14:15:54 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-01-11 14:15:54 --> Input Class Initialized
+INFO - 2024-01-11 14:15:54 --> Language Class Initialized
+INFO - 2024-01-11 14:15:54 --> Loader Class Initialized
+INFO - 2024-01-11 14:15:54 --> Helper loaded: url_helper
+INFO - 2024-01-11 14:15:54 --> Helper loaded: file_helper
+INFO - 2024-01-11 14:15:54 --> Helper loaded: form_helper
+INFO - 2024-01-11 14:15:54 --> Helper loaded: custom_helper
+INFO - 2024-01-11 14:15:54 --> Database Driver Class Initialized
+DEBUG - 2024-01-11 14:15:54 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-01-11 14:15:54 --> Session: Class initialized using 'files' driver.
+INFO - 2024-01-11 14:15:54 --> Cart Class Initialized
+DEBUG - 2024-01-11 14:15:54 --> Session class already loaded. Second attempt ignored.
+INFO - 2024-01-11 14:15:54 --> Form Validation Class Initialized
+INFO - 2024-01-11 14:15:54 --> Controller Class Initialized
+INFO - 2024-01-11 14:15:54 --> Model "Api_Model" initialized
+INFO - 2024-01-11 14:16:16 --> Config Class Initialized
+INFO - 2024-01-11 14:16:16 --> Hooks Class Initialized
+DEBUG - 2024-01-11 14:16:16 --> UTF-8 Support Enabled
+INFO - 2024-01-11 14:16:16 --> Utf8 Class Initialized
+INFO - 2024-01-11 14:16:16 --> URI Class Initialized
+INFO - 2024-01-11 14:16:16 --> Router Class Initialized
+INFO - 2024-01-11 14:16:16 --> Output Class Initialized
+INFO - 2024-01-11 14:16:16 --> Security Class Initialized
+DEBUG - 2024-01-11 14:16:16 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-01-11 14:16:16 --> Input Class Initialized
+INFO - 2024-01-11 14:16:16 --> Language Class Initialized
+INFO - 2024-01-11 14:16:16 --> Loader Class Initialized
+INFO - 2024-01-11 14:16:16 --> Helper loaded: url_helper
+INFO - 2024-01-11 14:16:16 --> Helper loaded: file_helper
+INFO - 2024-01-11 14:16:16 --> Helper loaded: form_helper
+INFO - 2024-01-11 14:16:16 --> Helper loaded: custom_helper
+INFO - 2024-01-11 14:16:16 --> Database Driver Class Initialized
+DEBUG - 2024-01-11 14:16:16 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-01-11 14:16:16 --> Session: Class initialized using 'files' driver.
+INFO - 2024-01-11 14:16:16 --> Cart Class Initialized
+DEBUG - 2024-01-11 14:16:16 --> Session class already loaded. Second attempt ignored.
+INFO - 2024-01-11 14:16:16 --> Form Validation Class Initialized
+INFO - 2024-01-11 14:16:16 --> Controller Class Initialized
+INFO - 2024-01-11 14:16:16 --> Model "Api_Model" initialized
+INFO - 2024-01-11 14:17:37 --> Config Class Initialized
+INFO - 2024-01-11 14:17:37 --> Hooks Class Initialized
+DEBUG - 2024-01-11 14:17:37 --> UTF-8 Support Enabled
+INFO - 2024-01-11 14:17:37 --> Utf8 Class Initialized
+INFO - 2024-01-11 14:17:37 --> URI Class Initialized
+INFO - 2024-01-11 14:17:37 --> Router Class Initialized
+INFO - 2024-01-11 14:17:37 --> Output Class Initialized
+INFO - 2024-01-11 14:17:37 --> Security Class Initialized
+DEBUG - 2024-01-11 14:17:37 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-01-11 14:17:37 --> Input Class Initialized
+INFO - 2024-01-11 14:17:37 --> Language Class Initialized
+INFO - 2024-01-11 14:17:37 --> Loader Class Initialized
+INFO - 2024-01-11 14:17:37 --> Helper loaded: url_helper
+INFO - 2024-01-11 14:17:37 --> Helper loaded: file_helper
+INFO - 2024-01-11 14:17:37 --> Helper loaded: form_helper
+INFO - 2024-01-11 14:17:37 --> Helper loaded: custom_helper
+INFO - 2024-01-11 14:17:37 --> Database Driver Class Initialized
+DEBUG - 2024-01-11 14:17:37 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-01-11 14:17:37 --> Session: Class initialized using 'files' driver.
+INFO - 2024-01-11 14:17:37 --> Cart Class Initialized
+DEBUG - 2024-01-11 14:17:37 --> Session class already loaded. Second attempt ignored.
+INFO - 2024-01-11 14:17:37 --> Form Validation Class Initialized
+INFO - 2024-01-11 14:17:37 --> Controller Class Initialized
+INFO - 2024-01-11 14:17:37 --> Model "Api_Model" initialized
+INFO - 2024-01-11 14:18:21 --> Config Class Initialized
+INFO - 2024-01-11 14:18:21 --> Hooks Class Initialized
+DEBUG - 2024-01-11 14:18:21 --> UTF-8 Support Enabled
+INFO - 2024-01-11 14:18:21 --> Utf8 Class Initialized
+INFO - 2024-01-11 14:18:21 --> URI Class Initialized
+INFO - 2024-01-11 14:18:21 --> Router Class Initialized
+INFO - 2024-01-11 14:18:21 --> Output Class Initialized
+INFO - 2024-01-11 14:18:21 --> Security Class Initialized
+DEBUG - 2024-01-11 14:18:21 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-01-11 14:18:21 --> Input Class Initialized
+INFO - 2024-01-11 14:18:21 --> Language Class Initialized
+INFO - 2024-01-11 14:18:21 --> Loader Class Initialized
+INFO - 2024-01-11 14:18:21 --> Helper loaded: url_helper
+INFO - 2024-01-11 14:18:21 --> Helper loaded: file_helper
+INFO - 2024-01-11 14:18:21 --> Helper loaded: form_helper
+INFO - 2024-01-11 14:18:21 --> Helper loaded: custom_helper
+INFO - 2024-01-11 14:18:21 --> Database Driver Class Initialized
+DEBUG - 2024-01-11 14:18:21 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-01-11 14:18:21 --> Session: Class initialized using 'files' driver.
+INFO - 2024-01-11 14:18:21 --> Cart Class Initialized
+DEBUG - 2024-01-11 14:18:21 --> Session class already loaded. Second attempt ignored.
+INFO - 2024-01-11 14:18:21 --> Form Validation Class Initialized
+INFO - 2024-01-11 14:18:21 --> Controller Class Initialized
+INFO - 2024-01-11 14:18:21 --> Model "Api_Model" initialized
+ERROR - 2024-01-11 14:18:21 --> Severity: error --> Exception: Maximum function nesting level of '256' reached, aborting! E:\wamp64\www\247sue\system\database\DB_driver.php 1385
+INFO - 2024-01-11 14:18:30 --> Config Class Initialized
+INFO - 2024-01-11 14:18:30 --> Hooks Class Initialized
+DEBUG - 2024-01-11 14:18:30 --> UTF-8 Support Enabled
+INFO - 2024-01-11 14:18:30 --> Utf8 Class Initialized
+INFO - 2024-01-11 14:18:30 --> URI Class Initialized
+INFO - 2024-01-11 14:18:30 --> Router Class Initialized
+INFO - 2024-01-11 14:18:30 --> Output Class Initialized
+INFO - 2024-01-11 14:18:30 --> Security Class Initialized
+DEBUG - 2024-01-11 14:18:30 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-01-11 14:18:30 --> Input Class Initialized
+INFO - 2024-01-11 14:18:30 --> Language Class Initialized
+INFO - 2024-01-11 14:18:30 --> Loader Class Initialized
+INFO - 2024-01-11 14:18:30 --> Helper loaded: url_helper
+INFO - 2024-01-11 14:18:30 --> Helper loaded: file_helper
+INFO - 2024-01-11 14:18:30 --> Helper loaded: form_helper
+INFO - 2024-01-11 14:18:30 --> Helper loaded: custom_helper
+INFO - 2024-01-11 14:18:30 --> Database Driver Class Initialized
+DEBUG - 2024-01-11 14:18:30 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-01-11 14:18:30 --> Session: Class initialized using 'files' driver.
+INFO - 2024-01-11 14:18:30 --> Cart Class Initialized
+DEBUG - 2024-01-11 14:18:30 --> Session class already loaded. Second attempt ignored.
+INFO - 2024-01-11 14:18:30 --> Form Validation Class Initialized
+INFO - 2024-01-11 14:18:30 --> Controller Class Initialized
+INFO - 2024-01-11 14:18:30 --> Model "Api_Model" initialized
+ERROR - 2024-01-11 14:18:30 --> Severity: error --> Exception: Maximum function nesting level of '256' reached, aborting! E:\wamp64\www\247sue\system\database\DB_driver.php 1385
+INFO - 2024-01-11 14:18:48 --> Config Class Initialized
+INFO - 2024-01-11 14:18:48 --> Hooks Class Initialized
+DEBUG - 2024-01-11 14:18:48 --> UTF-8 Support Enabled
+INFO - 2024-01-11 14:18:48 --> Utf8 Class Initialized
+INFO - 2024-01-11 14:18:48 --> URI Class Initialized
+INFO - 2024-01-11 14:18:48 --> Router Class Initialized
+INFO - 2024-01-11 14:18:48 --> Output Class Initialized
+INFO - 2024-01-11 14:18:48 --> Security Class Initialized
+DEBUG - 2024-01-11 14:18:48 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-01-11 14:18:48 --> Input Class Initialized
+INFO - 2024-01-11 14:18:48 --> Language Class Initialized
+INFO - 2024-01-11 14:18:48 --> Loader Class Initialized
+INFO - 2024-01-11 14:18:48 --> Helper loaded: url_helper
+INFO - 2024-01-11 14:18:48 --> Helper loaded: file_helper
+INFO - 2024-01-11 14:18:48 --> Helper loaded: form_helper
+INFO - 2024-01-11 14:18:48 --> Helper loaded: custom_helper
+INFO - 2024-01-11 14:18:48 --> Database Driver Class Initialized
+DEBUG - 2024-01-11 14:18:48 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-01-11 14:18:48 --> Session: Class initialized using 'files' driver.
+INFO - 2024-01-11 14:18:48 --> Cart Class Initialized
+DEBUG - 2024-01-11 14:18:48 --> Session class already loaded. Second attempt ignored.
+INFO - 2024-01-11 14:18:48 --> Form Validation Class Initialized
+INFO - 2024-01-11 14:18:48 --> Controller Class Initialized
+INFO - 2024-01-11 14:18:48 --> Model "Api_Model" initialized
+ERROR - 2024-01-11 14:18:48 --> Severity: error --> Exception: Maximum function nesting level of '256' reached, aborting! E:\wamp64\www\247sue\system\database\DB_driver.php 1385
+INFO - 2024-01-11 14:19:05 --> Config Class Initialized
+INFO - 2024-01-11 14:19:05 --> Hooks Class Initialized
+DEBUG - 2024-01-11 14:19:05 --> UTF-8 Support Enabled
+INFO - 2024-01-11 14:19:05 --> Utf8 Class Initialized
+INFO - 2024-01-11 14:19:05 --> URI Class Initialized
+INFO - 2024-01-11 14:19:05 --> Router Class Initialized
+INFO - 2024-01-11 14:19:05 --> Output Class Initialized
+INFO - 2024-01-11 14:19:05 --> Security Class Initialized
+DEBUG - 2024-01-11 14:19:05 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-01-11 14:19:05 --> Input Class Initialized
+INFO - 2024-01-11 14:19:05 --> Language Class Initialized
+INFO - 2024-01-11 14:19:05 --> Loader Class Initialized
+INFO - 2024-01-11 14:19:05 --> Helper loaded: url_helper
+INFO - 2024-01-11 14:19:05 --> Helper loaded: file_helper
+INFO - 2024-01-11 14:19:05 --> Helper loaded: form_helper
+INFO - 2024-01-11 14:19:05 --> Helper loaded: custom_helper
+INFO - 2024-01-11 14:19:05 --> Database Driver Class Initialized
+DEBUG - 2024-01-11 14:19:05 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-01-11 14:19:05 --> Session: Class initialized using 'files' driver.
+INFO - 2024-01-11 14:19:05 --> Cart Class Initialized
+DEBUG - 2024-01-11 14:19:05 --> Session class already loaded. Second attempt ignored.
+INFO - 2024-01-11 14:19:05 --> Form Validation Class Initialized
+INFO - 2024-01-11 14:19:05 --> Controller Class Initialized
+INFO - 2024-01-11 14:19:05 --> Model "Api_Model" initialized
+ERROR - 2024-01-11 14:19:06 --> Severity: error --> Exception: Maximum function nesting level of '256' reached, aborting! E:\wamp64\www\247sue\system\database\DB_driver.php 1385
+ERROR - 2024-01-11 14:19:06 --> Severity: Warning --> Cannot modify header information - headers already sent by (output started at E:\wamp64\www\247sue\application\controllers\Api.php:1227) E:\wamp64\www\247sue\system\core\Common.php 570
+INFO - 2024-01-11 14:19:13 --> Config Class Initialized
+INFO - 2024-01-11 14:19:13 --> Hooks Class Initialized
+DEBUG - 2024-01-11 14:19:13 --> UTF-8 Support Enabled
+INFO - 2024-01-11 14:19:13 --> Utf8 Class Initialized
+INFO - 2024-01-11 14:19:13 --> URI Class Initialized
+INFO - 2024-01-11 14:19:13 --> Router Class Initialized
+INFO - 2024-01-11 14:19:13 --> Output Class Initialized
+INFO - 2024-01-11 14:19:13 --> Security Class Initialized
+DEBUG - 2024-01-11 14:19:13 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-01-11 14:19:13 --> Input Class Initialized
+INFO - 2024-01-11 14:19:13 --> Language Class Initialized
+INFO - 2024-01-11 14:19:13 --> Loader Class Initialized
+INFO - 2024-01-11 14:19:13 --> Helper loaded: url_helper
+INFO - 2024-01-11 14:19:13 --> Helper loaded: file_helper
+INFO - 2024-01-11 14:19:13 --> Helper loaded: form_helper
+INFO - 2024-01-11 14:19:13 --> Helper loaded: custom_helper
+INFO - 2024-01-11 14:19:13 --> Database Driver Class Initialized
+DEBUG - 2024-01-11 14:19:13 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-01-11 14:19:13 --> Session: Class initialized using 'files' driver.
+INFO - 2024-01-11 14:19:13 --> Cart Class Initialized
+DEBUG - 2024-01-11 14:19:13 --> Session class already loaded. Second attempt ignored.
+INFO - 2024-01-11 14:19:13 --> Form Validation Class Initialized
+INFO - 2024-01-11 14:19:13 --> Controller Class Initialized
+INFO - 2024-01-11 14:19:13 --> Model "Api_Model" initialized
+ERROR - 2024-01-11 14:19:14 --> Severity: error --> Exception: Maximum function nesting level of '256' reached, aborting! E:\wamp64\www\247sue\system\database\DB_driver.php 1385
+INFO - 2024-01-11 14:19:18 --> Config Class Initialized
+INFO - 2024-01-11 14:19:18 --> Hooks Class Initialized
+DEBUG - 2024-01-11 14:19:18 --> UTF-8 Support Enabled
+INFO - 2024-01-11 14:19:18 --> Utf8 Class Initialized
+INFO - 2024-01-11 14:19:18 --> URI Class Initialized
+INFO - 2024-01-11 14:19:18 --> Router Class Initialized
+INFO - 2024-01-11 14:19:18 --> Output Class Initialized
+INFO - 2024-01-11 14:19:18 --> Security Class Initialized
+DEBUG - 2024-01-11 14:19:18 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-01-11 14:19:18 --> Input Class Initialized
+INFO - 2024-01-11 14:19:18 --> Language Class Initialized
+INFO - 2024-01-11 14:19:18 --> Loader Class Initialized
+INFO - 2024-01-11 14:19:19 --> Helper loaded: url_helper
+INFO - 2024-01-11 14:19:19 --> Helper loaded: file_helper
+INFO - 2024-01-11 14:19:19 --> Helper loaded: form_helper
+INFO - 2024-01-11 14:19:19 --> Helper loaded: custom_helper
+INFO - 2024-01-11 14:19:19 --> Database Driver Class Initialized
+DEBUG - 2024-01-11 14:19:19 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-01-11 14:19:19 --> Session: Class initialized using 'files' driver.
+INFO - 2024-01-11 14:19:19 --> Cart Class Initialized
+DEBUG - 2024-01-11 14:19:19 --> Session class already loaded. Second attempt ignored.
+INFO - 2024-01-11 14:19:19 --> Form Validation Class Initialized
+INFO - 2024-01-11 14:19:19 --> Controller Class Initialized
+INFO - 2024-01-11 14:19:19 --> Model "Api_Model" initialized
+ERROR - 2024-01-11 14:19:19 --> Severity: error --> Exception: Maximum function nesting level of '256' reached, aborting! E:\wamp64\www\247sue\system\database\DB_driver.php 1385
+ERROR - 2024-01-11 14:19:19 --> Severity: Warning --> Cannot modify header information - headers already sent by (output started at E:\wamp64\www\247sue\application\controllers\Api.php:1227) E:\wamp64\www\247sue\system\core\Common.php 570
+INFO - 2024-01-11 14:19:45 --> Config Class Initialized
+INFO - 2024-01-11 14:19:45 --> Hooks Class Initialized
+DEBUG - 2024-01-11 14:19:45 --> UTF-8 Support Enabled
+INFO - 2024-01-11 14:19:45 --> Utf8 Class Initialized
+INFO - 2024-01-11 14:19:45 --> URI Class Initialized
+INFO - 2024-01-11 14:19:45 --> Router Class Initialized
+INFO - 2024-01-11 14:19:45 --> Output Class Initialized
+INFO - 2024-01-11 14:19:45 --> Security Class Initialized
+DEBUG - 2024-01-11 14:19:45 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-01-11 14:19:45 --> Input Class Initialized
+INFO - 2024-01-11 14:19:45 --> Language Class Initialized
+INFO - 2024-01-11 14:19:45 --> Loader Class Initialized
+INFO - 2024-01-11 14:19:45 --> Helper loaded: url_helper
+INFO - 2024-01-11 14:19:45 --> Helper loaded: file_helper
+INFO - 2024-01-11 14:19:45 --> Helper loaded: form_helper
+INFO - 2024-01-11 14:19:45 --> Helper loaded: custom_helper
+INFO - 2024-01-11 14:19:45 --> Database Driver Class Initialized
+DEBUG - 2024-01-11 14:19:45 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-01-11 14:19:45 --> Session: Class initialized using 'files' driver.
+INFO - 2024-01-11 14:19:45 --> Cart Class Initialized
+DEBUG - 2024-01-11 14:19:45 --> Session class already loaded. Second attempt ignored.
+INFO - 2024-01-11 14:19:45 --> Form Validation Class Initialized
+INFO - 2024-01-11 14:19:45 --> Controller Class Initialized
+INFO - 2024-01-11 14:19:45 --> Model "Api_Model" initialized
+ERROR - 2024-01-11 14:19:46 --> Severity: error --> Exception: Maximum function nesting level of '256' reached, aborting! E:\wamp64\www\247sue\system\database\DB_driver.php 1385
+INFO - 2024-01-11 14:20:32 --> Config Class Initialized
+INFO - 2024-01-11 14:20:32 --> Hooks Class Initialized
+DEBUG - 2024-01-11 14:20:32 --> UTF-8 Support Enabled
+INFO - 2024-01-11 14:20:32 --> Utf8 Class Initialized
+INFO - 2024-01-11 14:20:32 --> URI Class Initialized
+INFO - 2024-01-11 14:20:32 --> Router Class Initialized
+INFO - 2024-01-11 14:20:32 --> Output Class Initialized
+INFO - 2024-01-11 14:20:32 --> Security Class Initialized
+DEBUG - 2024-01-11 14:20:32 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-01-11 14:20:32 --> Input Class Initialized
+INFO - 2024-01-11 14:20:32 --> Language Class Initialized
+INFO - 2024-01-11 14:20:32 --> Loader Class Initialized
+INFO - 2024-01-11 14:20:32 --> Helper loaded: url_helper
+INFO - 2024-01-11 14:20:32 --> Helper loaded: file_helper
+INFO - 2024-01-11 14:20:32 --> Helper loaded: form_helper
+INFO - 2024-01-11 14:20:32 --> Helper loaded: custom_helper
+INFO - 2024-01-11 14:20:32 --> Database Driver Class Initialized
+DEBUG - 2024-01-11 14:20:32 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-01-11 14:20:32 --> Session: Class initialized using 'files' driver.
+INFO - 2024-01-11 14:20:32 --> Cart Class Initialized
+DEBUG - 2024-01-11 14:20:32 --> Session class already loaded. Second attempt ignored.
+INFO - 2024-01-11 14:20:32 --> Form Validation Class Initialized
+INFO - 2024-01-11 14:20:32 --> Controller Class Initialized
+INFO - 2024-01-11 14:20:32 --> Model "Api_Model" initialized
+INFO - 2024-01-11 14:20:44 --> Config Class Initialized
+INFO - 2024-01-11 14:20:44 --> Hooks Class Initialized
+DEBUG - 2024-01-11 14:20:44 --> UTF-8 Support Enabled
+INFO - 2024-01-11 14:20:44 --> Utf8 Class Initialized
+INFO - 2024-01-11 14:20:44 --> URI Class Initialized
+INFO - 2024-01-11 14:20:44 --> Router Class Initialized
+INFO - 2024-01-11 14:20:44 --> Output Class Initialized
+INFO - 2024-01-11 14:20:44 --> Security Class Initialized
+DEBUG - 2024-01-11 14:20:44 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-01-11 14:20:44 --> Input Class Initialized
+INFO - 2024-01-11 14:20:44 --> Language Class Initialized
+INFO - 2024-01-11 14:20:44 --> Loader Class Initialized
+INFO - 2024-01-11 14:20:44 --> Helper loaded: url_helper
+INFO - 2024-01-11 14:20:44 --> Helper loaded: file_helper
+INFO - 2024-01-11 14:20:44 --> Helper loaded: form_helper
+INFO - 2024-01-11 14:20:44 --> Helper loaded: custom_helper
+INFO - 2024-01-11 14:20:44 --> Database Driver Class Initialized
+DEBUG - 2024-01-11 14:20:44 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-01-11 14:20:44 --> Session: Class initialized using 'files' driver.
+INFO - 2024-01-11 14:20:44 --> Cart Class Initialized
+DEBUG - 2024-01-11 14:20:44 --> Session class already loaded. Second attempt ignored.
+INFO - 2024-01-11 14:20:44 --> Form Validation Class Initialized
+INFO - 2024-01-11 14:20:44 --> Controller Class Initialized
+INFO - 2024-01-11 14:20:44 --> Model "Api_Model" initialized
+INFO - 2024-01-11 14:21:20 --> Config Class Initialized
+INFO - 2024-01-11 14:21:20 --> Hooks Class Initialized
+DEBUG - 2024-01-11 14:21:20 --> UTF-8 Support Enabled
+INFO - 2024-01-11 14:21:20 --> Utf8 Class Initialized
+INFO - 2024-01-11 14:21:20 --> URI Class Initialized
+INFO - 2024-01-11 14:21:20 --> Router Class Initialized
+INFO - 2024-01-11 14:21:20 --> Output Class Initialized
+INFO - 2024-01-11 14:21:20 --> Security Class Initialized
+DEBUG - 2024-01-11 14:21:20 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-01-11 14:21:20 --> Input Class Initialized
+INFO - 2024-01-11 14:21:20 --> Language Class Initialized
+INFO - 2024-01-11 14:21:20 --> Loader Class Initialized
+INFO - 2024-01-11 14:21:20 --> Helper loaded: url_helper
+INFO - 2024-01-11 14:21:20 --> Helper loaded: file_helper
+INFO - 2024-01-11 14:21:20 --> Helper loaded: form_helper
+INFO - 2024-01-11 14:21:20 --> Helper loaded: custom_helper
+INFO - 2024-01-11 14:21:20 --> Database Driver Class Initialized
+DEBUG - 2024-01-11 14:21:20 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-01-11 14:21:20 --> Session: Class initialized using 'files' driver.
+INFO - 2024-01-11 14:21:20 --> Cart Class Initialized
+DEBUG - 2024-01-11 14:21:20 --> Session class already loaded. Second attempt ignored.
+INFO - 2024-01-11 14:21:20 --> Form Validation Class Initialized
+INFO - 2024-01-11 14:21:20 --> Controller Class Initialized
+INFO - 2024-01-11 14:21:20 --> Model "Api_Model" initialized
+INFO - 2024-01-11 14:31:51 --> Config Class Initialized
+INFO - 2024-01-11 14:31:51 --> Hooks Class Initialized
+DEBUG - 2024-01-11 14:31:51 --> UTF-8 Support Enabled
+INFO - 2024-01-11 14:31:51 --> Utf8 Class Initialized
+INFO - 2024-01-11 14:31:51 --> URI Class Initialized
+INFO - 2024-01-11 14:31:51 --> Router Class Initialized
+INFO - 2024-01-11 14:31:51 --> Output Class Initialized
+INFO - 2024-01-11 14:31:51 --> Security Class Initialized
+DEBUG - 2024-01-11 14:31:51 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-01-11 14:31:51 --> Input Class Initialized
+INFO - 2024-01-11 14:31:51 --> Language Class Initialized
+INFO - 2024-01-11 14:31:51 --> Loader Class Initialized
+INFO - 2024-01-11 14:31:51 --> Helper loaded: url_helper
+INFO - 2024-01-11 14:31:51 --> Helper loaded: file_helper
+INFO - 2024-01-11 14:31:51 --> Helper loaded: form_helper
+INFO - 2024-01-11 14:31:51 --> Helper loaded: custom_helper
+INFO - 2024-01-11 14:31:51 --> Database Driver Class Initialized
+DEBUG - 2024-01-11 14:31:51 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-01-11 14:31:51 --> Session: Class initialized using 'files' driver.
+INFO - 2024-01-11 14:31:51 --> Cart Class Initialized
+DEBUG - 2024-01-11 14:31:51 --> Session class already loaded. Second attempt ignored.
+INFO - 2024-01-11 14:31:51 --> Form Validation Class Initialized
+INFO - 2024-01-11 14:31:51 --> Controller Class Initialized
+INFO - 2024-01-11 14:31:51 --> Model "Api_Model" initialized
+INFO - 2024-01-11 15:03:19 --> Config Class Initialized
+INFO - 2024-01-11 15:03:19 --> Hooks Class Initialized
+DEBUG - 2024-01-11 15:03:19 --> UTF-8 Support Enabled
+INFO - 2024-01-11 15:03:19 --> Utf8 Class Initialized
+INFO - 2024-01-11 15:03:19 --> URI Class Initialized
+INFO - 2024-01-11 15:03:19 --> Router Class Initialized
+INFO - 2024-01-11 15:03:19 --> Output Class Initialized
+INFO - 2024-01-11 15:03:19 --> Security Class Initialized
+DEBUG - 2024-01-11 15:03:19 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-01-11 15:03:19 --> Input Class Initialized
+INFO - 2024-01-11 15:03:19 --> Language Class Initialized
+INFO - 2024-01-11 15:03:19 --> Loader Class Initialized
+INFO - 2024-01-11 15:03:19 --> Helper loaded: url_helper
+INFO - 2024-01-11 15:03:19 --> Helper loaded: file_helper
+INFO - 2024-01-11 15:03:19 --> Helper loaded: form_helper
+INFO - 2024-01-11 15:03:19 --> Helper loaded: custom_helper
+INFO - 2024-01-11 15:03:19 --> Database Driver Class Initialized
+DEBUG - 2024-01-11 15:03:19 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-01-11 15:03:19 --> Session: Class initialized using 'files' driver.
+INFO - 2024-01-11 15:03:19 --> Cart Class Initialized
+DEBUG - 2024-01-11 15:03:19 --> Session class already loaded. Second attempt ignored.
+INFO - 2024-01-11 15:03:19 --> Form Validation Class Initialized
+INFO - 2024-01-11 15:03:19 --> Controller Class Initialized
+INFO - 2024-01-11 15:03:19 --> Model "Dashboard_model" initialized
+INFO - 2024-01-11 15:03:19 --> Model "Common_Model" initialized
+INFO - 2024-01-11 15:03:19 --> File loaded: E:\wamp64\www\247sue\application\views\admin/include/header.php
+INFO - 2024-01-11 15:03:19 --> File loaded: E:\wamp64\www\247sue\application\views\admin/include/left.php
+INFO - 2024-01-11 15:03:19 --> File loaded: E:\wamp64\www\247sue\application\views\admin/dashboard/admindb.php
+INFO - 2024-01-11 15:03:19 --> File loaded: E:\wamp64\www\247sue\application\views\admin/include/footer.php
+INFO - 2024-01-11 15:03:19 --> Final output sent to browser
+DEBUG - 2024-01-11 15:03:19 --> Total execution time: 0.1199

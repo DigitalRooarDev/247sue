@@ -29,7 +29,7 @@
             </div>
 
             <div class="col-lg-3 col-xs-6">
-                <?php $totlaMember = $this->db->get_where('users', array('role' => 'lawyer'))->num_rows(); ?>
+                <?php $totlaMember = $this->db->get_where('users', array('role' => 'Lawyer'))->num_rows(); ?>
                 <div class="small-box bg-red">
                     <div class="inner">
                         <h3><?php echo $totlaMember; ?></h3>
@@ -40,6 +40,20 @@
                     </div>
                     <a href="<?php echo base_url('admin/member') ?>" class="small-box-footer">More info <i
                                 class="fa fa-arrow-circle-right"></i></a>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-xs-6">
+                <?php $totlaMarketer = $this->db->get_where('users', array('role' => 'Marketer'))->num_rows(); ?>
+                <div class="small-box bg-red">
+                    <div class="inner">
+                        <h3><?php echo $totlaMarketer; ?></h3>
+                        <p>Total Marketer</p>
+                    </div>
+                    <div class="icon">
+                        <i class="fa fa-user-plus "></i>
+                    </div>
+                    <a href="<?php echo base_url('admin/marketer') ?>" class="small-box-footer">More info <i class="fa fa-arrow-circle-right"></i></a>
                 </div>
             </div>
 
@@ -86,7 +100,7 @@
                                         </span>
                                     </div>
                                     <input type="text" name="create_date" class="form-control" id="reservation"
-                                    value="<?= $create_date[0] ?? date('m-d-Y') ?> - <?= $create_date[1] ?? date('m-d-Y') ?>">
+                                           value="<?= $create_date[0] ?? date('m-d-Y') ?> - <?= $create_date[1] ?? date('m-d-Y') ?>">
                                 </div>
                             </div>
                             <div class="col-md-2">
@@ -101,16 +115,16 @@
                             </div>
                         </div>
                     </form>
-                </div>  
+                </div>
             </div>
 
         </div>
 
         <!-- plan count start -->
         <div class="row">
-            <?php 
-                $color = array('green-active', 'blue-active', 'gray-active', 'aqua-active');
-                $count = 0;
+            <?php
+            $color = array('green-active', 'blue-active', 'gray-active', 'aqua-active');
+            $count = 0;
             ?>
             <?php foreach ($planData as $planKey => $plan) { ?>
                 <?php foreach ($plan as $itemKey => $item) { ?>
@@ -123,13 +137,15 @@
                             <div class="icon">
                                 <i class="fa fa-user-plus"></i>
                             </div>
-                            <a href="<?= base_url('admin/user/index/'.$totalNoPlansIds[$itemKey]) ?>" class="small-box-footer">
+                            <a href="<?= base_url('admin/user/index/' . $totalNoPlansIds[$itemKey]) ?>"
+                               class="small-box-footer">
                                 More info <i class="fa fa-arrow-circle-right"></i>
                             </a>
                         </div>
                     </div>
                 <?php } ?>
-            <?php $count++; } ?>
+                <?php $count++;
+            } ?>
         </div>
         <!-- plan count end -->
 
@@ -137,7 +153,7 @@
         <div class="row">
             <div class="box-body">
                 <h3>Users</h3>
-				<table id="example1" class="table table-bordered table-striped">
+                <table id="example1" class="table table-bordered table-striped">
                     <thead>
                     <tr>
                         <th>Name</th>
@@ -183,7 +199,7 @@
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script type="text/javascript">
-    $(function() {
+    $(function () {
         $('#reservation').daterangepicker();
     });
 </script>

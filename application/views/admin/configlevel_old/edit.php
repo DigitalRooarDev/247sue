@@ -4,7 +4,7 @@
     <section class="content-header">
         <h1><?= $breadcrumb_title; ?></h1>
         <ol class="breadcrumb">
-            <li><a href="<?php echo base_url('admin/dashboard') ?>"><i class="fa fa-dashboard"></i> Home</a></li>
+            <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
             <li><a href="<?php echo base_url('admin/configlevel') ?>">Config Level</a></li>
             <li class="active">Edit Config Level</li>
         </ol>
@@ -36,12 +36,13 @@
                     </div>
                     <!-- /.box-header -->
                     <!-- form start -->
-                          <form role="form" action="<?php echo base_url('admin/configlevel/update/' . $row['id']) ?>" class="" enctype="multipart/form-data" method="post">
+                    <form role="form" action="<?php echo base_url('admin/configlevel/update/' . $row['id']) ?>" class=""
+                          enctype="multipart/form-data" method="post">
                         <div class="box-body">
                             <div class="row">
                                 <div class="col-sm-4">
                                     <div class="form-group">
-                                        <label for="level">Level</label>
+                                        <label>Level</label>
                                         <input type="text" name="level" class="form-control"
                                                placeholder="Enter Level Number" value="<?php echo $row['level'] ?>">
                                         <label class="text-danger"><?php echo form_error('level'); ?></label>
@@ -49,7 +50,7 @@
                                 </div>
                                 <div class="col-sm-4">
                                     <div class="form-group">
-                                        <label for="reward_per">Reward Percentage</label>
+                                        <label>Reward Percentage</label>
                                         <input type="text" name="reward_per" class="form-control" placeholder="Enter Percentage"
                                                value="<?php echo $row['reward_per'] ?>">
                                         <label class="text-danger"><?php echo form_error('reward_per'); ?></label>

@@ -88,6 +88,21 @@ class Common_Model extends CI_Model
         return $query->result_array();
     }
 
+    function getAllMarketer($plan_ids = null)
+    {
+        $this->db->select('users.*');
+        $this->db->select('m.name');
+        $this->db->where('role', 'Marketer');
+        if (count($plan_ids) > 0) {
+            $this->db->where_in('users.plan_id', $plan_ids);
+        }
+        $this->db->from('users');
+        $this->db->join('membership_plan as m', 'm.id = users.plan_id', 'left');
+        $this->db->order_by('users.id', 'desc');
+        $query = $this->db->get();
+        return $query->result_array();
+    }
+
     function getAllUserData()
     {
         $this->db->select('UM.*');

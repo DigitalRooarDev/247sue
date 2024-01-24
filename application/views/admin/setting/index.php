@@ -35,10 +35,13 @@
             <div class="col-md-12">
                 <div class="nav-tabs-custom">
                     <ul class="nav nav-tabs">
-                        <li class="active"><a href="#global_setting" data-toggle="tab" aria-expanded="true"><b>Global
-                                    Settings</b></a></li>
-                        <li class=""><a href="#level_setting" data-toggle="tab" aria-expanded="false"><b>Level
-                                    Settings</b></a></li>
+                        <li class="active">
+                            <a href="#global_setting" data-toggle="tab" aria-expanded="true">
+                                <b>Global Settings</b>
+                            </a>
+                        </li>
+                        <!--<li class=""><a href="#level_setting" data-toggle="tab" aria-expanded="false"><b>Level
+                                    Settings</b></a></li>-->
                     </ul>
                     <div class="tab-content">
                         <div class="tab-pane active" id="global_setting">
@@ -183,11 +186,11 @@
                             </form>
                         </div>
 
-                        <div class="tab-pane" id="level_setting">
-                            <form action="<?php echo base_url('admin/setting/updateLevelAmt') ?>" method="POST"
+                        <!--<div class="tab-pane" id="level_setting">
+                            <form action="<?php /*echo base_url('admin/setting/updateLevelAmt') */?>" method="POST"
                                   class="form-horizontal">
                                 <?php
-                                $level_1 = $this->db->get_where('settings', array('field_key' => 'level_1'))->row_array();
+/*                                $level_1 = $this->db->get_where('settings', array('field_key' => 'level_1'))->row_array();
                                 $level_2 = $this->db->get_where('settings', array('field_key' => 'level_2'))->row_array();
                                 $level_3 = $this->db->get_where('settings', array('field_key' => 'level_3'))->row_array();
                                 $level_4 = $this->db->get_where('settings', array('field_key' => 'level_4'))->row_array();
@@ -197,13 +200,13 @@
                                 $level_8 = $this->db->get_where('settings', array('field_key' => 'level_8'))->row_array();
                                 $level_9 = $this->db->get_where('settings', array('field_key' => 'level_9'))->row_array();
                                 $level_10 = $this->db->get_where('settings', array('field_key' => 'level_10'))->row_array();
-                                ?>
+                                */?>
                                 <div class="form-group">
                                     <label for="inputName" class="col-sm-2 control-label">Level 1</label>
                                     <div class="col-sm-10">
                                         <input type="text" class="form-control onlyDecimal" id="level_1" name="level_1"
                                                placeholder="Level 1"
-                                               value="<?php echo $level_1['field_value'] ? $level_1['field_value'] : ''; ?>">
+                                               value="<?php /*echo $level_1['field_value'] ? $level_1['field_value'] : ''; */?>">
                                     </div>
                                 </div>
                                 <div class="form-group">
@@ -211,7 +214,7 @@
                                     <div class="col-sm-10">
                                         <input type="text" class="form-control onlyDecimal" id="level_2" name="level_2"
                                                placeholder="Level 2"
-                                               value="<?php echo $level_2['field_value'] ? $level_2['field_value'] : ''; ?>">
+                                               value="<?php /*echo $level_2['field_value'] ? $level_2['field_value'] : ''; */?>">
                                     </div>
                                 </div>
                                 <div class="form-group">
@@ -219,7 +222,7 @@
                                     <div class="col-sm-10">
                                         <input type="text" class="form-control onlyDecimal" id="level_3" name="level_3"
                                                placeholder="Level 3"
-                                               value="<?php echo $level_3['field_value'] ? $level_3['field_value'] : ''; ?>">
+                                               value="<?php /*echo $level_3['field_value'] ? $level_3['field_value'] : ''; */?>">
                                     </div>
                                 </div>
                                 <div class="form-group">
@@ -227,7 +230,7 @@
                                     <div class="col-sm-10">
                                         <input type="text" class="form-control onlyDecimal" id="level_4" name="level_4"
                                                placeholder="Level 4"
-                                               value="<?php echo $level_4['field_value'] ? $level_4['field_value'] : ''; ?>">
+                                               value="<?php /*echo $level_4['field_value'] ? $level_4['field_value'] : ''; */?>">
                                     </div>
                                 </div>
                                 <div class="form-group">
@@ -235,7 +238,7 @@
                                     <div class="col-sm-10">
                                         <input type="text" class="form-control onlyDecimal" id="level_5" name="level_5"
                                                placeholder="Level 5"
-                                               value="<?php echo $level_5['field_value'] ? $level_5['field_value'] : ''; ?>">
+                                               value="<?php /*echo $level_5['field_value'] ? $level_5['field_value'] : ''; */?>">
                                     </div>
                                 </div>
                                 <div class="form-group">
@@ -243,7 +246,7 @@
                                     <div class="col-sm-10">
                                         <input type="text" class="form-control onlyDecimal" id="level_6" name="level_6"
                                                placeholder="Level 6"
-                                               value="<?php echo $level_6['field_value'] ? $level_6['field_value'] : ''; ?>">
+                                               value="<?php /*echo $level_6['field_value'] ? $level_6['field_value'] : ''; */?>">
                                     </div>
                                 </div>
                                 <div class="form-group">
@@ -251,7 +254,7 @@
                                     <div class="col-sm-10">
                                         <input type="text" class="form-control onlyDecimal" id="level_7" name="level_7"
                                                placeholder="Level 7"
-                                               value="<?php echo $level_7['field_value'] ? $level_7['field_value'] : ''; ?>">
+                                               value="<?php /*echo $level_7['field_value'] ? $level_7['field_value'] : ''; */?>">
                                     </div>
                                 </div>
                                 <div class="form-group">
@@ -259,7 +262,7 @@
                                     <div class="col-sm-10">
                                         <input type="text" class="form-control onlyDecimal" id="level_8" name="level_8"
                                                placeholder="Level 8"
-                                               value="<?php echo $level_8['field_value'] ? $level_8['field_value'] : ''; ?>">
+                                               value="<?php /*echo $level_8['field_value'] ? $level_8['field_value'] : ''; */?>">
                                     </div>
                                 </div>
                                 <div class="form-group">
@@ -267,7 +270,7 @@
                                     <div class="col-sm-10">
                                         <input type="text" class="form-control onlyDecimal" id="level_9" name="level_9"
                                                placeholder="Level 9"
-                                               value="<?php echo $level_9['field_value'] ? $level_9['field_value'] : ''; ?>">
+                                               value="<?php /*echo $level_9['field_value'] ? $level_9['field_value'] : ''; */?>">
                                     </div>
                                 </div>
                                 <div class="form-group">
@@ -276,7 +279,7 @@
                                         <input type="text" class="form-control onlyDecimal" id="level_10"
                                                name="level_10"
                                                placeholder="Level 10"
-                                               value="<?php echo $level_10['field_value'] ? $level_10['field_value'] : ''; ?>">
+                                               value="<?php /*echo $level_10['field_value'] ? $level_10['field_value'] : ''; */?>">
                                     </div>
                                 </div>
 
@@ -286,7 +289,7 @@
                                     </div>
                                 </div>
                             </form>
-                        </div>
+                        </div>-->
                     </div>
                 </div>
             </div>
@@ -297,7 +300,7 @@
     <!-- /.content -->
 </div>
 
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+<!--<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
 <script type="text/javascript">
     $(function() {
         $('.onlyDecimal').keyup(function () {
@@ -306,4 +309,4 @@
             }
         });
     });
-</script>
+</script>-->

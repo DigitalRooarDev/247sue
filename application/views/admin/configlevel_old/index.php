@@ -42,7 +42,6 @@
                         <table id="example1" class="table table-bordered table-striped">
                             <thead>
                             <tr>
-                                <th>ID</th>
                                 <th>Level No.</th>
                                 <th>Rewards Percentage</th>
                                 <th>Referral Member</th>
@@ -54,7 +53,6 @@
                             <?php if ($rows) {
                                 foreach ($rows as $key => $value) { ?>
                                     <tr>
-                                        <td><?php echo $value['id']; ?> </td>
                                         <td><?php echo $value['level']; ?> </td>
                                         <td><?php echo $value['reward_per']; ?></td>
                                         <td><?php echo $value['referral_member']; ?></td>
@@ -77,7 +75,6 @@
                             </tbody>
                             <tfoot>
                             <tr>
-                                <th>ID</th>
                                 <th>Level No.</th>
                                 <th>Rewards Percentage</th>
                                 <th>Referral Member</th>
@@ -97,9 +94,9 @@
     </section>
     <!-- /.content -->
 </div>
-<!-- <div id="configlevelViewModel"></div> -->
-<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> -->
-<!-- <script type="text/javascript">
+<div id="configlevelViewModel"></div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script type="text/javascript">
     $(document).on('click', '.handleConfiglevelView', function () {
         event.preventDefault();
         var URL = $(this).data('url');
@@ -117,4 +114,4 @@
     });
 
 
-</script> -->
+</script>

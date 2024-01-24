@@ -37,6 +37,12 @@
                 <a href="<?php echo base_url('admin/member') ?>"> <i class="fa fa-user-plus "></i>
                     <span>Member Manager</span></a>
             </li>
+            <li class="<?php if ($this->router->fetch_class() == 'marketer') {
+                echo 'active';
+            } ?>">
+                <a href="<?php echo base_url('admin/marketer') ?>"> <i class="fa fa-user-plus "></i>
+                    <span>Marketer User</span></a>
+            </li>
             <li class="<?php if ($this->router->fetch_class() == 'wallethistory' && $this->router->fetch_method() == 'index') {
                 echo 'active';
             } ?>">
