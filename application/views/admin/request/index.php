@@ -214,7 +214,7 @@
                   </td>
 				  
 				   <td><?php if($value['co_status'] == 'Request'){
-						 echo '<small class="label label-danger">Pedning Accept by Admin</small>';	
+						 echo '<small class="label label-danger">Pending Accept by Admin</small>';	
 					}elseif($value['co_status'] == 'Accept'){
 						 echo '<small class="label label-success">Accepted by Admin</small>';
 					}else{

@@ -83,6 +83,8 @@
                                 <th>Name</th>
                                 <th>Email</th>
                                 <th>Mobile</th>
+                                <th>Refer Code</th>
+                                <th>Referred Name</th>
                                 <th>Membership Plan</th>
                                 <th>Amount</th>
                                 <th>Status</th>
@@ -98,6 +100,8 @@
                                         <td><?php echo $value['first_name'] . ' ' . $value['last_name']; ?> </td>
                                         <td><?php echo $value['email']; ?></td>
                                         <td><?php echo $value['mobile']; ?></td>
+                                        <td><?php echo $value['refer_code']; ?></td>
+                                        <td><?php echo $value['firstName'] . ' ' . $value['lastName']; ?> </td>
                                         <td><?php echo $value['name']; ?></td>
                                         <td><?php echo $value['wallet']; ?></td>
                                         <td>
@@ -144,6 +148,8 @@
                                 <th>Name</th>
                                 <th>Email</th>
                                 <th>Mobile</th>
+                                <th>Refer Code</th>
+                                <th>Referred Name</th>
                                 <th>Membership Plan</th>
                                 <th>Amount</th>
                                 <th>Status</th>

@@ -23,8 +23,9 @@
                     <div class="icon">
                         <i class="fa fa-users"></i>
                     </div>
-                    <a href="<?php echo base_url('admin/user') ?>" class="small-box-footer">More info <i
-                                class="fa fa-arrow-circle-right"></i></a>
+                    <a href="<?php echo base_url('admin/user') ?>" class="small-box-footer">
+                        More info <i class="fa fa-arrow-circle-right"></i>
+                    </a>
                 </div>
             </div>
 
@@ -38,8 +39,9 @@
                     <div class="icon">
                         <i class="fa fa-user-plus "></i>
                     </div>
-                    <a href="<?php echo base_url('admin/member') ?>" class="small-box-footer">More info <i
-                                class="fa fa-arrow-circle-right"></i></a>
+                    <a href="<?php echo base_url('admin/member') ?>" class="small-box-footer">
+                        More info <i class="fa fa-arrow-circle-right"></i>
+                    </a>
                 </div>
             </div>
 
@@ -53,7 +55,9 @@
                     <div class="icon">
                         <i class="fa fa-user-plus "></i>
                     </div>
-                    <a href="<?php echo base_url('admin/marketer') ?>" class="small-box-footer">More info <i class="fa fa-arrow-circle-right"></i></a>
+                    <a href="<?php echo base_url('admin/marketer') ?>" class="small-box-footer">
+                        More info <i class="fa fa-arrow-circle-right"></i>
+                    </a>
                 </div>
             </div>
 
@@ -65,10 +69,11 @@
                         <p>Total Plans</p>
                     </div>
                     <div class="icon">
-                        <i class="fa fa-cc "></i>
+                        <i class="fa fa-cc"></i>
                     </div>
-                    <a href="<?php echo base_url('admin/plan') ?>" class="small-box-footer">More info <i
-                                class="fa fa-arrow-circle-right"></i></a>
+                    <a href="<?php echo base_url('admin/plan') ?>" class="small-box-footer">
+                        More info <i class="fa fa-arrow-circle-right"></i>
+                    </a>
                 </div>
             </div>
 
@@ -82,8 +87,45 @@
                     <div class="icon">
                         <i class="fa fa-bell "></i>
                     </div>
-                    <a href="<?php echo base_url('admin/request') ?>" class="small-box-footer">More info <i
-                                class="fa fa-arrow-circle-right"></i></a>
+                    <a href="<?php echo base_url('admin/request') ?>" class="small-box-footer">
+                        More info <i class="fa fa-arrow-circle-right"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-xs-6">
+                <?php
+                $totalLevelSum = $this->db->select('SUM(wallet) as total_wallet')->get('users')->row();
+                if ($totalLevelSum) {
+                    $totalLevelIncome = $totalLevelSum->total_wallet ?? 0;
+                }
+                ?>
+                <div class="small-box bg-yellow">
+                    <div class="inner">
+                        <h3><?php echo $totalLevelIncome; ?></h3>
+                        <p>Total Level Income</p>
+                    </div>
+                    <div class="icon">
+                        <i class="fa fa-money"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-xs-6">
+                <?php
+                $totalBonus = $this->db->select('SUM(amount) as total_bonus')->get('bonus_incomes')->row();
+                if ($totalBonus) {
+                    $totalBonusIncome = $totalBonus->total_bonus ?? 0;
+                }
+                ?>
+                <div class="small-box bg-aqua">
+                    <div class="inner">
+                        <h3><?php echo $totalBonusIncome; ?></h3>
+                        <p>Total Bonus Income</p>
+                    </div>
+                    <div class="icon">
+                        <i class="fa fa-money"></i>
+                    </div>
                 </div>
             </div>
 
@@ -159,7 +201,6 @@
                         <th>Name</th>
                         <th>Email</th>
                         <th>Mobile</th>
-                        <!-- <th>Refer Code</th> -->
                         <th>Referred Name</th>
                         <th>Referred Code</th>
                         <th>Created Date</th>
@@ -172,7 +213,6 @@
                                 <td><?php echo $value['first_name'] . ' ' . $value['last_name']; ?></td>
                                 <td><?php echo $value['email']; ?></td>
                                 <td><?php echo $value['mobile']; ?></td>
-                                <!-- <td><?php echo $value['refer_code']; ?></td> -->
                                 <td><?php echo $value['firstName'] . ' ' . $value['lastName']; ?></td>
                                 <td><?php echo $value['referCode']; ?></td>
                                 <td><?php echo $value['create_date']; ?></td>
@@ -185,7 +225,6 @@
                         <th>Name</th>
                         <th>Email</th>
                         <th>Mobile</th>
-                        <!-- <th>Refer Code</th> -->
                         <th>Referred Name</th>
                         <th>Referred Code</th>
                         <th>Created Date</th>

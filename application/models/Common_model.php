@@ -12,13 +12,23 @@ class Common_Model extends CI_Model
 
     function getAllUser($table, $order_by, $role = '')
     {
-        $this->db->select('*');
+        $this->db->select("$table.*");
+        $this->db->select('US.first_name AS firstName');
+        $this->db->select('US.last_name AS lastName');
         if (!empty($role)) {
-            $this->db->where('role', $role);
+            $this->db->where("$table.role", $role);
         }
         $this->db->from($table);
-        $this->db->order_by('id', $order_by);
+        $this->db->join('users AS US', "$table.refer_by=US.id", 'left');
+        $this->db->order_by("$table.id", $order_by);
         $query = $this->db->get();
+
+        /*echo $this->db->last_query();
+
+        echo '<pre>';
+        print_r($query->result_array());
+        exit();*/
+
         return $query->result_array();
     }
 
@@ -27,6 +37,19 @@ class Common_Model extends CI_Model
         $this->db->select('*');
         $this->db->from($table);
         $this->db->order_by('id', $order_by);
+        $query = $this->db->get();
+        return $query->result_array();
+    }
+
+    function getAllBonusIncome($user_id)
+    {
+        $this->db->select('*', 'first_name', 'last_name');
+        $this->db->from('bonus_incomes');
+        if ($user_id) {
+            $this->db->where('users.id', $user_id);
+        }
+        $this->db->join('users', 'users.id = bonus_incomes.user_id', 'left');
+        $this->db->order_by('bonus_incomes.id', 'DESC');
         $query = $this->db->get();
         return $query->result_array();
     }
@@ -77,11 +100,14 @@ class Common_Model extends CI_Model
     {
         $this->db->select('users.*');
         $this->db->select('m.name');
-        $this->db->where('role', 'Client');
+        $this->db->select('US.first_name AS firstName');
+        $this->db->select('US.last_name AS lastName');
+        $this->db->where('users.role', 'Client');
         if (count($plan_ids) > 0) {
             $this->db->where_in('users.plan_id', $plan_ids);
         }
         $this->db->from('users');
+        $this->db->join('users AS US', 'users.refer_by=US.id', 'left');
         $this->db->join('membership_plan as m', 'm.id = users.plan_id', 'left');
         $this->db->order_by('users.id', 'desc');
         $query = $this->db->get();
@@ -92,14 +118,20 @@ class Common_Model extends CI_Model
     {
         $this->db->select('users.*');
         $this->db->select('m.name');
-        $this->db->where('role', 'Marketer');
+        $this->db->select('US.first_name AS firstName');
+        $this->db->select('US.last_name AS lastName');
+        $this->db->where('users.role', 'Marketer');
         if (count($plan_ids) > 0) {
             $this->db->where_in('users.plan_id', $plan_ids);
         }
         $this->db->from('users');
+        $this->db->join('users AS US', 'users.refer_by=US.id', 'left');
         $this->db->join('membership_plan as m', 'm.id = users.plan_id', 'left');
         $this->db->order_by('users.id', 'desc');
         $query = $this->db->get();
+
+        //   echo $this->db->last_query();
+
         return $query->result_array();
     }
 

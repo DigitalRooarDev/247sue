@@ -59,7 +59,7 @@
                                 foreach ($rows as $key => $value) { ?>
                                     <tr>
                                         <td><?php echo $value['id']; ?> </td>
-                                        <td><?php echo $value['total_join_member']; ?> </td>
+                                        <td><?php echo $value['total_join_member']; ?> <strong>OR Above</strong> </td>
                                         <td><?php echo $value['reward']; ?></td>
                                         <td>
                                             <?php if ($value['status']) {

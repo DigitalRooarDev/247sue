@@ -35,8 +35,9 @@
                         <h3 class="box-title">
                             <?= $section_title; ?>
                         </h3>
-                        <a href="<?php echo base_url('admin/configlevel/add') ?>" class="btn btn-info"
-                           style="float: right;"><i class="fa fa-plus"></i> Add <a>
+                        <!-- <a href="<?php echo base_url('admin/configlevel/add') ?>" class="btn btn-info" style="float: right;">
+                            <i class="fa fa-plus"></i> Add 
+                        <a> -->
                     </div>
                     <div class="box-body">
                         <table id="example1" class="table table-bordered table-striped">
@@ -46,7 +47,7 @@
                                 <th>Level No.</th>
                                 <th>Rewards Percentage</th>
                                 <th>Referral Member</th>
-                                <th>Status</th>
+                                <!-- <th>Status</th> -->
                                 <th>Action</th>
                             </tr>
                             </thead>
@@ -58,19 +59,19 @@
                                         <td><?php echo $value['level']; ?> </td>
                                         <td><?php echo $value['reward_per']; ?></td>
                                         <td><?php echo $value['referral_member']; ?></td>
-                                        <td><?php
-
-                                            if ($value['status']) {
-                                                echo '<a href="' . base_url("admin/configlevel/status/" . $value['id'] . "/" . $value['status']) . '" class="btn  btn-success btn-xs">Active</a>';
-                                            } else {
-                                                echo '<a href="' . base_url("admin/configlevel/status/" . $value['id'] . "/" . $value['status']) . '" class="btn  btn-danger btn-xs">Inactive</a>';
-                                            }
-                                            ?></td>
+                                        <!-- <td>
+                                            <?php
+                                                if ($value['status']) {
+                                                    echo '<a href="' . base_url("admin/configlevel/status/" . $value['id'] . "/" . $value['status']) . '" class="btn  btn-success btn-xs">Active</a>';
+                                                } else {
+                                                    echo '<a href="' . base_url("admin/configlevel/status/" . $value['id'] . "/" . $value['status']) . '" class="btn  btn-danger btn-xs">Inactive</a>';
+                                                }
+                                            ?>
+                                        </td> -->
                                         <td>
-                                            <a href="<?php echo base_url('admin/configlevel/edit/' . $value['id']) ?>"
-                                               class="btn btn-info "><i class="fa fa-pencil"></i></a>
+                                            <a href="<?php echo base_url('admin/configlevel/edit/' . $value['id']) ?>" class="btn btn-info "><i class="fa fa-pencil"></i></a>
                                             <!-- <button type="button" class="btn btn-danger remove" data-id="<?php echo $value['id']; ?>" data-url="<?php echo base_url('admin/configlevel/delete/' . $value['id']) ?>"><i class="fa fa-trash"></i></button>  -->
-
+                                        </td>
                                     </tr>
                                 <?php }
                             } ?>
@@ -81,7 +82,7 @@
                                 <th>Level No.</th>
                                 <th>Rewards Percentage</th>
                                 <th>Referral Member</th>
-                                <th>Status</th>
+                                <!-- <th>Status</th> -->
                                 <th>Action</th>
                             </tr>
                             </tfoot>

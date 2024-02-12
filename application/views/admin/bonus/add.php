@@ -16,7 +16,7 @@
     </section>
     <!-- Main content -->
     <section class="content">
-      <!--   <?php if ($this->session->flashdata('success_message')) { ?>
+        <?php if ($this->session->flashdata('success_message')) { ?>
             <div class="alert alert-success alert-dismissible" role="alert">
                 <strong><i class="icon fa fa-check"></i></strong>
                 <?php echo $this->session->flashdata('success_message'); ?>
@@ -24,8 +24,8 @@
                     <span aria-hidden="true">×</span>
                 </button>
             </div>
-        <?php } ?> -->
-        <!-- <?php if ($this->session->flashdata('error_message')) { ?>
+        <?php } ?>
+        <?php if ($this->session->flashdata('error_message')) { ?>
             <div class="alert alert-danger alert-dismissible" role="alert">
                 <strong><i class="icon fa fa-warning"></i></strong>
                 <?php echo $this->session->flashdata('error_message'); ?>
@@ -33,7 +33,7 @@
                     <span aria-hidden="true">×</span>
                 </button>
             </div>
-        <?php } ?> -->
+        <?php } ?>
 
         <div class="row">
             <div class="col-md-12">
@@ -48,14 +48,16 @@
                                 <div class="col-sm-6">
                                     <div class="form-group">
                                         <label>Total Join Member </label>
-                                        <input type="text" name="total_join_member" id="total_join_member" class="form-control" placeholder="Join Member">
+                                        <input type="text" name="total_join_member" id="total_join_member" class="form-control" placeholder="Join Member"
+                                               value="<?php echo isset($dataSet['form_data']['total_join_member']) ? $dataSet['form_data']['total_join_member'] : ''; ?>">
                                        
                                     </div>
                                 </div>
                                 <div class="col-sm-6">
                                     <div class="form-group">
                                         <label>Rewards</label>
-                                        <input type="text" name="reward" id="reward" class="form-control" placeholder="Rewards">
+                                        <input type="text" name="reward" id="reward" class="form-control" placeholder="Rewards"
+                                               value="<?php echo isset($dataSet['form_data']['reward']) ? $dataSet['form_data']['reward'] : ''; ?>">
                                     </div>
                                 </div>
                             </div>
@@ -84,7 +86,7 @@
         },
         messages: {
             "total_join_member": {
-                required: "Please Enter total Join Member"
+                required: "Please Enter Join Member"
             },
             "reward": {
                 required: "Please Enter Reward",

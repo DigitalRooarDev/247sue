@@ -29,7 +29,7 @@
 */
 
 //$config['base_url'] = 'https://247sue.com/';
-$config['base_url'] = 'http://localhost/247sue/';
+$config['base_url'] = 'http://192.168.0.188/247sue/';
 
 /*
 |--------------------------------------------------------------------------

@@ -59,137 +59,178 @@ class Api extends CI_Controller
         $response = array();
         $response['result'] = '0';
         $response['response'] = '';
-        if (isset($data['first_name']) && isset($data['last_name']) && isset($data['email']) &&
-            isset($data['password']) && isset($data['role']) && isset($data['mobile']) &&
-            (isset($data['fcm_device_id'])) && (isset($data['device_type'])) && (isset($data['location'])) &&
-            (isset($data['location'])) && (isset($data['latitude'])) && (isset($data['latitude'])) &&
-            (isset($data['longitude'])) && (isset($data['longitude']))) {
 
-            $emailExists = $this->api->checkAlredyEmailexiest($data['email']);
-            $mobileExists = $this->api->checkifmobilealreadyexists($data['mobile']);
-            if ($emailExists) {
-                $response = array('result' => '0', 'response' => 'The Email id entered is already exists');
-            } elseif ($mobileExists) {
-                $response = array('result' => '0', 'response' => 'The Mobile number entered is already exists');
-            } else {
-                $dataArray = array();
-                if ($data['role'] == 'Lawyer') {
-                    $getDocument1 = '';
-                    if (isset($_FILES['document_1'])) {
-                        $document1 = $this->uploadDocument('document_1');
-                        if ($document1['status'] == true) ;
-                        {
-                            $getDocument1 = $document1['data'];
+        $isTrue = true;
+        if (isset($data['refer_code']) && $data['refer_code'] != '') {
+            $refer_code = $data['refer_code'];
+            $usersData = $this->db->select('*')->from('users')->where('refer_code like binary' . "'$refer_code'")->get()->row_array();
+            if (!$usersData) {
+                $response = array('result' => '0', 'response' => 'Refer code is invalid');
+                $isTrue = false;
+            } elseif ($usersData['status'] != 1) {
+                $response = array('result' => '0', 'response' => 'Referral user inactive');
+                $isTrue = false;
+            }
+        }
+
+        $referCodeName = $usersData['role'];
+
+        if ($data['role'] == 'Client' && $referCodeName == 'Marketer') {
+            $response = array('result' => '0', 'response' => 'Client Refer code is invalid');
+            $isTrue = false;
+        } elseif ($data['role'] == 'Lawyer' && $referCodeName == 'Marketer') {
+            $response = array('result' => '0', 'response' => 'Lawyer Refer code is invalid');
+            $isTrue = false;
+        } elseif ($data['role'] == 'Marketer' && $referCodeName == 'Client') {
+            $response = array('result' => '0', 'response' => 'Marketer Refer code is invalid');
+            $isTrue = false;
+        } elseif ($data['role'] == 'Marketer' && $referCodeName == 'Lawyer') {
+            $response = array('result' => '0', 'response' => 'Marketer Refer code is invalid');
+            $isTrue = false;
+        }
+
+        if ($data['refer_code'] == '' || $isTrue) {
+
+            if (isset($data['first_name']) && isset($data['last_name']) && isset($data['email']) &&
+                isset($data['password']) && isset($data['role']) && isset($data['mobile']) &&
+                (isset($data['fcm_device_id'])) && (isset($data['device_type'])) && (isset($data['location'])) &&
+                (isset($data['location'])) && (isset($data['latitude'])) && (isset($data['latitude'])) &&
+                (isset($data['longitude'])) && (isset($data['longitude']))) {
+
+                $emailExists = $this->api->checkAlredyEmailexiest($data['email']);
+                $mobileExists = $this->api->checkifmobilealreadyexists($data['mobile']);
+                if ($emailExists) {
+                    $response = array('result' => '0', 'response' => 'The Email id entered is already exists');
+                } elseif ($mobileExists) {
+                    $response = array('result' => '0', 'response' => 'The Mobile number entered is already exists');
+                } else {
+                    $dataArray = array();
+                    if ($data['role'] == 'Lawyer') {
+                        $getDocument1 = '';
+                        if (isset($_FILES['document_1'])) {
+                            $document1 = $this->uploadDocument('document_1');
+                            if ($document1['status'] == true) ;
+                            {
+                                $getDocument1 = $document1['data'];
+                            }
                         }
-                    }
 
-                    $getDocument2 = '';
-                    if (isset($_FILES['document_2'])) {
-                        $document2 = $this->uploadDocument('document_2');
-                        if ($document2['status'] == true) ;
-                        {
-                            $getDocument2 = $document2['data'];
+                        $getDocument2 = '';
+                        if (isset($_FILES['document_2'])) {
+                            $document2 = $this->uploadDocument('document_2');
+                            if ($document2['status'] == true) ;
+                            {
+                                $getDocument2 = $document2['data'];
+                            }
                         }
-                    }
 
-                    $getDocument3 = '';
-                    if (isset($_FILES['document_3'])) {
-                        $document3 = $this->uploadDocument('document_3');
-                        if ($document3['status'] == true) ;
-                        {
-                            $getDocument3 = $document3['data'];
+                        $getDocument3 = '';
+                        if (isset($_FILES['document_3'])) {
+                            $document3 = $this->uploadDocument('document_3');
+                            if ($document3['status'] == true) ;
+                            {
+                                $getDocument3 = $document3['data'];
+                            }
                         }
-                    }
 
-                    $getDocument4 = '';
-                    if (isset($_FILES['document_4'])) {
-                        $document4 = $this->uploadDocument('document_4');
-                        if ($document4['status'] == true) ;
-                        {
-                            $getDocument4 = $document4['data'];
+                        $getDocument4 = '';
+                        if (isset($_FILES['document_4'])) {
+                            $document4 = $this->uploadDocument('document_4');
+                            if ($document4['status'] == true) ;
+                            {
+                                $getDocument4 = $document4['data'];
+                            }
                         }
+
+                        $dataArray['llb_certificate'] = $getDocument1;
+                        $dataArray['call_to_bar_certificate'] = $getDocument2;
+                        $dataArray['supreme_court_number'] = $getDocument3;
+                        $dataArray['annual_practice_fee'] = $getDocument4;
                     }
 
-                    $dataArray['llb_certificate'] = $getDocument1;
-                    $dataArray['call_to_bar_certificate'] = $getDocument2;
-                    $dataArray['supreme_court_number'] = $getDocument3;
-                    $dataArray['annual_practice_fee'] = $getDocument4;
-                }
+                    $dataArray['first_name'] = $data['first_name'];
+                    $dataArray['last_name'] = $data['last_name'];
+                    $dataArray['email'] = $data['email'];
+                    $dataArray['role'] = $data['role'];
+                    $dataArray['status'] = ($data['role'] == 'Lawyer') ? '0' : '1';
+                    $dataArray['mobile'] = $data['mobile'];
+                    $dataArray['l_location'] = $data['location'];
+                    $dataArray['l_latitude'] = $data['latitude'];
+                    $dataArray['l_longitude'] = $data['longitude'];
+                    $dataArray['password'] = md5($data['password']);
+                    $dataArray['fcm_device_id'] = $data['fcm_device_id'];
+                    $dataArray['device_type'] = $data['device_type'];
+                    $dataArray['plan_id'] = DEFAULT_PLAN_ID;
+                    $dataArray['plan_expiry'] = date('Y-m-d h:i:s', strtotime('+1 years'));
 
-                $dataArray['first_name'] = $data['first_name'];
-                $dataArray['last_name'] = $data['last_name'];
-                $dataArray['email'] = $data['email'];
-                $dataArray['role'] = $data['role'];
-                $dataArray['status'] = ($data['role'] == 'Lawyer') ? '0' : '1';
-                $dataArray['mobile'] = $data['mobile'];
-                $dataArray['l_location'] = $data['location'];
-                $dataArray['l_latitude'] = $data['latitude'];
-                $dataArray['l_longitude'] = $data['longitude'];
-                $dataArray['password'] = md5($data['password']);
-                $dataArray['fcm_device_id'] = $data['fcm_device_id'];
-                $dataArray['device_type'] = $data['device_type'];
-                $dataArray['plan_id'] = DEFAULT_PLAN_ID;
-                $dataArray['plan_expiry'] = date('Y-m-d h:i:s', strtotime('+1 years'));
+                    $insertID = $this->api->addNewRecord('users', $dataArray);
 
-                $insertID = $this->api->addNewRecord('users', $dataArray);
-
-                if (isset($data['refer_code']) && $data['refer_code'] != '') {
-                    $query = $this->db->query('SELECT * FROM users WHERE refer_code = "' . $data['refer_code'] . '"');
-                    $usersData = $query->result_array();
-                    if (count($usersData) > 0) {
-                        /*$referralBonus = $this->api->getSettings('referralbonus');
-                        $updateWallet['wallet'] = $referralBonus;
-                        $updateWallet['refer_by'] = $usersData[0]['id'];*/
-                        $updateWallet['refer_by'] = $usersData[0]['id'];
-                        $this->api->update($updateWallet, $insertID, 'users');
-                    }
-                }
-
-                if ($insertID) {
-                    $str_result = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890abcdefghijklmnopqrstuvwxyz';
-
-                    // refer code hiten code start
-                    $unique_ref_found = false;
-                    while (!$unique_ref_found) {
-                        $referralCode = substr(str_shuffle($str_result), 0, 6);
-                        $query = $this->db->query("SELECT `refer_code` FROM `users` WHERE `refer_code`='$referralCode'");
+                    if (isset($data['refer_code']) && $data['refer_code'] != '') {
+                        $query = $this->db->query('SELECT * FROM users WHERE refer_code = "' . $data['refer_code'] . '"');
                         $usersData = $query->result_array();
-                        if (count($usersData) == 0) {
-                            $unique_ref_found = true;
+                        if (count($usersData) > 0) {
+                            /*$referralBonus = $this->api->getSettings('referralbonus');
+                            $updateWallet['wallet'] = $referralBonus;
+                            $updateWallet['refer_by'] = $usersData[0]['id'];*/
+                            $updateWallet['refer_by'] = $usersData[0]['id'];
+                            $this->api->update($updateWallet, $insertID, 'users');
                         }
                     }
-                    $dataArrayUpdate['refer_code'] = $referralCode;
-                    $this->api->update($dataArrayUpdate, $insertID, 'users');
-                    // refer code hiten code end
 
-                    $userDetail = $this->api->getSingleRecordById($insertID, 'users');
-                    //print_r($userDetail);exit;
+                    if ($insertID) {
+                        $str_result = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890abcdefghijklmnopqrstuvwxyz';
 
-                    $userDetailsSendINApi = array();
-                    $userDetailsSendINApi['id'] = $userDetail['id'];
-                    $userDetailsSendINApi['first_name'] = $userDetail['first_name'];
-                    $userDetailsSendINApi['last_name'] = $userDetail['last_name'];
-                    $userDetailsSendINApi['email'] = $userDetail['email'];
-                    $userDetailsSendINApi['role'] = $userDetail['role'];
-                    $userDetailsSendINApi['mobile'] = $userDetail['mobile'];
-                    $userDetailsSendINApi['refer_code'] = $userDetail['refer_code'];
-                    $userDetailsSendINApi['fcm_device_id'] = $userDetail['fcm_device_id'];
-                    $userDetailsSendINApi['device_type'] = $userDetail['device_type'];
-                    $response['result'] = '1';
-                    $response['response'] = $userDetail;
-                }
+                        // refer code hiten code start
+                        $unique_ref_found = false;
+                        while (!$unique_ref_found) {
+                            $referralCode = substr(str_shuffle($str_result), 0, 6);
+                            $query = $this->db->query("SELECT `refer_code` FROM `users` WHERE `refer_code`='$referralCode'");
+                            $usersData = $query->result_array();
+                            if (count($usersData) == 0) {
+                                $unique_ref_found = true;
+                            }
+                        }
+                        $dataArrayUpdate['refer_code'] = $referralCode;
+                        $this->api->update($dataArrayUpdate, $insertID, 'users');
+                        // refer code hiten code end
 
-                if ($data['role'] == 'Lawyer') {
-                    $response = array('result' => '1', 'response' => 'The Lawyer signup successfully. Admin can verify to login in you account');
+                        $userDetail = $this->api->getSingleRecordById($insertID, 'users');
+                        //print_r($userDetail);exit;
+
+                        $userDetailsSendINApi = array();
+                        $userDetailsSendINApi['id'] = $userDetail['id'];
+                        $userDetailsSendINApi['first_name'] = $userDetail['first_name'];
+                        $userDetailsSendINApi['last_name'] = $userDetail['last_name'];
+                        $userDetailsSendINApi['email'] = $userDetail['email'];
+                        $userDetailsSendINApi['role'] = $userDetail['role'];
+                        $userDetailsSendINApi['mobile'] = $userDetail['mobile'];
+                        $userDetailsSendINApi['refer_code'] = $userDetail['refer_code'];
+                        $userDetailsSendINApi['fcm_device_id'] = $userDetail['fcm_device_id'];
+                        $userDetailsSendINApi['device_type'] = $userDetail['device_type'];
+                        $response['result'] = '1';
+                        $response['response'] = $userDetail;
+                    }
+
+                    if ($data['role'] == 'Lawyer') {
+                        $response = array('result' => '1', 'response' => 'The Lawyer signup successfully. Admin can verify to login in you account');
+                    }
                 }
             }
         }
+
+
         echo json_encode($response);
     }
 
     public function referCodeCheck()
     {
         $data = json_decode(file_get_contents('php://input'), true);
+
+        if ($data['refer_code'] == '') {
+            $response = array('result' => '0', 'response' => 'Please enter refer code');
+            echo json_encode($response);
+            exit();
+        }
         if (isset($data['refer_code'])) {
             $refer_code = $data['refer_code'];
 
@@ -201,6 +242,32 @@ class Api extends CI_Controller
             }
         } else {
             $response = array('result' => '0', 'response' => 'Enter refer code');
+        }
+        echo json_encode($response);
+    }
+
+    public function logout()
+    {
+        $data = json_decode(file_get_contents('php://input'), true);
+
+        if ($data['user_id'] == '') {
+            $response = array('result' => '0', 'response' => 'Please enter user id');
+            echo json_encode($response);
+            exit();
+        }
+        if (isset($data['user_id'])) {
+            $user_id = $data['user_id'];
+
+            $usersData = $this->db->select('*')->from('users')->where('id', $user_id)->get()->row_array();
+            if ($usersData) {
+                $update_data['fcm_device_id'] = '';
+                $this->api->update($update_data, $user_id, 'users');
+                $response = array('result' => '1', 'response' => 'Logout Successfully');
+            } else {
+                $response = array('result' => '0', 'response' => 'User id not found, Please try again');
+            }
+        } else {
+            $response = array('result' => '0', 'response' => 'Enter user id');
         }
         echo json_encode($response);
     }
@@ -390,6 +457,7 @@ class Api extends CI_Controller
         if (isset($data['user_id']) && isset($data['case_name']) && isset($data['description'])) {
             $dataArray = array();
             $dataArray['client_id'] = $data['user_id'];
+            $dataArray['client_id'] = $data['user_id'];
             $dataArray['case_name'] = $data['case_name'];
             $dataArray['c_location'] = $data['location'];
             $dataArray['c_latitude'] = $data['latitude'];
@@ -414,9 +482,9 @@ class Api extends CI_Controller
                     if ($insertID) {
                         $msg = "User #" . $data['user_id'] . " created a case";
                         $msg = wordwrap($msg, 70);
-//		            mail($this->api->getSettings('admin_email'),"Case Created",$msg);
+                        // mail($this->api->getSettings('admin_email'),"Case Created",$msg);
                         $this->sendemail($this->api->getSettings('admin_email'), "Case Created", $msg);
-//		            mail('hiten.digitalrooar@gmail.com',"Case Created",$msg);
+                        // mail('hiten.digitalrooar@gmail.com',"Case Created",$msg);
 
                         $nearestlawyerDetails = $this->api->AutoAssignnearestlawyer($insertID);
                         if (count($nearestlawyerDetails) > 0) {
@@ -463,7 +531,7 @@ class Api extends CI_Controller
                             $response['response'] = $caseDetialSendINApi;
                         } else {
                             $response['result'] = '0';
-                            $response['response'] = 'Please select at least one Evidance';
+                            $response['response'] = 'Please select at least one Evidence';
                         }
                         // get case information
                     } else {
@@ -613,7 +681,7 @@ class Api extends CI_Controller
             $dataArray = array();
             $dataArray['status'] = '2';
 
-//			$updateprofile = $this->api->update($dataArray ,$data['user_id'], 'users');
+            // $updateprofile = $this->api->update($dataArray ,$data['user_id'], 'users');
             $updateprofile = $this->db->query('delete FROM users WHERE id="' . $data['user_id'] . '" ');
             if ($updateprofile) {
                 $response['result'] = '1';
@@ -658,7 +726,7 @@ class Api extends CI_Controller
                 $allowed = array('pdf');
             }
             $extension = pathinfo($filePath, PATHINFO_EXTENSION);
-//                print_r($allowed);
+            // print_r($allowed);
             if (!$extension || empty($extension) || !in_array($extension, $allowed)) {
                 $response['result'] = '0';
                 $response['response'] = 'Please select the doc, pdf or image file only.';
@@ -749,7 +817,7 @@ class Api extends CI_Controller
     public function updateevidence()
     {
         $data = json_decode(file_get_contents('php://input'), true);
-//                print_r($data);exit;
+        // print_r($data);exit;
         $response = array();
         $response['result'] = '0';
         $response['response'] = '';
@@ -790,7 +858,7 @@ class Api extends CI_Controller
                     $dataEvidence['user_id'] = $value['user_id'];
                     $dataEvidence['title'] = $value['title'];
                     $dataEvidence['type'] = $value['type'];
-//						$dataEvidence['url'] =$value['url'];
+                    // $dataEvidence['url'] =$value['url'];
                     $dataEvidence['url'] = $value['url'];
                     $dataEvidence['lat'] = $value['lat'];
                     $dataEvidence['location'] = $value['location'];
@@ -858,43 +926,43 @@ class Api extends CI_Controller
 
     public function deleteevidencevideo()
     {
-//		$data = json_decode(file_get_contents('php://input'), true);
+        // $data = json_decode(file_get_contents('php://input'), true);
 
         $response = array();
         $response['result'] = '0';
         $response['response'] = '';
-//		$this->db->select('*');
-//		$this->db->order_by('created_date', 'DESC');
-//		$this->db->where('created_date >=', 'DATE(NOW()) + INTERVAL -7 DAY');
-////		$this->db->where('created_date <=', '(NOW() + INTERVAL 14 DAY)');
-//
-//		$this->db->where('viewuser =', '0');
-//		$this->db->from('evidences');
+        //		$this->db->select('*');
+        //		$this->db->order_by('created_date', 'DESC');
+        //		$this->db->where('created_date >=', 'DATE(NOW()) + INTERVAL -7 DAY');
+        ////		$this->db->where('created_date <=', '(NOW() + INTERVAL 14 DAY)');
+        //
+        //		$this->db->where('viewuser =', '0');
+        //		$this->db->from('evidences');
         $query = $this->db->query('SELECT * FROM evidences WHERE created_date <= now() - INTERVAL 7 DAY and created_date >= now() - INTERVAL 14 DAY and viewuser = 0 order by created_date DESC');
 
-//                $query = $this->db->get();
-//		$query = $this->db->get();
-// echo               $this->db->last_query();
+        // $query = $this->db->get();
+        // $query = $this->db->get();
+        // echo $this->db->last_query();
 
         $evidence = $query->result_array();
         $bunnyCDNStorage = new BunnyCDNStorage("247sue", "6b769d6b-7baf-4c60-901e24d7dda9-aa61-4ff2");
         foreach ($evidence as $evidences) {
             //unset($evidences);
-//                    echo $_SERVER['DOCUMENT_ROOT'].'/upload/'.$evidences['url'];
+            // echo $_SERVER['DOCUMENT_ROOT'].'/upload/'.$evidences['url'];
 
-//                    if (file_exists($_SERVER['DOCUMENT_ROOT'].'/upload/'.$evidences['url'])){
-//                        unlink($_SERVER['DOCUMENT_ROOT'].'/upload/'.$evidences['url']);
+            // if (file_exists($_SERVER['DOCUMENT_ROOT'].'/upload/'.$evidences['url'])){
+            // unlink($_SERVER['DOCUMENT_ROOT'].'/upload/'.$evidences['url']);
             $link_array = explode('/', $evidences['url']);
             $page = end($link_array);
             $bunnyCDNStorage->deleteObject("/247sue/video/" . $page);
             $this->db->query('delete FROM evidences WHERE id="' . $evidences['id'] . '" ');
-//                    }
+            // }
             exit;
 
         }
         print_r($evidence);
 
-//		echo json_encode($response , JSON_PRETTY_PRINT);
+        // echo json_encode($response , JSON_PRETTY_PRINT);
     }
 
     // Share Evidence with friend
@@ -1239,7 +1307,9 @@ class Api extends CI_Controller
             $transactionData['payment_type'] = $data['payment_type'];
             $transactionData['txn_desc'] = 'Made Payment from ' . $data['payment_type'] . ' for Membership Plan-' . $data['plan_name'];
             $transactionData['amount'] = $data['amount'];
-            $transaction = $this->api->addNewRecord('transactions', $transactionData);
+            if ($transactionData['amount'] && $transactionData['amount'] > 0) {
+                $transaction = $this->api->addNewRecord('transactions', $transactionData);
+            }
             // Adding Payment Transaction End
 
             if ($transaction) {
@@ -1252,7 +1322,7 @@ class Api extends CI_Controller
                     if (count($userReferralData) > 0) {
 
                         if ($usersData[0]['role'] == 'Marketer') {
-                            $this->referByLevel($data['amount'], $data['user_id']);
+                            $this->referByLevel($data['amount'], $data['user_id'], $data['user_id']);
                         }
 
                         if ($usersData[0]['role'] == 'Client') {
@@ -1264,8 +1334,11 @@ class Api extends CI_Controller
                             $transactionData['user_id'] = $usersData[0]['refer_by'];
                             $transactionData['txn_no'] = rand();
                             $transactionData['txn_desc'] = 'Referral Bonus to User';
+                            $transactionData['payment_type'] = 'Direct Referral Join';
                             $transactionData['amount'] = ($data['amount'] * $referralBonus) / 100;
-                            $this->api->addNewRecord('transactions', $transactionData);
+                            if ($transactionData['amount'] && $transactionData['amount'] > 0) {
+                                $this->api->addNewRecord('transactions', $transactionData);
+                            }
                         }
 
                         // Sending Push Notification to User after receiving payment.
@@ -1314,28 +1387,89 @@ class Api extends CI_Controller
         echo json_encode($response, JSON_PRETTY_PRINT);
     }
 
-    public function referByLevel($amount, $userId)
+    public function referByLevel($amount, $userId, $to_user_id, $level = 1)
     {
         $usersData = $this->db->select('*')->from('users')->where('id', $userId)->get()->row_array();
         if ($usersData['refer_by'] > 0) {
+
             $usersData = $this->db->select('*')->from('users')->where('id', $usersData['refer_by'])->get()->row_array();
-
             if ($usersData['plan_id'] > 1) { // Plan Purchase
-                $referralBonus = $this->api->getSettings('referralbonus');
 
-                $updateWallet = array();
-                $updateWallet['wallet'] = $usersData['wallet'] + ($amount * $referralBonus) / 100;
-                $this->db->where('id', $usersData['id'])->update('users', $updateWallet);
+                $levelWiseUserCount = $this->db->select('*')->from('users')->where('refer_by', $usersData['id'])->where('plan_id >', 1)->where('status', 1)->get()->num_rows();
+                $configLevelData = $this->db->select('level,reward_per,referral_member')->where('level', $level)->from('config_levels')->get()->row_array();
 
-                $transactionData = array();
-                $transactionData['user_id'] = $usersData['id'];
-                $transactionData['txn_no'] = rand();
-                $transactionData['txn_desc'] = 'Referral Bonus to User';
-                $transactionData['amount'] = ($amount * $referralBonus) / 100;
-                $this->api->addNewRecord('transactions', $transactionData);
+                if ($levelWiseUserCount >= $configLevelData['referral_member']) {
+
+                    $updateWallet = array();
+                    $updateWallet['wallet'] = $usersData['wallet'] + ($amount * $configLevelData['reward_per']) / 100;
+                    $this->db->where('id', $usersData['id'])->update('users', $updateWallet);
+
+                    $fromUsersData = $this->db->select('*')->from('users')->where('id', $to_user_id)->get()->row_array();
+                    $fromUser = '';
+                    if ($fromUsersData) {
+                        $fromUser = $fromUsersData['first_name'] . ' ' . $fromUsersData['last_name'];
+                    }
+
+                    $transactionData = array();
+                    $transactionData['user_id'] = $usersData['id'];
+                    $transactionData['to_user_id'] = $to_user_id; // New Line Add
+                    $transactionData['txn_no'] = rand();
+                    $transactionData['txn_desc'] = 'Receive referral bonus from ' . $fromUser;
+                    $transactionData['payment_type'] = 'Referral Bonus';
+                    $transactionData['amount'] = ($amount * $configLevelData['reward_per']) / 100;
+                    if ($transactionData['amount'] && $transactionData['amount'] > 0) {
+                        $this->api->addNewRecord('transactions', $transactionData);
+
+
+                        $notification_data['user_id'] = $usersData['id'];
+                        $notification_data['message'] = 'You have receive referral bonus from ' . $fromUser;
+                        $notification_data['redirect_to'] = 'Referral Bonus';
+                        $notification_data['created_date'] = date('Y-m-d H:i:s');
+                        $this->api->addNewRecord('notification', $notification_data);
+                    }
+                }
+            }
+            $level = $level + 1;
+            $this->referByLevel($amount, $usersData['id'], $to_user_id, $level);
+        }
+    }
+
+    public function referByLevelNew($amount = 600, $userId = 447, $level = 1)
+    {
+        /*$arrRewardPer = [];
+        $arrRefCount = [];
+        $configLevelsData = $this->db->select('level,reward_per,referral_member')->from('config_levels')->get()->result_array();
+        foreach ($configLevelsData as $configLevel) {
+            $arrRewardPer[$configLevel['level']] = $configLevel['reward_per'];
+            $arrRefCount[$configLevel['level']] = $configLevel['referral_member'];
+        }*/
+
+        $usersData = $this->db->select('*')->from('users')->where('id', $userId)->get()->row_array();
+        if ($usersData['refer_by'] > 0) {
+            $usersData = $this->db->select('*')->from('users')->where('id', $usersData['refer_by'])->get()->row_array();
+            if ($usersData['plan_id'] > 1) { // Plan Purchase
+                //$referralBonus = $this->api->getSettings('referralbonus');
+
+                $levelWiseUserCount = $this->db->select('*')->from('users')->where('refer_by', $usersData['id'])->get()->num_rows();
+                $configLevelData = $this->db->select('level,reward_per,referral_member')->where('level', $level)->from('config_levels')->get()->row_array();
+                if ($levelWiseUserCount >= $configLevelData['referral_member']) {
+                    $updateWallet = array();
+                    $updateWallet['wallet'] = $usersData['wallet'] + ($amount * $configLevelData['reward_per']) / 100;
+                    $this->db->where('id', $usersData['id'])->update('users', $updateWallet);
+
+                    $transactionData = array();
+                    $transactionData['user_id'] = $usersData['id'];
+                    $transactionData['txn_no'] = rand();
+                    $transactionData['txn_desc'] = 'Referral Bonus to User';
+                    $transactionData['amount'] = ($amount * $configLevelData['reward_per']) / 100;
+                    if ($transactionData['amount'] && $transactionData['amount'] > 0) {
+                        $this->api->addNewRecord('transactions', $transactionData);
+                    }
+                }
             }
 
-            $this->referByLevel($amount, $usersData['id']);
+            $level = $level + 1;
+            $this->referByLevelNew($amount, $usersData['id'], $level);
         }
     }
 
@@ -1367,10 +1501,32 @@ class Api extends CI_Controller
         $response['response'] = '';
         if (isset($user_id)) {
             $dataArray = array();
-            $teamMemberData = $this->directRewardReportList($user_id);
+
+            //$teamMemberData = $this->directRewardReportList($user_id);
+
+            //$teamMemberData = $this->db->select('*')->from('users')->where('refer_by', $user_id)->get()->result_array();
+
+            $teamMemberData = $this->db->select('U.*')
+                ->select('T.id as t_id,amount')
+                ->from('users as U')
+                ->join('transactions as T', 'T.to_user_id = U.id', 'LEFT')
+                ->where('U.refer_by', $user_id)
+                ->where('T.user_id', $user_id)
+                ->where('T.payment_type', 'Referral Bonus')
+                ->get()->result_array();
+
+            /*$teamMemberData = $this->db->select('*')->from('transactions as T')
+                ->join('users as U', 'U.id = T.to_user_id', 'LEFT')
+                ->where('T.user_id', $user_id)
+                ->where('T.payment_type', 'Referral Bonus')
+                ->get()->result_array();*/
+
+            /*print_r($teamMemberData);
+            exit();*/
+
             $sum = 0;
             foreach ($teamMemberData as $getData) {
-                $sum += $getData['wallet'];
+                $sum += $getData['amount'];
 
                 $userReferBy = $this->db->select('*')->from('users')->where('id', $getData['refer_by'])->get()->row_array();
                 if ($userReferBy) {
@@ -1382,6 +1538,7 @@ class Api extends CI_Controller
                 $getData['create_date'] = date('jS M Y, h:i A', strtotime($getData['create_date']));
                 $dataArray[] = $getData;
             }
+
             $teamMemberList['directRewardIncome'] = (string)$sum;
             $teamMemberList['directReward'] = $dataArray;
             $response['result'] = '1';
@@ -1472,12 +1629,42 @@ class Api extends CI_Controller
         for ($i = 1; $i <= 10; $i++) {
             $userRecords = [];
             if (!empty($referralIds))
+
                 $userRecords = $this->db->select('*')->from('users')->where_in('refer_by', $referralIds)->get()->result_array();
+
+            /*$userRecords = $this->db->select('*')->from('users as U')
+                ->join('transactions as T', 'U.id = T.to_user_id', 'LEFT')
+                ->where_in('U.refer_by', $referralIds)
+                ->where('T.payment_type', 'Referral Bonus')
+                ->get()->result_array();*/
+
+            /*$userRecords = $this->db->select('U.*')
+            ->select('T.id as t_id,amount')
+            ->from('users as U')
+            ->join('transactions as T', 'T.to_user_id = U.id', 'LEFT')
+            ->where_in('U.refer_by', $referralIds)
+            ->where('T.payment_type', 'Referral Bonus')
+            ->get()->result_array();*/
+
             if (!empty($userRecords)) {
-                $usersLevels[] = ['level' => $i, 'members' => count($userRecords), 'income' => (string)array_sum(array_column($userRecords, 'wallet'))];
+                foreach ($userRecords as $idx => $getData) {
+                    $user_id = $getData['id'];
+                    $transactions = $this->db->select('amount')->from('transactions')
+                        ->where('payment_type', 'Referral Bonus')
+                        ->where('user_id', $userId)
+                        ->where('to_user_id', $user_id)
+                        ->get()->row_array();
+                    if ($transactions) {
+                        $userRecords[$idx]['amount'] = isset($transactions['amount']) ? $transactions['amount'] : '0';
+                    } else {
+                        $userRecords[$idx]['amount'] = '0';
+                    }
+                }
+
+                $usersLevels[] = ['level' => $i, 'members' => count($userRecords), 'income' => (string)array_sum(array_column($userRecords, 'amount'))];
                 $referralIds = array_column($userRecords, 'id');
             } else {
-                $usersLevels[] = ['level' => $i, 'members' => 0, 'income' => '0.00'];
+                $usersLevels[] = ['level' => $i, 'members' => 0, 'income' => '0'];
             }
         }
         return $usersLevels;
@@ -1487,24 +1674,38 @@ class Api extends CI_Controller
     {
         $data = json_decode(file_get_contents('php://input'), true);
 
-        $user_id = $data['user_id'];
+        $userId = $data['user_id'];
         $level = $data['level'];
 
         $response = array();
         $response['result'] = '0';
         $response['response'] = '';
-        if (isset($user_id)) {
-            $dataArray = $this->levelWiseMember($user_id, $level);
+        if (isset($userId)) {
+            $dataArray = $this->levelWiseMember($userId, $level);
             $levelWiseMemberList['levelWiseMemberCount'] = count($dataArray);
 
             $aaData = array();
             foreach ($dataArray as $getData) {
+
+                $user_id = $getData['id'];
+                $transactions = $this->db->select('amount')->from('transactions')
+                    ->where('payment_type', 'Referral Bonus')
+                    ->where('user_id', $userId)
+                    ->where('to_user_id', $user_id)
+                    ->get()->row_array();
+                if ($transactions) {
+                    $getData['amount'] = isset($transactions['amount']) ? $transactions['amount'] : '0.00';
+                } else {
+                    $getData['amount'] = '0.00';
+                }
+
                 $userReferBy = $this->db->select('*')->from('users')->where('id', $getData['refer_by'])->get()->row_array();
                 if ($userReferBy) {
                     $getData['referredByUser'] = $userReferBy['first_name'] . ' ' . $userReferBy['last_name'];
                 } else {
                     $getData['referredByUser'] = '';
                 }
+
                 $aaData[] = $getData;
             }
             $levelWiseMemberList['levelWiseMember'] = $aaData;
@@ -1524,6 +1725,13 @@ class Api extends CI_Controller
         for ($i = 1; $i <= 10; $i++) {
             if (!empty($referralIds))
                 $userRecords = $this->db->select('*')->from('users')->where_in('refer_by', $referralIds)->get()->result_array();
+
+            /*$userRecords = $this->db->select('*')->from('users as U')
+                ->join('transactions as T', 'U.id = T.to_user_id', 'LEFT')
+                ->where_in('U.refer_by', $referralIds)
+                ->where('T.payment_type', 'Referral Bonus')
+                ->get()->result_array();*/
+
             if (!empty($userRecords)) {
                 $referralIds = array_column($userRecords, 'id');
             } else {
@@ -1532,6 +1740,32 @@ class Api extends CI_Controller
             if ($i == $level) break;
         }
         return $userRecords;
+    }
+
+    public function bonusIncome()
+    {
+        $addData = array();
+        $month = date('m');
+        $marketerData = $this->db->select('*')->from('users')->where('role', 'Marketer')->where('status', 1)->get()->result_array();
+        if ($marketerData) {
+            foreach ($marketerData as $getMarketer) {
+                $marketerId = $getMarketer['id'];
+                $directRefMemberCount = $this->db->select('*')->from('users')->where('refer_by', $marketerId)->where('Month(create_date)', $month)->get()->num_rows();
+                $bonusRewardData = $this->db->select('*')->from('bonus_rewards')->where('total_join_member <=', $directRefMemberCount)->order_by('total_join_member', 'desc')->where('status', 1)->get()->row_array();
+
+                $dataArray = array();
+                $dataArray['user_id'] = $marketerId;
+                $dataArray['total_member'] = $directRefMemberCount;
+                $dataArray['amount'] = $bonusRewardData['reward'] ?? 0;
+
+                $id = $this->api->addNewRecord('bonus_incomes', $dataArray);
+                $addData[] = $this->db->select('*')->from('bonus_incomes')->where('id', $id)->get()->row_array();
+            }
+
+            $response['result'] = $addData && count($addData) > 0 ? '1' : '0';
+            $response['response'] = $addData;
+            echo json_encode($response, JSON_PRETTY_PRINT);
+        }
     }
 
     // Get all Other services type
@@ -1612,7 +1846,7 @@ class Api extends CI_Controller
     // Doing chat with the person for the case.
     public function dochat()
     {
-//		$data = json_decode(file_get_contents('php://input'), true);
+        // $data = json_decode(file_get_contents('php://input'), true);
 
         $data = (isset($_POST)) ? $_POST : array();
         $response = array();
@@ -1940,7 +2174,9 @@ class Api extends CI_Controller
             $p_transcation_data['txn_desc'] = 'Paid for Evidence';
             $p_transcation_data['amount'] = $data['amount'];
             $p_transcation_data['to_user_id'] = $data['shared_by'];
-            $p_transcation = $this->api->addNewRecord('transactions', $p_transcation_data);
+            if ($p_transcation_data['amount'] && $p_transcation_data['amount'] > 0) {
+                $p_transcation = $this->api->addNewRecord('transactions', $p_transcation_data);
+            }
 
             // Add Receiving Transcation
             $user_detail = $this->api->getSingleRecordById($data['user_id'], 'users');
@@ -1950,7 +2186,9 @@ class Api extends CI_Controller
             $r_transcation_data['txn_desc'] = 'You have Received Payment for the Evidence from ' . $full_name;
             $r_transcation_data['amount'] = $data['amount'];
             $r_transcation_data['to_user_id'] = $data['user_id'];
-            $r_transcation = $this->api->addNewRecord('transactions', $r_transcation_data);
+            if ($r_transcation_data['amount'] && $r_transcation_data['amount'] > 0) {
+                $r_transcation = $this->api->addNewRecord('transactions', $r_transcation_data);
+            }
             // Saving notification for the user who have shared the evidences
             $r_notification_data['user_id'] = $data['shared_by'];
             $r_notification_data['message'] = 'You have Received Payment for the Evidence from ' . $full_name;
@@ -1962,7 +2200,9 @@ class Api extends CI_Controller
             $c_transcation_data['user_id'] = $data['shared_by'];
             $c_transcation_data['txn_desc'] = 'Deducted Evidence sharing Commision of ' . $commision_amount . ' Naira from wallet';
             $c_transcation_data['amount'] = $commision_amount;
-            $c_transcation = $this->api->addNewRecord('transactions', $c_transcation_data);
+            if ($c_transcation_data['amount'] && $c_transcation_data['amount'] > 0) {
+                $c_transcation = $this->api->addNewRecord('transactions', $c_transcation_data);
+            }
             // End
             // Add amount to User wallet.
             $wallet_amount = $data['amount'] - $commision_amount;
@@ -2066,8 +2306,8 @@ class Api extends CI_Controller
             //mail("ravi@softechplanet.com","My Subject",$testing);
 
             if ($user['wallet'] < $data['amount']) {
-//				mail("ravi@softechplanet.com","My Subject",$testing);
-//				mail("hiten.digitalrooar@gmail.com","My Subject",$testing);
+                // mail("ravi@softechplanet.com","My Subject",$testing);
+                // mail("hiten.digitalrooar@gmail.com","My Subject",$testing);
                 throw new \Exception("Your wallet balance is low.");
             }
 
@@ -2095,7 +2335,7 @@ class Api extends CI_Controller
                 if ($insert) {
                     $msg = "User #" . $data['user_id'] . " has requested a wallet of " . $data['amount'] . " NGN";
                     $msg = wordwrap($msg, 70);
-//		             mail($this->api->getSettings('admin_email'),"Wallet Request",$msg);
+                    // mail($this->api->getSettings('admin_email'),"Wallet Request",$msg);
                     $this->sendemail($this->api->getSettings('admin_email'), "Wallet Request", $msg);
                     $userDetailsMail = $this->api->getSingleRecordById($data['user_id'], 'users');
 
@@ -2105,7 +2345,9 @@ class Api extends CI_Controller
                     $transactionData['txn_no'] = rand();
                     $transactionData['txn_desc'] = 'Funds requested by user';
                     $transactionData['amount'] = $row['amount'];
-                    $transaction = $this->api->addNewRecord('transactions', $transactionData);
+                    if ($transactionData['amount'] && $transactionData['amount'] > 0) {
+                        $transaction = $this->api->addNewRecord('transactions', $transactionData);
+                    }
                     $userDetails = $this->api->getSingleRecordById($row['user_id'], 'users');
 
                     $oldWalletAmt = $userDetails['wallet'];

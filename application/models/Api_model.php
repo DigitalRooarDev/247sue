@@ -58,7 +58,10 @@ class Api_Model extends CI_Model
 
     function checkReferCodeExiest($refer_code)
     {
-        $query = $this->db->select('users.*')->where('refer_code', $refer_code)->limit(1)->get('users');
+        $query = $this->db->select('users.*')
+            ->where('refer_code like binary' . "'$refer_code'")
+            ->where('status', 1)
+            ->limit(1)->get('users');
         if ($query->num_rows() == 1) {
             return $query->row_array();
         } else {

@@ -1,0 +1,1 @@
+{"multicast_id":104506981036271808,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1707373887543142%cd43a3dacd43a3da"}]}

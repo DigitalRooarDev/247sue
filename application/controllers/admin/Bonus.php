@@ -37,34 +37,49 @@ class Bonus extends CI_Controller
         $this->load->view("admin/bonus/add");
         $this->load->view("admin/include/footer");
     }
-   public function save()
-{
-    // Check if form is submitted
-    if ($_SERVER['REQUEST_METHOD'] === 'POST') {
-        
-            // Form data is valid
-            $insertRow = [
-                "total_join_member" => $this->input->post("total_join_member"),
-                "reward" => $this->input->post("reward"),
-            ];
 
-            // Assuming $this->common->insert() inserts data into the database
-            $insertRow = $this->common->insert("bonus_rewards", $insertRow);
+    public function save()
+    {
 
-            if ($insertRow) {
-                // Redirect on successful insertion
-                redirect(base_url("admin/bonus"));
+        ini_set('display_errors', '1');
+        ini_set('display_startup_errors', '1');
+        error_reporting(E_ALL);
+
+        // Check if form is submitted
+        if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+
+            $this->form_validation->set_rules(
+                "total_join_member", "Join Member", "trim|required|is_unique[bonus_rewards.total_join_member]",
+                array(
+                    "required" => 'The %s Field is Required.',
+                    "is_unique" => 'Entered Join Member Already Exists.'
+                )
+            );
+
+            $this->form_validation->set_rules(
+                "reward", "Reward Per", "trim|required"
+            );
+
+            if ($this->form_validation->run()) {
+                $insertRow = [
+                    "total_join_member" => $this->input->post("total_join_member"),
+                    "reward" => $this->input->post("reward")
+                ];
+                $insertRow = $this->common->insert("bonus_rewards", $insertRow);
+                if ($insertRow) {
+                    redirect(base_url("admin/bonus"));
+                } else {
+                    redirect(base_url("admin/bonus/add"));
+                }
             } else {
-                // Redirect if insertion fails
+                $this->session->set_flashdata("error_message", validation_errors());
+                $_SESSION["form_data"] = $_POST;
                 redirect(base_url("admin/bonus/add"));
             }
-      
-    } else {
-        // If not a POST request, redirect to the form
-        redirect(base_url("admin/bonus/add"));
+        } else {
+            redirect(base_url("admin/bonus/add"));
+        }
     }
-}
-
 
     public function edit($id)
     {
@@ -80,69 +95,10 @@ class Bonus extends CI_Controller
         $this->load->view("admin/include/footer");
     }
 
-    // public function update($id)
-    // {
-    //     if ($_SERVER["REQUEST_METHOD"] == "POST") {
+    public function update($id)
+    {
+        if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
-    //         $this->form_validation->set_rules(
-    //             "total_join_member",
-    //             "Total Join Member",
-    //             "tirm|required"
-    //         );
-    //         $this->form_validation->set_rules(
-    //             "reward",
-    //             "Reward",
-    //             "tirm|required"
-    //         );$singleRow = $this->common->getSingleRecordById($id,"bonus_rewards");
-
-    //         if ($this->form_validation->run()) {
-    //             // Validation passed, proceed with updating
-    //             $updateRow = [
-    //                 "total_join_member" => $_POST["total_join_member"],
-    //                 "reward" => $_POST["reward"],
-    //             ];
-
-    //             $update = $this->common->update(
-    //                 $updateRow,
-    //                 $id,
-    //                 "bonus_rewards"
-    //             );
-    //             // echo "hello";
-    //             //  echo '<pre>';
-    //             // print_r($update); exit();
-    //             if ($update) {
-    //                 $this->session->set_flashdata(
-    //                     "success_message",
-    //                     "Update Successfully!"
-    //                 );
-    //                 redirect(base_url("admin/bonus/edit/" . $id));
-    //             } else {
-    //                 $this->session->set_flashdata(
-    //                     "error_message",
-    //                     "Please Try Again, Something Went Wrong!"
-    //                 );
-    //                 redirect(base_url("admin/bonus/edit/" . $id));
-    //             }
-    //         } else {
-    //             $_SESSION["form_data"] = $_POST;
-    //             $this->session->set_flashdata(
-    //                 "error_message",
-    //                 "Fields Required"
-    //             );
-    //             redirect(base_url("admin/bonus/edit/" . $id));
-    //         }
-    //     } else {
-    //         unset($_SESSION["form_data"]);
-    //         redirect(base_url("admin/bonus/edit/" . $id));
-    //     }
-    // }
-
-
-
-public function update($id)
-{
-    if ($_SERVER["REQUEST_METHOD"] == "POST") {
-        
             // Prepare data for update
             $updateRow = [
                 "total_join_member" => $this->input->post("total_join_member"),
@@ -158,13 +114,12 @@ public function update($id)
                 // Something went wrong with the update
                 redirect(base_url("admin/bonus/edit/" . $id));
             }
-       
-    } else {
-        // Redirect if not a POST request
-        redirect(base_url("admin/bonus"));
-    }
-}
 
+        } else {
+            // Redirect if not a POST request
+            redirect(base_url("admin/bonus"));
+        }
+    }
 
     public function delete($id)
     {

@@ -85,13 +85,21 @@ class Marketer extends CI_Controller
 
         $userRecords = $this->levelWiseMemberCountList($id);
 
+        // Fetch bonus income for the selected user_id
+        $totalBonus = $this->db->select('SUM(amount) as total_bonus')->where('user_id', $id)->get('bonus_incomes');
+        $bonusIncome = $totalBonus->row_array();
+        $totalBonusIncome = 0;
+        if($bonusIncome){
+            $totalBonusIncome = $bonusIncome['total_bonus'] ?? 0;
+        }
+
         /*echo '<pre>';
         print_r($userRecords);
         exit();*/
 
         $this->load->view("admin/include/header", $data);
         $this->load->view("admin/include/left");
-        $this->load->view("admin/marketer/viewdetails", ['marketerData' => $userRecords]);
+        $this->load->view("admin/marketer/viewdetails", ['marketerData' => $userRecords,'totalBonusIncome' => $totalBonusIncome]);
         $this->load->view("admin/include/footer");
     }
 
@@ -103,8 +111,30 @@ class Marketer extends CI_Controller
             $userRecords = [];
             if (!empty($referralIds))
                 $userRecords = $this->db->select('*')->from('users')->where_in('refer_by', $referralIds)->get()->result_array();
+
+            /*$userRecords = $this->db->select('*')->from('users as U')
+                ->join('transactions as T', 'U.id = T.to_user_id', 'LEFT')
+                ->where_in('U.refer_by', $referralIds)
+                ->where('T.payment_type', 'Referral Bonus')
+                ->get()->result_array();*/
+
             if (!empty($userRecords)) {
-                $usersLevels[] = ['level' => $i, 'levelWiseMemberCount' => count($userRecords), 'levelWiseMember' => $userRecords, 'levelWiseAmountSum' => (string)array_sum(array_column($userRecords, 'wallet'))];
+
+                foreach ($userRecords as $idx => $getData) {
+                    $user_id = $getData['id'];
+                    $transactions = $this->db->select('amount')->from('transactions')
+                        ->where('payment_type', 'Referral Bonus')
+                        ->where('to_user_id', $user_id)
+                        ->where('user_id', $userId)
+                        ->get()->row_array();
+                    if ($transactions) {
+                        $userRecords[$idx]['amount'] = isset($transactions['amount']) ? $transactions['amount'] : '0';
+                    } else {
+                        $userRecords[$idx]['amount'] = '0';
+                    }
+                }
+
+                $usersLevels[] = ['level' => $i, 'levelWiseMemberCount' => count($userRecords), 'levelWiseMember' => $userRecords, 'levelWiseAmountSum' => (string)array_sum(array_column($userRecords, 'amount'))];
                 $referralIds = array_column($userRecords, 'id');
             } else {
                 $usersLevels[] = ['level' => $i, 'levelWiseMemberCount' => 0, 'levelWiseMember' => [], 'levelWiseAmountSum' => '0.00'];
